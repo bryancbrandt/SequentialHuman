@@ -1,19 +1,22 @@
 import typing
-
 import pygame as pg
+from pygame.locals import *
+import locals
 from explosion import Explosion
 from tank import Tank
 from player import Player
-from pygame.locals import *
 
 
 def reveal_tank(tanklist: typing.List[Tank], player: Player) -> None:
     for tank in tanklist:
         if player.fog_of_war(tank):
             tank.revealed = True
+    coord = str(player.rect.top) + "," + str(player.rect.left)
+    print(f"State: {locals.coord_to_state[coord]}")
 
 
 def main():
+    FOG_OF_WAR = True
     pg.init()
     screen = pg.display.set_mode((1200, 600), pg.SCALED)  # 10 X 40
     pg.display.set_caption("Explosion Test")
@@ -47,19 +50,23 @@ def main():
             elif event.type == KEYDOWN:
                 if event.key == K_RIGHT:
                     player.moveright()
-                    reveal_tank(tank_list, player)
+                    if FOG_OF_WAR:
+                        reveal_tank(tank_list, player)
 
                 if event.key == K_UP:
                     player.moveup()
-                    reveal_tank(tank_list, player)
+                    if FOG_OF_WAR:
+                        reveal_tank(tank_list, player)
 
                 if event.key == K_LEFT:
                     player.moveleft()
-                    reveal_tank(tank_list, player)
+                    if FOG_OF_WAR:
+                        reveal_tank(tank_list, player)
 
                 if event.key == K_DOWN:
                     player.movedown()
-                    reveal_tank(tank_list, player)
+                    if FOG_OF_WAR:
+                        reveal_tank(tank_list, player)
 
                 if event.key == K_SPACE:
                     for tank in tank_list:
