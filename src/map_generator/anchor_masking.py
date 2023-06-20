@@ -1,8 +1,6 @@
 import os
-import typing
 import pygame
 import numpy as np
-from src.human_games.locals import state_to_rowcol
 
 HOUSE = 1
 ROAD = 2
