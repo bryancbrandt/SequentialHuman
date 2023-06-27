@@ -1,6 +1,8 @@
-import sys
-from PySide6.QtWidgets import QApplication, QDialog
-
+"""
+Class files for the ui dialog to enter the participant number
+"""
+import logging
+from PySide6.QtWidgets import QDialog
 from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect, Qt)
 from PySide6.QtWidgets import (QDialogButtonBox, QLabel, QLineEdit)
 
@@ -37,27 +39,19 @@ class Ui_Dialog(object):
 
 
 class StartDialog(QDialog):
-    def __init__(self):
-        super(StartDialog, self).__init__()
+    def __init__(self, parent):
+        super(StartDialog, self).__init__(parent)
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
+        self.logger = logging.getLogger("ParticipantNumber")
 
     def accept(self) -> None:
         if self.ui.lineEdit.text() != "":
-            print(f"Accepted : {self.ui.lineEdit.text()}")
-            sys.exit()
+            # print(f"Accepted : {self.ui.lineEdit.text()}")
+            logging.info(f"Participant Number: {self.ui.lineEdit.text()}")
+            self.done(1)
         else:
             print("Textbox is empty!")
 
     def reject(self) -> None:
         print(f"Canceled!")
-        sys.exit()
-
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-
-    window = StartDialog()
-    window.show()
-
-    sys.exit(app.exec())

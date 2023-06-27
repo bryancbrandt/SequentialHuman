@@ -9,14 +9,16 @@ from functions import load_image
 
 class Tank(pg.sprite.Sprite):
 
-    def __init__(self, x: int = 0, y: int = 0):
+    def __init__(self, left: int = 0, top: int = 0, fog_of_war: bool = False):
         pg.sprite.Sprite.__init__(self, self.containers)
         self.images = [load_image(im, -1) for im in ("yellow_tank1.png", "yellow_tank2.png")]
-        self.image = self.images[0]
-        self.rect = self.image.get_rect(left=x, top=y)
+        if fog_of_war:
+            self.image = self.images[0]
+        else:
+            self.image = self.images[1]
+        self.rect = self.image.get_rect(left=left, top=top)
         self.revealed = False
 
     def update(self):
         if self.revealed:
             self.image = self.images[1]
-
