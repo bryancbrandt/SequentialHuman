@@ -4,7 +4,6 @@ import pygame
 import numpy as np
 from src.human_games.locals import state_to_rowcol
 
-
 HOUSE = 1
 ROAD = 2
 TREE = 3
@@ -16,8 +15,7 @@ TANK = 9
 MAP_HEIGHT = 21
 MAP_WIDTH = 40
 
-TANK_LARGE_TOP = False
-URBAN_TOP = False
+URBAN_TOP = True
 MAP_NUMBER = 10
 
 main_dir = os.path.split(os.path.abspath(__file__))[0]
@@ -40,20 +38,16 @@ def get_tank_states() -> typing.List:
     """
     Generates a list of states in [row, column] format for the tanks
     to be placed in
-    :type num_tanks: an integer representing the number of tanks to generate
     :return: A list of lists corresponding to the [row, column] for
     each tank location
     """
     states = []
-    if TANK_LARGE_TOP:
-        count_top = 20
-        count_bottom = 5
-    else:
-        count_top = 5
-        count_bottom = 20
+
+    count_top = 5
+    count_bottom = 5
 
     count = 0
-    while count <= count_top:
+    while count < count_top:
         rnd = int(np.random.randint(0, 400, 1, int))
         row_col = state_to_rowcol(rnd)
         if not data[row_col[0]][row_col[1]] == 1:
@@ -68,7 +62,7 @@ def get_tank_states() -> typing.List:
 
     # Now write the 5 tanks on the bottom of the map
     count = 0
-    while count <= count_bottom:
+    while count < count_bottom:
         rnd = int(np.random.randint(440, 840, 1, int))
         row_col = state_to_rowcol(rnd)
         if not data[row_col[0]][row_col[1]] == 1:
@@ -218,16 +212,10 @@ def main():
                     exit_rect.left = left
                     screen.blit(exit, exit_rect)
 
-    if TANK_LARGE_TOP:
-        if URBAN_TOP:
-            NAME = "anchoring_baseline_large_urban_top" + "_" + str(MAP_NUMBER)
-        else:
-            NAME = "anchoring_baseline_large_rural_top" + "_" + str(MAP_NUMBER)
+    if URBAN_TOP:
+        NAME = "anchoring_baseline_urban_top" + "_" + str(MAP_NUMBER)
     else:
-        if URBAN_TOP:
-            NAME = "anchoring_baseline_large_rural_bottom" + "_" + str(MAP_NUMBER)
-        else:
-            NAME = "anchoring_baseline_large_urban_bottom" + "_" + str(MAP_NUMBER)
+        NAME = "anchoring_baseline_urban_bottoms" + "_" + str(MAP_NUMBER)
 
     img_name = NAME + ".png"
     pygame.image.save(screen, img_name)

@@ -1,6 +1,8 @@
-import sys
+"""
+Class for the Game Experience Questionnaire Compact version
+"""
 from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect, Qt)
-from PySide6.QtWidgets import (QApplication, QDialog, QDialogButtonBox,QLabel,  QSlider)
+from PySide6.QtWidgets import (QDialog, QDialogButtonBox,QLabel,  QSlider)
 
 
 class Ui_GEQ(object):
@@ -408,8 +410,8 @@ class Ui_GEQ(object):
 
 
 class GEQDialog(QDialog):
-    def __init__(self):
-        super(GEQDialog, self).__init__()
+    def __init__(self, parent):
+        super(GEQDialog, self).__init__(parent)
         self.ui = Ui_GEQ()
         self.ui.setupUi(self)
 
@@ -419,11 +421,3 @@ class GEQDialog(QDialog):
     def reject(self) -> None:
         pass
 
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-
-    window = GEQDialog()
-    window.show()
-
-    sys.exit(app.exec())

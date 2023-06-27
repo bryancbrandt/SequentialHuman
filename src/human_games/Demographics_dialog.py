@@ -59,17 +59,17 @@ class Ui_Demographics(object):
 
 
 class DemographicsDialog(QDialog):
-    def __init__(self):
-        super(DemographicsDialog, self).__init__()
+    def __init__(self, parent):
+        super(DemographicsDialog, self).__init__(parent)
         self.ui = Ui_Demographics()
         self.ui.setupUi(self)
         self.logger = logging.getLogger("Demographics")
 
     def accept(self) -> None:
-        logging.info(f"Age: {self.ui.lineAge.text()}")
-        logging.info(f"Gender: {self.ui.lineGender.text()}")
-        logging.info(f"Major: {self.ui.lineMajor.text()}")
-        logging.info(f"YearsCollege: {self.ui.lineYearsCollege.text()}")
+        self.logger.info(f"Age: {self.ui.lineAge.text()}")
+        self.logger.info(f"Gender: {self.ui.lineGender.text()}")
+        self.logger.info(f"Major: {self.ui.lineMajor.text()}")
+        self.logger.info(f"YearsCollege: {self.ui.lineYearsCollege.text()}")
         self.done(1)
 
     def reject(self) -> None:

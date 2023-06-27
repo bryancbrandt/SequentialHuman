@@ -1,7 +1,9 @@
-import sys
-
+"""
+Class file for the competence dialog box
+"""
+import logging
 from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect, Qt)
-from PySide6.QtWidgets import (QDialogButtonBox, QLabel, QSlider, QDialog, QApplication)
+from PySide6.QtWidgets import (QDialogButtonBox, QLabel, QSlider, QDialog)
 
 
 class Ui_Competency(object):
@@ -91,22 +93,17 @@ class Ui_Competency(object):
 
 
 class CompetenceDialog(QDialog):
-    def __init__(self):
-        super(CompetenceDialog, self).__init__()
+    def __init__(self, parent):
+        super(CompetenceDialog, self).__init__(parent)
         self.ui = Ui_Competency()
         self.ui.setupUi(self)
+        self.logger = logging.getLogger("Competence")
 
     def accept(self) -> None:
-        pass
+        self.logger.info(f"Experience: {self.ui.sliderExperience.value()}")
+        self.logger.info(f"Controls: {self.ui.sliderControls.value()}")
+        self.logger.info(f"Tasks: {self.ui.sliderTasks.value()}")
+        self.done(1)
 
     def reject(self) -> None:
         pass
-
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-
-    window = CompetenceDialog()
-    window.show()
-
-    sys.exit(app.exec())
