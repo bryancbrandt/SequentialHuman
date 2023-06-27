@@ -1,6 +1,9 @@
-import sys
+"""
+Class file for the ui to enter the demographic information of the player
+"""
+import logging
 from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect, Qt)
-from PySide6.QtWidgets import (QApplication, QDialog, QDialogButtonBox, QLabel, QLineEdit)
+from PySide6.QtWidgets import (QDialog, QDialogButtonBox, QLabel, QLineEdit)
 
 
 class Ui_Demographics(object):
@@ -60,18 +63,15 @@ class DemographicsDialog(QDialog):
         super(DemographicsDialog, self).__init__()
         self.ui = Ui_Demographics()
         self.ui.setupUi(self)
+        self.logger = logging.getLogger("Demographics")
 
     def accept(self) -> None:
-        pass
+        logging.info(f"Age: {self.ui.lineAge.text()}")
+        logging.info(f"Gender: {self.ui.lineGender.text()}")
+        logging.info(f"Major: {self.ui.lineMajor.text()}")
+        logging.info(f"YearsCollege: {self.ui.lineYearsCollege.text()}")
+        self.done(1)
 
     def reject(self) -> None:
         pass
 
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-
-    window = DemographicsDialog()
-    window.show()
-
-    sys.exit(app.exec())
