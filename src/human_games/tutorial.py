@@ -270,8 +270,6 @@ class TutorialTank(Tutorial):
         for items in tank_positions:
             self.tank_list.append(Tank(items[0] * 30, items[1] * 30))
 
-
-
         self.all.update()
         self.screen.blit(self.background_image, (0, 0))
         dirty = self.all.draw(self.screen)
@@ -287,10 +285,10 @@ class TutorialTank(Tutorial):
                "Your mission is to destroy all the tanks, and then navigate to the exit to finish the level.\n\n" + \
                "You can fire your weapons by pressing the space bar.  If you are close \n" + \
                "enough, the tank will explode, and will be eliminated from the map.\n\n" + \
-               "You will not be able to exit until all of the tanks have been destroyed.\n\n" +\
-               "You will also notice a white bar at the bottom of the screen.  This is the status bar.  " +\
-               "  It contains the information for your score and your ammunition.\n\n  When you destroy a tank" +\
-               "your score will increase by 100 points.\n\n"+\
+               "You will not be able to exit until all of the tanks have been destroyed.\n\n" + \
+               "You will also notice a white bar at the bottom of the screen.  This is the status bar.  " + \
+               "  It contains the information for your score and your ammunition.\n\n  When you destroy a tank" + \
+               "your score will increase by 100 points.\n\n" + \
                "Additonally, when you fire your weapon, your ammunition will decrease by one."
         ctypes.windll.user32.MessageBoxW(0, text, "Tutorial Introduction", 0)
 
@@ -375,7 +373,7 @@ class TutorialPowerUp(Tutorial):
                "Once you have picked up a power-up the color of the power-up \n" + \
                "will change, indicating that it has been spent.\n\n" + \
                "You can pick up a power-up by navigating to the spot that it is located in.\n\n" + \
-               "You will notice when you pick up a power-up, your ammunition on the score bar increases\n\n" +\
+               "You will notice when you pick up a power-up, your ammunition on the score bar increases\n\n" + \
                "To complete the level, navigate the map, and pick up all the power-ups."
         ctypes.windll.user32.MessageBoxW(0, text, "Tutorial Introduction", 0)
 
@@ -424,3 +422,6 @@ class TutorialPowerUp(Tutorial):
                 PowerUp(items[1] * 30, items[0] * 30)
                 self.powerup_positions.remove(items)
                 self.ammo += 100
+
+
+

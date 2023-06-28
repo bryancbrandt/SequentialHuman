@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Player class file.
+This class manages the graphics and the movement of the graphics for the player
 """
 import logging
 import numpy as np
@@ -18,7 +18,7 @@ class Player(pg.sprite.Sprite):
         pg.sprite.Sprite.__init__(self, self.containers)
         self.image = load_image("drone_swarm.png")
         self.rect = self.image.get_rect(top=start_top*30, left=start_left*30)
-        self.pos = [start_top, start_left]
+        self.pos = [start_top, start_left]  # [row, col]
         self.max_top = max_top
         self.max_left = max_left
         self.area = pg.display.get_surface().get_rect()

@@ -2,6 +2,8 @@ import logging
 import sys
 
 from PySide6.QtWidgets import QDialog
+
+from src.human_games.anchoring import AnchorBaseline, AnchorCondition
 from src.human_games.start_dialog import StartDialog
 from src.human_games.demographics_dialog import DemographicsDialog
 from src.human_games.competence_dialog import CompetenceDialog
@@ -34,6 +36,7 @@ class Application(QDialog):
         logging.basicConfig(format="%(name)s:%(message)s", level=logging.INFO, filename=log_filename)
         logging.info(f"Participant Number: {self.participant_number}")
 
+        """
         # Begin the PyGame tutorials
         self.moveup = TutorialMoveUp()
         self.moveright = TutorialMoveRight()
@@ -51,8 +54,9 @@ class Application(QDialog):
         self.competenceDialog.show()
         if self.competenceDialog.exec_():
             logging.info("Competence Dialog complete.")
+        """
 
-
+        AnchorCondition()
 
         """
         # Game Experience Questionnaire Dialog

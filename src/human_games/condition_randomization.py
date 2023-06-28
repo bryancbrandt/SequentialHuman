@@ -1,4 +1,7 @@
 import os
+
+import numpy as np
+
 import locals
 
 
@@ -40,8 +43,4 @@ class AnchoringBaselineRandomization:
 
 
 rnd = AnchoringBaselineRandomization(0)
-print(rnd.baseline_images)
-print(rnd.baseline_csv)
-print()
-print(rnd.training_images)
-print(rnd.training_csv)
+
