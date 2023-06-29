@@ -1,7 +1,10 @@
-import os
-import typing
+"""
+Local variables and functions.  Used for getting map names, counter-balanced randomization, etc.
+"""
 
+import os
 import pygame
+import typing
 
 coord_to_state = {
     "0,0": 0,
@@ -2138,6 +2141,81 @@ participant_anchoring_baseline_order = [
     [18, 15, 13, 16, 17, 9, 10, 4, 2, 11],
     [17, 18, 15, 3, 1, 4, 6, 12, 20, 19],
     [4, 2, 6, 18, 1, 19, 7, 5, 10, 3]
+]
+
+anchoring_training_images_rural = [
+    "Rural_1.png",
+    "Rural_2.png",
+    "Rural_3.png",
+    "Rural_4.png",
+    "Rural_5.png",
+]
+
+anchoring_training_images_urban = [
+    "Urban_1.png",
+    "Urban_2.png",
+    "Urban_3.png",
+    "Urban_4.png",
+    "Urban_5.png",
+]
+
+anchoring_training_csv_urban_bias = [
+    ["Urban_20_1.csv", "Urban_20_2.csv", "Urban_20_3.csv", "Urban_20_4.csv", "Urban_20_5.csv"],
+    ["Rural_5_1.csv", "Rural_5_2.csv", "Rural_5_3.csv", "Rural_5_4.csv", "Rural_5_5.csv"]
+]
+
+anchoring_training_csv_rural_bias = [
+    ["Urban_5_1.csv", "Urban_5_2.csv", "Urban_5_3.csv", "Urban_5_4.csv", "Urban_5_5.csv"],
+    ["Rural_20_1.csv", "Rural_20_2.csv", "Rural_20_3.csv", "Rural_20_4.csv", "Rural_20_5.csv"]
+]
+
+anchoring_rural_bias = [True, True, False, False, True, False, True, False, True, False]
+anchoring_rural_start = [True, False, True, True, True, False, False, False, True, False]
+
+anchoring_rural_order = [
+    [3, 2, 1, 5, 4],
+    [2, 5, 3, 1, 4],
+    [2, 4, 3, 1, 5],
+    [4, 1, 2, 3, 5],
+    [2, 4, 1, 3, 5],
+    [4, 1, 5, 2, 3],
+    [4, 3, 2, 5, 1],
+    [4, 5, 3, 2, 1],
+    [2, 3, 1, 4, 5],
+    [5, 4, 1, 2, 3],
+    [1, 3, 4, 2, 5],
+    [4, 5, 2, 1, 3],
+    [1, 5, 4, 3, 2],
+    [4, 1, 3, 5, 2],
+    [2, 4, 5, 1, 3],
+    [1, 2, 4, 3, 5],
+    [4, 5, 1, 3, 2],
+    [3, 5, 2, 1, 4],
+    [2, 5, 3, 4, 1],
+    [2, 4, 1, 5, 3]
+]
+
+anchoring_urban_order =[
+    [2, 4, 3, 5, 1],
+    [2, 3, 1, 5, 4],
+    [4, 1, 2, 3, 5],
+    [3, 1, 4, 5, 2],
+    [5, 1, 4, 2, 3],
+    [5, 2, 1, 4, 3],
+    [1, 4, 3, 5, 2],
+    [1, 4, 3, 2, 5],
+    [2, 1, 3, 4, 5],
+    [5, 3, 4, 1, 2],
+    [1, 3, 2, 5, 4],
+    [1, 2, 5, 4, 3],
+    [2, 5, 3, 4, 1],
+    [3, 1, 2, 4, 5],
+    [4, 3, 5, 2, 1],
+    [2, 5, 4, 1, 3],
+    [1, 2, 3, 4, 5],
+    [2, 1, 5, 4, 3],
+    [4, 2, 5, 1, 3],
+    [2, 1, 3, 5, 4]
 ]
 
 

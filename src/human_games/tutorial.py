@@ -416,7 +416,6 @@ class TutorialPowerUp(Tutorial):
                     return
 
     def draw_powerup(self):
-
         for items in self.powerup_positions:
             if self.player.pos[0] == items[0] and self.player.pos[1] == items[1]:
                 PowerUp(items[1] * 30, items[0] * 30)

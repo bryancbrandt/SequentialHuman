@@ -29,7 +29,7 @@ class Application(QDialog):
         self.startDialog.setModal(True)
         self.startDialog.show()
         if self.startDialog.exec_():
-            self.participant_number = self.startDialog.participant_number
+            self.participant_number = int(self.startDialog.participant_number)
 
         # Configure the logger with the participant number
         log_filename = "participant" + str(self.participant_number) + ".log"
@@ -56,7 +56,7 @@ class Application(QDialog):
             logging.info("Competence Dialog complete.")
         """
 
-        AnchorCondition()
+        AnchorCondition(self.participant_number)
 
         """
         # Game Experience Questionnaire Dialog
