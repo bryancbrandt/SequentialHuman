@@ -2096,10 +2096,30 @@ compromise_state_to_row_col = {
     399: [19, 19],
 }
 
-# Each row corresponds to a participant number
-# Each number with in the list corresponds to an image id
-# from the Anchoring Baseline Maps folder
-participant_anchoring_baseline_order = [
+anchoring_baseline_images = [
+    "anchoring_baseline_urban_bottom_1.png",
+    "anchoring_baseline_urban_bottom_2.png",
+    "anchoring_baseline_urban_bottom_3.png",
+    "anchoring_baseline_urban_bottom_4.png",
+    "anchoring_baseline_urban_bottom_5.png",
+    "anchoring_baseline_urban_bottom_6.png",
+    "anchoring_baseline_urban_bottom_7.png",
+    "anchoring_baseline_urban_bottom_8.png",
+    "anchoring_baseline_urban_bottom_9.png",
+    "anchoring_baseline_urban_bottom_10.png",
+    "anchoring_baseline_urban_top_1.png",
+    "anchoring_baseline_urban_top_2.png",
+    "anchoring_baseline_urban_top_3.png",
+    "anchoring_baseline_urban_top_4.png",
+    "anchoring_baseline_urban_top_5.png",
+    "anchoring_baseline_urban_top_6.png",
+    "anchoring_baseline_urban_top_7.png",
+    "anchoring_baseline_urban_top_8.png",
+    "anchoring_baseline_urban_top_9.png",
+    "anchoring_baseline_urban_top_10.png"
+]
+
+anchoring_baseline_order = [
     [5, 9, 6, 3, 4, 17, 2, 8, 20, 1],
     [9, 5, 13, 17, 18, 6, 20, 1, 2, 4],
     [2, 6, 19, 11, 4, 17, 20, 3, 15, 8],
@@ -2143,6 +2163,7 @@ participant_anchoring_baseline_order = [
     [4, 2, 6, 18, 1, 19, 7, 5, 10, 3]
 ]
 
+# Begin data for anchoring conditions
 anchoring_training_images_rural = [
     "Rural_1.png",
     "Rural_2.png",
@@ -2169,8 +2190,18 @@ anchoring_training_csv_rural_bias = [
     ["Rural_20_1.csv", "Rural_20_2.csv", "Rural_20_3.csv", "Rural_20_4.csv", "Rural_20_5.csv"]
 ]
 
-anchoring_rural_bias = [True, True, False, False, True, False, True, False, True, False]
-anchoring_rural_start = [True, False, True, True, True, False, False, False, True, False]
+anchoring_rural_bias = [
+    True, True, False, False, True, False, True, False, True, False,
+    False, False, False, True, False, True, True, True, True, False,
+    True, False, False, False, True, False, True, False, True, True,
+    False, False, True, False, True, True, False, True, True, False
+]
+anchoring_rural_start = [
+    True, False, True, True, True, False, False, False, True, False,
+    True, False, False, False, True, False, False, True, True, True,
+    False, True, True, True, True, True, False, False, False, False,
+    False, True, True, True, True, False, True, False, False, False
+]
 
 anchoring_rural_order = [
     [3, 2, 1, 5, 4],
@@ -2192,10 +2223,30 @@ anchoring_rural_order = [
     [4, 5, 1, 3, 2],
     [3, 5, 2, 1, 4],
     [2, 5, 3, 4, 1],
-    [2, 4, 1, 5, 3]
+    [2, 4, 1, 5, 3],
+    [4, 2, 5, 3, 1],
+    [5, 4, 1, 3, 2],
+    [5, 1, 2, 4, 3],
+    [2, 4, 3, 5, 1],
+    [1, 4, 3, 2, 5],
+    [2, 5, 4, 3, 1],
+    [5, 4, 1, 2, 3],
+    [2, 5, 1, 3, 4],
+    [1, 5, 3, 4, 2],
+    [1, 3, 5, 4, 2],
+    [1, 5, 2, 3, 4],
+    [2, 1, 3, 5, 4],
+    [2, 4, 5, 3, 1],
+    [5, 4, 3, 2, 1],
+    [3, 1, 5, 4, 2],
+    [3, 5, 4, 2, 1],
+    [1, 2, 3, 5, 4],
+    [4, 3, 2, 1, 5],
+    [2, 4, 5, 1, 3],
+    [4, 5, 3, 1, 2]
 ]
 
-anchoring_urban_order =[
+anchoring_urban_order = [
     [2, 4, 3, 5, 1],
     [2, 3, 1, 5, 4],
     [4, 1, 2, 3, 5],
@@ -2215,8 +2266,88 @@ anchoring_urban_order =[
     [1, 2, 3, 4, 5],
     [2, 1, 5, 4, 3],
     [4, 2, 5, 1, 3],
-    [2, 1, 3, 5, 4]
+    [2, 1, 3, 5, 4],
+    [1, 3, 2, 4, 5],
+    [1, 2, 5, 4, 3],
+    [4, 2, 5, 3, 1],
+    [2, 4, 1, 3, 5],
+    [4, 5, 2, 1, 3],
+    [1, 4, 2, 5, 3],
+    [5, 1, 3, 4, 2],
+    [1, 3, 5, 2, 4],
+    [4, 3, 2, 5, 1],
+    [3, 1, 2, 4, 5],
+    [4, 2, 3, 1, 5],
+    [1, 4, 3, 2, 5],
+    [2, 5, 3, 4, 1],
+    [2, 5, 1, 3, 4],
+    [2, 1, 3, 5, 4],
+    [1, 3, 4, 2, 5],
+    [4, 2, 5, 1, 3],
+    [2, 1, 3, 4, 5],
+    [5, 2, 1, 4, 3],
+    [5, 3, 1, 2, 4]
 ]
+
+anchoring_masking_images = [
+    "Desert_1.png",
+    "Desert_2.png",
+    "Desert_3.png",
+    "Desert_4.png",
+    "Desert_5.png",
+    "Desert_6.png",
+    "Desert_7.png",
+    "Desert_8.png",
+    "Desert_9.png",
+    "Desert_10.png",
+]
+
+anchoring_masking_order = [
+    [5, 4, 10, 2, 6, 3, 9, 7, 1, 8],
+    [6, 8, 1, 7, 2, 3, 9, 10, 5, 4],
+    [7, 6, 5, 8, 4, 3, 1, 10, 2, 9],
+    [1, 8, 4, 3, 10, 7, 6, 9, 2, 5],
+    [2, 3, 4, 9, 8, 6, 5, 7, 10, 1],
+    [9, 10, 4, 6, 8, 7, 1, 5, 2, 3],
+    [8, 7, 5, 10, 9, 1, 6, 3, 2, 4],
+    [5, 2, 9, 8, 6, 4, 7, 10, 3, 1],
+    [1, 10, 7, 3, 8, 2, 4, 5, 6, 9],
+    [8, 3, 4, 2, 5, 6, 1, 7, 9, 10],
+    [4, 5, 10, 1, 6, 9, 7, 8, 3, 2],
+    [8, 1, 7, 3, 4, 9, 10, 6, 5, 2],
+    [4, 7, 5, 2, 10, 6, 1, 9, 3, 8],
+    [3, 10, 7, 1, 5, 2, 8, 6, 9, 4],
+    [3, 1, 5, 4, 6, 9, 10, 2, 8, 7],
+    [5, 3, 6, 1, 7, 9, 10, 4, 2, 8],
+    [1, 7, 5, 6, 9, 4, 8, 3, 10, 2],
+    [1, 10, 3, 5, 4, 2, 6, 8, 9, 7],
+    [4, 6, 2, 1, 8, 10, 3, 5, 9, 7],
+    [10, 2, 5, 8, 4, 6, 1, 9, 3, 7],
+    [8, 7, 1, 9, 10, 3, 5, 2, 6, 4],
+    [8, 7, 2, 1, 4, 3, 5, 10, 6, 9],
+    [1, 7, 2, 8, 10, 3, 6, 5, 4, 9],
+    [8, 3, 7, 4, 10, 9, 2, 5, 6, 1],
+    [7, 3, 4, 2, 9, 10, 6, 1, 8, 5],
+    [5, 10, 4, 6, 9, 8, 3, 2, 7, 1],
+    [5, 6, 2, 4, 7, 1, 3, 8, 9, 10],
+    [8, 3, 10, 7, 1, 2, 4, 9, 6, 5],
+    [5, 3, 10, 4, 8, 9, 6, 7, 1, 2],
+    [10, 3, 9, 5, 6, 2, 1, 8, 4, 7],
+    [1, 6, 9, 4, 8, 7, 3, 5, 2, 10],
+    [4, 6, 7, 8, 9, 1, 5, 3, 2, 10],
+    [9, 10, 2, 3, 8, 7, 6, 5, 1, 4],
+    [2, 5, 8, 7, 1, 3, 4, 6, 9, 10],
+    [2, 7, 9, 1, 6, 4, 5, 3, 10, 8],
+    [6, 9, 10, 8, 4, 3, 1, 5, 2, 7],
+    [6, 10, 2, 7, 1, 8, 5, 4, 3, 9],
+    [8, 2, 7, 4, 10, 6, 5, 3, 9, 1],
+    [1, 10, 9, 3, 7, 8, 6, 5, 2, 4],
+    [6, 3, 5, 2, 4, 7, 1, 8, 10, 9]
+]
+
+anchoring_rural_first = [True, True, True, False, True, False, True, False, False, True, True, False, False, True, True,
+                         False, True, False, True, True, False, False, False, False, False, True, True, True, False,
+                         True, False, True, True, False, True, True, False, False, False, False]
 
 
 def state_to_rowcol(state: int) -> typing.List:
@@ -2237,7 +2368,3 @@ def load_image(file):
     except pygame.error:
         raise SystemExit(f'Could not load image "{file}" {pygame.get_error()}')
     return surface.convert_alpha()
-
-
-def get_anchor_baseline_file_order(participant_no: int) -> typing.List:
-    return participant_anchoring_baseline_order[participant_no]

@@ -11,7 +11,7 @@ from functions import load_image
 
 class Player(pg.sprite.Sprite):
     """ The player is represented as a drone swarm"""
-    RADAR_RANGE = 150
+    RADAR_RANGE = 300
     FIRING_RANGE = 90
 
     def __init__(self, start_top: int = 0, start_left: int = 0, max_top: int = 20, max_left: int = 20) -> None:

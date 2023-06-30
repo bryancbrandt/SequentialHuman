@@ -9,18 +9,11 @@ class AnchoringBaselineRandomization:
     of anchoring condition and the additional 5 baseline conditions during anchoring
     training conditions.
     """
+
     def __init__(self, participant_no: int = 0):
         self.count = 1
         self.dir_path = os.path.dirname(os.path.realpath(__file__))
         self.dir_path = os.path.join(self.dir_path, "maps/Anchoring_Baseline")
-        baseline_images = {}
-
-        # Get all the map files from the Anchoring Bias directory
-        for root, dirs, files in os.walk(self.dir_path):
-            for file in files:
-                if file.endswith('.png'):
-                    baseline_images[self.count] = os.path.join(root, file)
-                    self.count += 1
 
         self.baseline_images = []  # the list of images for the current participant
         self.baseline_csv = []  # the list of csv file corresponding to the images
@@ -28,18 +21,20 @@ class AnchoringBaselineRandomization:
         self.training_csv = []
 
         # Get the file order number
-        self.file_order = locals.get_anchor_baseline_file_order(participant_no)
-        training = self.file_order[:len(self.file_order) // 2]
-        baseline = self.file_order[len(self.file_order) // 2:]
+        self.file_order = locals.anchoring_baseline_order[participant_no]
+        baseline = self.file_order[:len(self.file_order) // 2]
+        training = self.file_order[len(self.file_order) // 2:]
 
         # Add the files to the baseline and training lists
         for item in baseline:
-            file = baseline_images[item]
+            file = locals.anchoring_baseline_images[item - 1]
+            file = os.path.join(self.dir_path, file)
             self.baseline_images.append(file)
             self.baseline_csv.append(file[:-3] + "csv")
 
         for item in training:
-            file = baseline_images[item]
+            file = locals.anchoring_baseline_images[item - 1]
+            file = os.path.join(self.dir_path, file)
             self.training_images.append(file)
             self.training_csv.append(file[:-3] + "csv")
 
@@ -50,6 +45,7 @@ class AnchoringTrainingRandomization:
     the image and csv files for the urban and rural conditions that
     are part of the anchoring training condition
     """
+
     def __init__(self, participant_no: int = 0):
         self.dir_path = os.path.dirname(os.path.realpath(__file__))
         self.dir_path = os.path.join(self.dir_path, "maps/Anchoring_Training")
@@ -99,3 +95,19 @@ class AnchoringTrainingRandomization:
                 path = os.path.join(self.dir_path, file)
                 self.urban_csv.append(path)
 
+
+class AnchoringMaskingRandomization:
+    def __init__(self, participant_no: int = 0):
+        self.dir_path = os.path.dirname(os.path.realpath(__file__))
+        self.dir_path = os.path.join(self.dir_path, "maps/Anchoring_Masking")
+        self.participant_no = participant_no
+        self.masking_png = []
+        self.masking_csv = []
+
+        masking_order = locals.anchoring_masking_order[participant_no]
+
+        for item in masking_order:
+            file = locals.anchoring_masking_images[item - 1]
+            file = os.path.join(self.dir_path, file)
+            self.masking_png.append(file)
+            self.masking_csv.append(file[:-3] + "csv")

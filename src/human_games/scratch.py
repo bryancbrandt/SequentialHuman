@@ -1,3 +1,4 @@
+import os
 import random
 import numpy as np
 
@@ -54,9 +55,6 @@ def shuffle_true_false(total_count: int = 10):
     print(combined_values)
 
 
-import numpy as np
-
-
 def pair_arrays(*arrays):
     num_arrays = len(arrays)
     array_length = len(arrays[0])
@@ -69,10 +67,30 @@ def pair_arrays(*arrays):
     return paired_arrays
 
 
-# Example usage
-array1 = np.array([1, 2, 3])
-array2 = np.array([4, 5, 6])
-array3 = np.array([7, 8, 9])
+def parse_log_file(filename):
+    target_prefixes = [
+        'AnchorBaseline:MapName:',
+        # 'RuralTraining:MapName:',
+        # 'AnchoringMask:MapName:',
+        # 'Urbantraining:MapName:'
+    ]
+    matched_lines = []
 
-paired = pair_arrays(array1, array2, array3)
-print(paired)
+    with open(filename, 'r') as file:
+        for line in file:
+            for prefix in target_prefixes:
+                if line.startswith(prefix):
+                    matched_lines.append(line.strip())
+                    break  # Move to the next line after finding the prefix
+
+    return matched_lines
+
+# Replace 'participant1.log' with the actual path to your log file
+log_file = 'participant3.log'
+result = parse_log_file(log_file)
+
+# Print the matched lines
+for line in result:
+    print(line)
+
+
