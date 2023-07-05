@@ -82,15 +82,8 @@ def parse_log_file(filename):
                 if line.startswith(prefix):
                     matched_lines.append(line.strip())
                     break  # Move to the next line after finding the prefix
-
-    return matched_lines
-
-# Replace 'participant1.log' with the actual path to your log file
-log_file = 'participant3.log'
-result = parse_log_file(log_file)
-
-# Print the matched lines
-for line in result:
-    print(line)
+    for line in matched_lines:
+        print(line)
 
 
+random_number_arrays_with_counterbalance(20, 1, 5, 5)

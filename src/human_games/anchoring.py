@@ -88,7 +88,7 @@ class AnchorBase:
     def __init__(self, map_name: str, background_image: str, score: int = 0, ammo: int = 100,
                  map_height: int = 600, map_width: int = 600, fog_of_war: bool = False,
                  has_power_up: bool = False, has_tanks: bool = True, condition_name: str = "",
-                 first: bool = False, exit_threshold: int = 0, is_baseline: bool = False) -> object:
+                 first: bool = False, exit_threshold: int = 0, is_baseline: bool = False) -> None:
         assert os.path.isfile(map_name), f"ERROR! map: {map_name} does not exist"
         assert os.path.isfile(background_image), f"ERROR! image: {background_image} not found!"
         assert isinstance(score, int) and score >= 0, "score should be an integer greater than or equal to 0"
@@ -125,8 +125,8 @@ class AnchorBase:
         self.total_tanks = 0
         self.tanks_destroyed = 0
         self.actions = []
-        self.MAX_STATE_WIDTH = self.MAP_WIDTH / 30
-        self.MAX_STATE_HEIGHT = (self.MAP_HEIGHT - 30) / 30
+        self.MAX_STATE_WIDTH = int(self.MAP_WIDTH / 30)
+        self.MAX_STATE_HEIGHT = int((self.MAP_HEIGHT - 30) / 30)
         self.EXIT_THRESHOLD = exit_threshold
 
         # Initialize pygame and other settings
@@ -262,10 +262,10 @@ class AnchorBase:
 
             self.all.update()
 
-            score_label = self.score_font.render("Score: " + str(self.score), 1, (250, 0, 0))
-            ammo_label = self.ammo_font.render("Ammo: " + str(self.ammo), 1, (250, 0, 0))
-            tank_label = self.tank_font.render(f"Tanks Destroyed: {self.tanks_destroyed}/{self.total_tanks}", 1,
-                                               (250, 0, 0))
+            score_label = self.score_font.render("Score: " + str(self.score), True, (250, 0, 0))
+            ammo_label = self.ammo_font.render("Ammo: " + str(self.ammo), True, (250, 0, 0))
+            # tank_label = self.tank_font.render(f"Tanks Destroyed: {self.tanks_destroyed}/{self.total_tanks}", True,
+            #                                    (250, 0, 0))
 
             self.screen.blit(self.background_image, (0, 0))
             pg.draw.rect(self.screen, (255, 255, 255), (0, self.MAP_HEIGHT - 30, self.MAP_WIDTH, 30))
@@ -375,14 +375,14 @@ class AnchorCondition:
     training conditions.  Then initializes each conditions class, while transferring scores and ammunition.
     """
 
-    def __init__(self, participant_no: int):
+    def __init__(self, participant_no: int, ammo: int, score: int):
         self.baseline_index = 0
         self.baseline_training_index = 0
         self.rural_index = 0
         self.urban_index = 0
         self.masking_index = 0
-        self.score = 0
-        self.ammo = 100
+        self.score = score
+        self.ammo = ammo
         self.participant_no = participant_no - 1
         self.baseline_rnd = AnchoringBaselineRandomization(self.participant_no)
         self.training_rnd = AnchoringTrainingRandomization(self.participant_no)
@@ -534,4 +534,3 @@ class AnchorCondition:
                     self.ammo = base.ammo
                     self.score = base.score
                     self.baseline_training_index += 1
-

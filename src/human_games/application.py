@@ -24,6 +24,9 @@ class Application(QDialog):
     def __init__(self):
         super(Application, self).__init__()
 
+        self.ammo = 100
+        self.score = 0
+
         # Initialize the participant number dialog box, and get the participant number
         self.startDialog = StartDialog(self)
         self.startDialog.setModal(True)
@@ -38,12 +41,12 @@ class Application(QDialog):
 
         """
         # Begin the PyGame tutorials
-        self.moveup = TutorialMoveUp()
-        self.moveright = TutorialMoveRight()
-        self.movedown = TutorialMoveDown()
-        self.moveleft = TutorialMoveLeft()
-        self.movetank = TutorialTank()
-        self.movepowerup = TutorialPowerUp()
+        TutorialMoveUp()
+        TutorialMoveRight()
+        TutorialMoveDown()
+        TutorialMoveLeft()
+        TutorialTank()
+        TutorialPowerUp()
 
         # Demographics and Competence Ratings Dialogs
         self.demographicsDialog = DemographicsDialog(parent=self)
@@ -56,7 +59,7 @@ class Application(QDialog):
             logging.info("Competence Dialog complete.")
         """
 
-        AnchorCondition(self.participant_number)
+        AnchorCondition(self.participant_number, self.ammo, self.score)
 
         """
         # Game Experience Questionnaire Dialog
