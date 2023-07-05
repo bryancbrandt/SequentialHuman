@@ -158,7 +158,8 @@ class CompromiseTrainingRandomization():
             self.training_png.append(file)
             self.training_csv.append(file[:-3] + "csv")
 
-class AttractionBaselineRandomization():
+
+class AttractionBaselineRandomization:
     def __init__(self, participant_no: int = 0):
         self.dir_path = os.path.dirname(os.path.realpath(__file__))
         self.dir_path = os.path.join(self.dir_path, "maps/Compromise_Baseline")
@@ -175,13 +176,30 @@ class AttractionBaselineRandomization():
 
         # Add the files to the baseline and training lists
         for item in baseline:
-            file = locals.attraction_baseline_images[item - 1]
+            file = locals.compromise_baseline_images[item - 1]
             file = os.path.join(self.dir_path, file)
             self.baseline_png.append(file)
             self.baseline_csv.append(file[:-3] + "csv")
 
         for item in training:
-            file = locals.attraction_baseline_images[item - 1]
+            file = locals.compromise_baseline_images[item - 1]
+            file = os.path.join(self.dir_path, file)
+            self.training_png.append(file)
+            self.training_csv.append(file[:-3] + "csv")
+
+
+class AttractionTrainingRandomization:
+    def __init__(self, participant_no: int):
+        self.dir_path = os.path.dirname(os.path.realpath(__file__))
+        self.dir_path = os.path.join(self.dir_path, "maps/Attraction_Training")
+        self.participant_no = participant_no
+        self.training_png = []
+        self.training_csv = []
+
+        self.file_order = locals.attraction_training_order[participant_no]
+
+        for item in self.file_order:
+            file = locals.attraction_training_images[item - 1]
             file = os.path.join(self.dir_path, file)
             self.training_png.append(file)
             self.training_csv.append(file[:-3] + "csv")

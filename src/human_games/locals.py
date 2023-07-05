@@ -2403,6 +2403,16 @@ compromise_baseline_images = [
     "compromise_baseline_8.png",
     "compromise_baseline_9.png",
     "compromise_baseline_10.png",
+    "compromise_baseline_11.png",
+    "compromise_baseline_12.png",
+    "compromise_baseline_13.png",
+    "compromise_baseline_14.png",
+    "compromise_baseline_15.png",
+    "compromise_baseline_16.png",
+    "compromise_baseline_17.png",
+    "compromise_baseline_18.png",
+    "compromise_baseline_19.png",
+    "compromise_baseline_20.png"
 ]
 
 compromise_training_order = [
@@ -2499,17 +2509,55 @@ attraction_baseline_order = [
     [18, 13, 12, 19, 17, 14, 15, 20, 16, 11]
 ]
 
-attraction_baseline_images = [
-    "compromise_baseline_11.png",
-    "compromise_baseline_12.png",
-    "compromise_baseline_13.png",
-    "compromise_baseline_14.png",
-    "compromise_baseline_15.png",
-    "compromise_baseline_16.png",
-    "compromise_baseline_17.png",
-    "compromise_baseline_18.png",
-    "compromise_baseline_19.png",
-    "compromise_baseline_20.png"
+attraction_training_order = [
+    [2, 1, 3, 4, 5],
+    [4, 1, 3, 5, 2],
+    [4, 5, 1, 3, 2],
+    [3, 2, 5, 4, 1],
+    [5, 2, 4, 3, 1],
+    [2, 1, 4, 3, 5],
+    [2, 4, 5, 3, 1],
+    [4, 1, 3, 2, 5],
+    [1, 2, 5, 3, 4],
+    [2, 5, 4, 1, 3],
+    [1, 3, 4, 2, 5],
+    [4, 3, 5, 2, 1],
+    [2, 5, 1, 4, 3],
+    [5, 1, 3, 4, 2],
+    [2, 5, 3, 1, 4],
+    [4, 2, 5, 3, 1],
+    [5, 4, 2, 3, 1],
+    [5, 4, 1, 3, 2],
+    [3, 5, 1, 2, 4],
+    [1, 5, 2, 3, 4],
+    [5, 3, 2, 4, 1],
+    [2, 3, 5, 4, 1],
+    [2, 3, 5, 1, 4],
+    [5, 4, 3, 1, 2],
+    [4, 2, 5, 1, 3],
+    [3, 2, 5, 1, 4],
+    [2, 1, 4, 3, 5],
+    [5, 2, 4, 3, 1],
+    [3, 4, 1, 2, 5],
+    [4, 2, 5, 3, 1],
+    [4, 2, 1, 5, 3],
+    [5, 4, 1, 3, 2],
+    [4, 2, 1, 3, 5],
+    [2, 5, 4, 3, 1],
+    [1, 2, 3, 5, 4],
+    [5, 4, 2, 1, 3],
+    [4, 5, 1, 2, 3],
+    [3, 4, 2, 5, 1],
+    [3, 2, 4, 1, 5],
+    [1, 5, 2, 3, 4]
+]
+
+attraction_training_images = [
+    "attraction_training_1.png",
+    "attraction_training_2.png",
+    "attraction_training_3.png",
+    "attraction_training_4.png",
+    "attraction_training_5.png"
 ]
 
 

@@ -7,7 +7,8 @@ import numpy as np
 import pygame as pg
 from pygame.locals import *
 
-from src.human_games.condition_randomization import CompromiseBaselineRandomization, CompromiseTrainingRandomization
+from src.human_games.condition_randomization import CompromiseBaselineRandomization, CompromiseTrainingRandomization, \
+    AttractionBaselineRandomization, AttractionTrainingRandomization
 from src.human_games.player import Player
 from src.human_games.powerup import PowerUp
 
@@ -59,7 +60,6 @@ class CompAttractBase:
         assert isinstance(condition_name, str) and len(
             condition_name) > 0, "condition_name should be a non-empty string"
         assert isinstance(first, bool), "first should be a boolean"
-
         # Declare object values for identification from the data array
         self.MAP_NAME = map_name
         self.MAP_HEIGHT = map_height
@@ -73,8 +73,8 @@ class CompAttractBase:
         self.first_condition = first
 
         self.actions = []
-        self.MAX_STATE_WIDTH = 30
-        self.MAX_STATE_HEIGHT = 30
+        self.MAX_STATE_WIDTH = 20
+        self.MAX_STATE_HEIGHT = 20
 
         # Initialize pygame and other settings
         pg.init()
@@ -207,6 +207,7 @@ class CompromiseBaseline(CompAttractBase):
                "Your task is to choose which path to navigate.\n\n" + \
                "One of the exits has more power-ups than the other.\n\n" + \
                "The more power-ups, the more likely the enemy will discover you.\n\n " + \
+               "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices will not affect your score.\n\n" + \
                "Good luck!"
         super().__init__(map_name, background_image, 600, 600, "CompromiseBaseline", first)
@@ -220,6 +221,7 @@ class CompromiseTraining(CompAttractBase):
                "Some exits have more power-ups than others.\n\n" + \
                "The paths that have more power-ups, when taken, increase the chance you will be " + \
                "discovered by the enemy.  The paths with less power-ups have a lower chance of enemy discovery.\n\n" + \
+               "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices here will not affect your overall score!\n\n" + \
                "Good luck!"
         super().__init__(map_name, background_image, 600, 600, "CompromiseTraining", first)
@@ -227,14 +229,27 @@ class CompromiseTraining(CompAttractBase):
 
 
 class AttractionBaseline(CompAttractBase):
-    def __init__(self, map_name: str, backgound_image: str, first: bool):
+    def __init__(self, map_name: str, background_image: str, first: bool):
         text = "Welcome to this level!\n\n" + \
                "Your task is to choose one of the two paths to navigate towards the exit.\n\n" + \
                "One of the exits has more power-ups than the other.\n\n" + \
                "The more power-ups, the more likely you will be discovered by the enemy.\n\n" + \
+               "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices will not affect your score.\n\n" + \
                "Good luck!"
-        super().__init__(map_name, backgound_image, 600, 600, "AttractionBaseline", first)
+        super().__init__(map_name, background_image, 600, 600, "AttractionBaseline", first)
+        self.run_game_loop(text)
+
+
+class AttractionTraining(CompAttractBase):
+    def __init__(self, map_name: str, background_image: str, first: bool):
+        text = "Welcome to the next level \n\n" + \
+               "Your task is to choose one of the three paths to exit the map.\n\n" + \
+               "The more power-ups for the path, the more likely the enemy will discover you.\n\n" + \
+               "However, you can significantly increase your ammo with power-ups.\n\n" + \
+               "Your choices, again, will not affect your total score.\n\n" + \
+               "Good luck!"
+        super().__init__(map_name, background_image, 600, 600, "AttractionTraining", first)
         self.run_game_loop(text)
 
 
@@ -242,22 +257,98 @@ class CompromiseCondition:
     def __init__(self, participant_no: int):
         self.participant_no = participant_no - 1
         self.rnd_baseline = CompromiseBaselineRandomization(self.participant_no)
-        self.rnd_baseline_training = CompromiseBaselineRandomization(self.participant_no)
         self.rnd_training = CompromiseTrainingRandomization(self.participant_no)
         self.baseline_index = 0
         self.baseline_training_index = 0
         self.training_index = 0
 
-        """
-        CompromiseBaseline(self.rnd_baseline.baseline_csv[self.baseline_index],
-                           self.rnd_baseline.baseline_png[self.baseline_index],
-                           True)
-        self.baseline_index += 1
-        """
+        for i in range(5):
+            if self.baseline_index == 0:
 
-        CompromiseTraining(self.rnd_training.training_csv[self.training_index],
-                           self.rnd_training.training_png[self.training_index],
-                           True)
+                CompromiseBaseline(self.rnd_baseline.baseline_csv[self.baseline_index],
+                                   self.rnd_baseline.baseline_png[self.baseline_index],
+                                   True)
+                self.baseline_index += 1
+
+            else:
+
+                CompromiseBaseline(self.rnd_baseline.baseline_csv[self.baseline_index],
+                                   self.rnd_baseline.baseline_png[self.baseline_index],
+                                   False)
+                self.baseline_index += 1
+
+        for i in range(5):
+            if self.training_index == 0:
+
+                CompromiseTraining(self.rnd_training.training_csv[self.training_index],
+                                   self.rnd_training.training_png[self.training_index],
+                                   True)
+                self.training_index += 1
+
+                CompromiseBaseline(self.rnd_baseline.training_csv[self.baseline_training_index],
+                                   self.rnd_baseline.training_png[self.baseline_training_index],
+                                   True)
+                self.baseline_training_index += 1
+
+            else:
+
+                CompromiseTraining(self.rnd_training.training_csv[self.training_index],
+                                   self.rnd_training.training_png[self.training_index],
+                                   False)
+                self.training_index += 1
+
+                CompromiseBaseline(self.rnd_baseline.training_csv[self.baseline_training_index],
+                                   self.rnd_baseline.training_png[self.baseline_training_index],
+                                   False)
+                self.baseline_training_index += 1
 
 
-CompromiseCondition(1)
+class AttractionCondition:
+    def __init__(self, participant_no: int):
+        self.participant_no = participant_no
+        self.rnd_baseline = AttractionBaselineRandomization(self.participant_no)
+        self.rnd_training = AttractionTrainingRandomization(self.participant_no)
+        self.baseline_index = 0
+        self.baseline_training_index = 0
+        self.training_index = 0
+
+        for i in range(5):
+            if self.baseline_index == 0:
+
+                AttractionBaseline(self.rnd_baseline.baseline_csv[self.baseline_index],
+                                   self.rnd_baseline.baseline_png[self.baseline_index],
+                                   True)
+                self.baseline_index += 1
+
+            else:
+
+                AttractionBaseline(self.rnd_baseline.baseline_csv[self.baseline_index],
+                                   self.rnd_baseline.baseline_png[self.baseline_index],
+                                   False)
+                self.baseline_index += 1
+
+        for i in range(5):
+            if self.training_index == 0:
+
+                AttractionTraining(self.rnd_training.training_csv[self.training_index],
+                                   self.rnd_training.training_png[self.training_index],
+                                   True)
+                self.training_index += 1
+
+                AttractionBaseline(self.rnd_baseline.training_csv[self.baseline_training_index],
+                                   self.rnd_baseline.training_png[self.baseline_training_index],
+                                   True)
+                self.baseline_training_index += 1
+
+            else:
+
+                AttractionTraining(self.rnd_training.training_csv[self.training_index],
+                                   self.rnd_training.training_png[self.training_index],
+                                   False)
+                self.training_index += 1
+
+                AttractionBaseline(self.rnd_baseline.training_csv[self.baseline_training_index],
+                                   self.rnd_baseline.training_png[self.baseline_training_index],
+                                   False)
+                self.baseline_training_index += 1
+

@@ -4,6 +4,7 @@ import sys
 from PySide6.QtWidgets import QDialog
 
 from src.human_games.anchoring import AnchorBaseline, AnchorCondition
+from src.human_games.compattract import CompromiseCondition, AttractionCondition
 from src.human_games.start_dialog import StartDialog
 from src.human_games.demographics_dialog import DemographicsDialog
 from src.human_games.competence_dialog import CompetenceDialog
@@ -39,6 +40,7 @@ class Application(QDialog):
         logging.basicConfig(format="%(name)s:%(message)s", level=logging.INFO, filename=log_filename)
         logging.info(f"Participant Number: {self.participant_number}")
 
+
         """
         # Begin the PyGame tutorials
         TutorialMoveUp()
@@ -59,9 +61,27 @@ class Application(QDialog):
             logging.info("Competence Dialog complete.")
         """
 
-        AnchorCondition(self.participant_number, self.ammo, self.score)
-
+        # AnchorCondition(self.participant_number, self.ammo, self.score)
+        # CompromiseCondition(self.participant_number)
+        AttractionCondition(self.participant_number)
         """
+        numbers = [1, 4, 3, 4, 2]
+        class_mapping = {
+            1: Class1,
+            2: Class2,
+            3: Class3,
+            4: Class4
+        }
+
+        instances = []
+        for number in numbers:
+            class_type = class_mapping.get(number)
+            if class_type:
+                instance = class_type()
+                instances.append(instance)
+            else:
+                print(f"No class defined for number: {number}")
+
         # Game Experience Questionnaire Dialog
         self.geqDialog = GEQDialog(parent=self)
         self.geqDialog.setModal(True)
