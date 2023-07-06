@@ -36,14 +36,13 @@ class Application(QDialog):
         startDialog.show()
         if startDialog.exec_():
             self.participant_number = int(startDialog.participant_number)
-            self.participant_number = self.participant_number - 1
+            self.participant_number = self.participant_number
 
         # Configure the logger with the participant number
         log_filename = "participant" + str(self.participant_number) + ".log"
         logging.basicConfig(format="%(name)s:%(message)s", level=logging.INFO, filename=log_filename)
         logging.info(f"Participant Number: {self.participant_number}")
 
-        """
         # Begin the PyGame tutorials
         TutorialMoveUp()
         TutorialMoveRight()
@@ -61,13 +60,13 @@ class Application(QDialog):
         self.competenceDialog.show()
         if self.competenceDialog.exec_():
             logging.info("Competence Dialog complete.")
-        """
+
         interbias = Interbias(self.participant_number)
 
         select_order = {
-            1: AnchorCondition,  # (self.participant_number, self.ammo, self.score),
-            2: CompromiseCondition,  # (self.participant_number),
-            3: AttractionCondition,  # (self.participant_number),
+            1: AnchorCondition,
+            2: CompromiseCondition,
+            3: AttractionCondition,
             4: interbias.show_condition
         }
 
@@ -81,12 +80,11 @@ class Application(QDialog):
             else:
                 print(f"No class defined for number: {number}")
 
-        """
         # Game Experience Questionnaire Dialog
         geqDialog = GEQDialog(parent=self)
         geqDialog.setModal(True)
         geqDialog.show()
         if geqDialog.exec_():
             logging.info("GEQ Dialog complete.")
-        """
+
         sys.exit()

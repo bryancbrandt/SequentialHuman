@@ -198,7 +198,7 @@ class CompromiseBaseline(CompAttractBase):
         text = "Welcome to this level!\n\n" + \
                "Your task is to choose which path to navigate.\n\n" + \
                "One of the exits has more power-ups than the other.\n\n" + \
-               "The more power-ups, the more likely the enemy will discover you.\n\n " + \
+               "The longer the path, the more likely the enemy will discover you.\n\n " + \
                "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices will not affect your score.\n\n" + \
                "Good luck!"
@@ -211,8 +211,8 @@ class CompromiseTraining(CompAttractBase):
         text = "Welcome to this level!\n\n" + \
                "Your task is to choose 1 of the 3 paths to navigate.\n\n" + \
                "Some exits have more power-ups than others.\n\n" + \
-               "The paths that have more power-ups, when taken, increase the chance you will be " + \
-               "discovered by the enemy.  The paths with less power-ups have a lower chance of enemy discovery.\n\n" + \
+               "The paths that are longer, when taken, increase the chance you will be " + \
+               "discovered by the enemy.  The shorter paths have a lower chance of enemy discovery.\n\n" + \
                "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices here will not affect your overall score!\n\n" + \
                "Good luck!"
@@ -225,7 +225,7 @@ class AttractionBaseline(CompAttractBase):
         text = "Welcome to this level!\n\n" + \
                "Your task is to choose one of the two paths to navigate towards the exit.\n\n" + \
                "One of the exits has more power-ups than the other.\n\n" + \
-               "The more power-ups, the more likely you will be discovered by the enemy.\n\n" + \
+               "The longer the path, the more likely you will be discovered by the enemy.\n\n" + \
                "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices will not affect your score.\n\n" + \
                "Good luck!"
@@ -237,7 +237,7 @@ class AttractionTraining(CompAttractBase):
     def __init__(self, map_name: str, background_image: str, first: bool):
         text = "Welcome to the next level \n\n" + \
                "Your task is to choose one of the three paths to exit the map.\n\n" + \
-               "The more power-ups for the path, the more likely the enemy will discover you.\n\n" + \
+               "The longer the path, the more likely the enemy will discover you.\n\n" + \
                "However, you can significantly increase your ammo with power-ups.\n\n" + \
                "Your choices, again, will not affect your total score.\n\n" + \
                "Good luck!"
@@ -247,7 +247,7 @@ class AttractionTraining(CompAttractBase):
 
 class CompromiseCondition:
     def __init__(self, participant_no: int):
-        self.participant_no = participant_no
+        self.participant_no = participant_no - 1
         self.rnd_baseline = CompromiseBaselineRandomization(self.participant_no)
         self.rnd_training = CompromiseTrainingRandomization(self.participant_no)
         self.baseline_index = 0
@@ -297,7 +297,7 @@ class CompromiseCondition:
 
 class AttractionCondition:
     def __init__(self, participant_no: int):
-        self.participant_no = participant_no
+        self.participant_no = participant_no - 1
         self.rnd_baseline = AttractionBaselineRandomization(self.participant_no)
         self.rnd_training = AttractionTrainingRandomization(self.participant_no)
         self.baseline_index = 0

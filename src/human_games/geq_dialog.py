@@ -1,8 +1,10 @@
 """
 Class for the Game Experience Questionnaire Compact version
 """
+import logging
+
 from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect, Qt)
-from PySide6.QtWidgets import (QDialog, QDialogButtonBox,QLabel,  QSlider)
+from PySide6.QtWidgets import (QDialog, QDialogButtonBox, QLabel, QSlider)
 
 
 class Ui_GEQ(object):
@@ -414,10 +416,42 @@ class GEQDialog(QDialog):
         super(GEQDialog, self).__init__(parent)
         self.ui = Ui_GEQ()
         self.ui.setupUi(self)
+        self.logger = logging.getLogger("GEQ")
 
     def accept(self) -> None:
-        pass
-
+        self.logger.info(f'1: {self.ui.Slider1.value()}')
+        self.logger.info(f'2: {self.ui.Slider2.value()}')
+        self.logger.info(f'3: {self.ui.Slider3.value()}')
+        self.logger.info(f'4: {self.ui.Slider4.value()}')
+        self.logger.info(f'5: {self.ui.Slider5.value()}')
+        self.logger.info(f'6: {self.ui.Slider6.value()}')
+        self.logger.info(f'7: {self.ui.Slider7.value()}')
+        self.logger.info(f'8: {self.ui.Slider8.value()}')
+        self.logger.info(f'9: {self.ui.Slider9.value()}')
+        self.logger.info(f'10: {self.ui.Slider10.value()}')
+        self.logger.info(f'11: {self.ui.Slider11.value()}')
+        self.logger.info(f'12: {self.ui.Slider12.value()}')
+        self.logger.info(f'13: {self.ui.Slider13.value()}')
+        self.logger.info(f'14: {self.ui.Slider14.value()}')
+        self.logger.info(f'15: {self.ui.Slider15.value()}')
+        self.logger.info(f'16: {self.ui.Slider16.value()}')
+        self.logger.info(f'17: {self.ui.Slider17.value()}')
+        self.logger.info(f'18: {self.ui.Slider18.value()}')
+        self.logger.info(f'19: {self.ui.Slider19.value()}')
+        self.logger.info(f'20: {self.ui.Slider20.value()}')
+        self.logger.info(f'21: {self.ui.Slider21.value()}')
+        self.logger.info(f'22: {self.ui.Slider22.value()}')
+        self.logger.info(f'23: {self.ui.Slider23.value()}')
+        self.logger.info(f'24: {self.ui.Slider24.value()}')
+        self.logger.info(f'25: {self.ui.Slider25.value()}')
+        self.logger.info(f'26: {self.ui.Slider26.value()}')
+        self.logger.info(f'27: {self.ui.Slider27.value()}')
+        self.logger.info(f'28: {self.ui.Slider28.value()}')
+        self.logger.info(f'29: {self.ui.Slider29.value()}')
+        self.logger.info(f'30: {self.ui.Slider30.value()}')
+        self.logger.info(f'31: {self.ui.Slider31.value()}')
+        self.logger.info(f'32: {self.ui.Slider32.value()}')
+        self.logger.info(f'33: {self.ui.Slider33.value()}')
+        self.done(1)
     def reject(self) -> None:
         pass
-

@@ -31,15 +31,16 @@ class Interbias:
                 file_path = file_path[:-3] + "png"
                 self.frequency_dict[file_number] = {"FILE": file_path, "TANK": count_1, "JET": count_2}
 
-    def show_condition(self):
+    def show_condition(self, participant_no: int):
 
         self.logger.info("Condition Initiated")
 
         # Message Box
         count_type = random.choice(['TANK', 'JET'])
-        text = f"You will have 15 seconds to count the number of {count_type}S.\n\n" + \
-            "You will then enter your count to see if you guessed correctly!\n\n" + \
-            "Your guess will affect your score..."
+        text = "Your next task is as follows:" + \
+               f"You will have 15 seconds to count the number of {count_type}S.\n\n" + \
+               "You will then enter your count to see if you guessed correctly!\n\n" + \
+               "Your guess will affect your score..."
         ctypes.windll.user32.MessageBoxW(0, text, "Map Choice", 0)
 
         # Initialize the pygame window
@@ -61,8 +62,6 @@ class Interbias:
         while time.time() < end_time:
             time.sleep(1)
         pygame.quit()
-
-
 
         # Get the count for the correct type (TANK, JET)
         if count_type == "TANK":
@@ -88,4 +87,3 @@ class Interbias:
                     self.logger.info(f"Incorrectly guessed {user_input}/{object_count} Tanks")
                     ctypes.windll.user32.MessageBoxW(0, f"Sorry there were {object_count} Jets", "Map Choice", 0)
         self.image_index += 1
-

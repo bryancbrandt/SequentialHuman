@@ -383,7 +383,7 @@ class AnchorCondition:
         self.masking_index = 0
         self.score = 0
         self.ammo = 100
-        self.participant_no = participant_no
+        self.participant_no = participant_no - 1
         self.baseline_rnd = AnchoringBaselineRandomization(self.participant_no)
         self.training_rnd = AnchoringTrainingRandomization(self.participant_no)
         self.masking_rnd = AnchoringMaskingRandomization(self.participant_no)
