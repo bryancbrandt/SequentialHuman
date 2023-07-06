@@ -1,3 +1,4 @@
+import csv
 import os
 import random
 import numpy as np
@@ -86,4 +87,16 @@ def parse_log_file(filename):
         print(line)
 
 
-random_number_arrays_with_counterbalance(20, 1, 5, 5)
+def freq_in_file():
+
+    frequency_dict = {}
+    for file_number in range(1, 21):
+        filename = f"interbias_{file_number}.csv"  # Replace with the actual filename format
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        file_path = os.path.join(dir_path, f"maps/Interbias/{filename}")
+        if os.path.exists(file_path):
+            data = np.genfromtxt(file_path, delimiter=",")
+            count_1 = np.where(data == 1)[0].size
+            count_2 = np.where(data == 2)[0].size
+            frequency_dict[file_number] = {"FILE": file_path, "TANK": count_1, "JET": count_2}
+

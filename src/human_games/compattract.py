@@ -105,14 +105,6 @@ class CompAttractBase:
         if np.any(np.where(self.data == EXIT_D)):
             self.exit_location["D"] = [np.where(self.data == EXIT_D)[0][0], np.where(self.data == EXIT_D)[1][0]]
 
-        """
-        locations = [np.where(self.data == EXIT_A), np.where(self.data == EXIT_B), np.where(self.data == EXIT_C),
-                     np.where(self.data == EXIT_D)]
-        for i in range(len(locations[0])):
-            pair = list(arr[i] for arr in locations)
-            self.exit_location.append(pair)
-        """
-
         # Get the power up positions
         self.powerup_positions = np.where(self.data == AMMO)
         self.powerup_positions = list(zip(self.powerup_positions[0], self.powerup_positions[1]))
@@ -255,7 +247,7 @@ class AttractionTraining(CompAttractBase):
 
 class CompromiseCondition:
     def __init__(self, participant_no: int):
-        self.participant_no = participant_no - 1
+        self.participant_no = participant_no
         self.rnd_baseline = CompromiseBaselineRandomization(self.participant_no)
         self.rnd_training = CompromiseTrainingRandomization(self.participant_no)
         self.baseline_index = 0

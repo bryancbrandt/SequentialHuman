@@ -1,10 +1,12 @@
 import logging
 import sys
+import src.human_games.locals
 
 from PySide6.QtWidgets import QDialog
 
 from src.human_games.anchoring import AnchorBaseline, AnchorCondition
 from src.human_games.compattract import CompromiseCondition, AttractionCondition
+from src.human_games.interbias import Interbias
 from src.human_games.start_dialog import StartDialog
 from src.human_games.demographics_dialog import DemographicsDialog
 from src.human_games.competence_dialog import CompetenceDialog
@@ -29,17 +31,17 @@ class Application(QDialog):
         self.score = 0
 
         # Initialize the participant number dialog box, and get the participant number
-        self.startDialog = StartDialog(self)
-        self.startDialog.setModal(True)
-        self.startDialog.show()
-        if self.startDialog.exec_():
-            self.participant_number = int(self.startDialog.participant_number)
+        startDialog = StartDialog(self)
+        startDialog.setModal(True)
+        startDialog.show()
+        if startDialog.exec_():
+            self.participant_number = int(startDialog.participant_number)
+            self.participant_number = self.participant_number - 1
 
         # Configure the logger with the participant number
         log_filename = "participant" + str(self.participant_number) + ".log"
         logging.basicConfig(format="%(name)s:%(message)s", level=logging.INFO, filename=log_filename)
         logging.info(f"Participant Number: {self.participant_number}")
-
 
         """
         # Begin the PyGame tutorials
@@ -60,33 +62,31 @@ class Application(QDialog):
         if self.competenceDialog.exec_():
             logging.info("Competence Dialog complete.")
         """
+        interbias = Interbias(self.participant_number)
 
-        # AnchorCondition(self.participant_number, self.ammo, self.score)
-        # CompromiseCondition(self.participant_number)
-        AttractionCondition(self.participant_number)
-        """
-        numbers = [1, 4, 3, 4, 2]
-        class_mapping = {
-            1: Class1,
-            2: Class2,
-            3: Class3,
-            4: Class4
+        select_order = {
+            1: AnchorCondition,  # (self.participant_number, self.ammo, self.score),
+            2: CompromiseCondition,  # (self.participant_number),
+            3: AttractionCondition,  # (self.participant_number),
+            4: interbias.show_condition
         }
 
-        instances = []
-        for number in numbers:
-            class_type = class_mapping.get(number)
+        condition_ordering = src.human_games.locals.condition_order[self.participant_number - 1]
+        print(condition_ordering)
+
+        for number in condition_ordering:
+            class_type = select_order.get(number)
             if class_type:
-                instance = class_type()
-                instances.append(instance)
+                class_type(self.participant_number)
             else:
                 print(f"No class defined for number: {number}")
 
+        """
         # Game Experience Questionnaire Dialog
-        self.geqDialog = GEQDialog(parent=self)
-        self.geqDialog.setModal(True)
-        self.geqDialog.show()
-        if self.geqDialog.exec_():
+        geqDialog = GEQDialog(parent=self)
+        geqDialog.setModal(True)
+        geqDialog.show()
+        if geqDialog.exec_():
             logging.info("GEQ Dialog complete.")
         """
         sys.exit()

@@ -375,15 +375,15 @@ class AnchorCondition:
     training conditions.  Then initializes each conditions class, while transferring scores and ammunition.
     """
 
-    def __init__(self, participant_no: int, ammo: int, score: int):
+    def __init__(self, participant_no: int):
         self.baseline_index = 0
         self.baseline_training_index = 0
         self.rural_index = 0
         self.urban_index = 0
         self.masking_index = 0
-        self.score = score
-        self.ammo = ammo
-        self.participant_no = participant_no - 1
+        self.score = 0
+        self.ammo = 100
+        self.participant_no = participant_no
         self.baseline_rnd = AnchoringBaselineRandomization(self.participant_no)
         self.training_rnd = AnchoringTrainingRandomization(self.participant_no)
         self.masking_rnd = AnchoringMaskingRandomization(self.participant_no)
