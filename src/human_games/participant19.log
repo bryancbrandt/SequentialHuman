@@ -1,0 +1,3151 @@
+root:Participant Number: 19
+TutorialMoveUp:Level Completed.
+TutorialMoveRight:Level Completed.
+TutorialMoveDown:Level Completed.
+TutorialMoveLeft:Level Completed.
+Demographics:Age: 
+Demographics:Gender: 
+Demographics:Major: 
+Demographics:YearsCollege: 
+root:Demographics Dialog complete.
+Competence:Experience: 1
+Competence:Controls: 1
+Competence:Tasks: 1
+root:Competence Dialog complete.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_8.csv
+CompromiseBaseline:Condition Begins: 1777454.0568963
+CompromiseBaseline:LeftKey:1777456.0654324
+CompromiseBaseline:LeftKey:1777456.2698425
+CompromiseBaseline:LeftKey:1777456.422216
+CompromiseBaseline:LeftKey:1777456.575228
+CompromiseBaseline:LeftKey:1777456.7279539
+CompromiseBaseline:LeftKey:1777456.8808229
+CompromiseBaseline:LeftKey:1777457.0333965
+CompromiseBaseline:LeftKey:1777457.214725
+CompromiseBaseline:PowerUp Reached: 1777457.2151929
+CompromiseBaseline:LeftKey:1777457.3928138
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[2, 2, 2, 2, 2, 2, 2, 2, 2]
+CompromiseBaseline:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_6.csv
+CompromiseBaseline:Condition Begins: 1777457.4053623
+CompromiseBaseline:LeftKey:1777458.6465673
+CompromiseBaseline:LeftKey:1777458.875444
+CompromiseBaseline:LeftKey:1777459.0288958
+CompromiseBaseline:LeftKey:1777459.1807382
+CompromiseBaseline:LeftKey:1777459.3576003
+CompromiseBaseline:LeftKey:1777459.5103837
+CompromiseBaseline:LeftKey:1777459.6854455
+CompromiseBaseline:LeftKey:1777459.887281
+CompromiseBaseline:PowerUp Reached: 1777459.8877147
+CompromiseBaseline:LeftKey:1777460.1138153
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[2, 2, 2, 2, 2, 2, 2, 2, 2]
+CompromiseBaseline:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_3.csv
+CompromiseBaseline:Condition Begins: 1777460.125579
+CompromiseBaseline:UpKey:1777461.0598748
+CompromiseBaseline:UpKey:1777461.2375327
+CompromiseBaseline:UpKey:1777461.414642
+CompromiseBaseline:UpKey:1777461.5671178
+CompromiseBaseline:UpKey:1777461.7441561
+CompromiseBaseline:PowerUp Reached: 1777461.7444123
+CompromiseBaseline:UpKey:1777462.000181
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[1, 1, 1, 1, 1, 1]
+CompromiseBaseline:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_9.csv
+CompromiseBaseline:Condition Begins: 1777462.0125065
+CompromiseBaseline:DownKey:1777463.1011188
+CompromiseBaseline:DownKey:1777463.2787902
+CompromiseBaseline:DownKey:1777463.4562545
+CompromiseBaseline:DownKey:1777463.6596424
+CompromiseBaseline:DownKey:1777463.8857066
+CompromiseBaseline:RightKey:1777464.1134225
+CompromiseBaseline:RightKey:1777464.2888792
+CompromiseBaseline:RightKey:1777464.4666315
+CompromiseBaseline:PowerUp Reached: 1777464.4668864
+CompromiseBaseline:RightKey:1777464.7181766
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[3, 3, 3, 3, 3, 0, 0, 0, 0]
+CompromiseBaseline:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_10.csv
+CompromiseBaseline:Condition Begins: 1777464.7302741
+CompromiseBaseline:RightKey:1777465.6601081
+CompromiseBaseline:RightKey:1777465.8373028
+CompromiseBaseline:RightKey:1777466.0401525
+CompromiseBaseline:RightKey:1777466.2176127
+CompromiseBaseline:RightKey:1777466.4206267
+CompromiseBaseline:RightKey:1777466.6751104
+CompromiseBaseline:PowerUp Reached: 1777466.6753691
+CompromiseBaseline:RightKey:1777466.9021358
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[0, 0, 0, 0, 0, 0, 0]
+CompromiseBaseline:Level Completed.
+CompromiseTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Training\compromise_training_3.csv
+CompromiseTraining:Condition Begins: 1777496.813856
+CompromiseTraining:LeftKey:1777498.588846
+CompromiseTraining:LeftKey:1777498.7411979
+CompromiseTraining:LeftKey:1777498.8690121
+CompromiseTraining:DownKey:1777499.0980128
+CompromiseTraining:DownKey:1777499.2228703
+CompromiseTraining:DownKey:1777499.4001743
+CompromiseTraining:DownKey:1777499.5503412
+CompromiseTraining:DownKey:1777499.7040657
+CompromiseTraining:DownKey:1777499.8558176
+CompromiseTraining:DownKey:1777500.0601973
+CompromiseTraining:RightKey:1777500.2116936
+CompromiseTraining:RightKey:1777500.3890748
+CompromiseTraining:RightKey:1777500.5395254
+CompromiseTraining:DownKey:1777500.6908342
+CompromiseTraining:DownKey:1777500.8681497
+CompromiseTraining:DownKey:1777501.0699268
+CompromiseTraining:DownKey:1777501.2476149
+CompromiseTraining:PowerUp Reached: 1777501.2478722
+CompromiseTraining:LeftKey:1777501.5520975
+CompromiseTraining:PowerUp Reached: 1777501.5523572
+CompromiseTraining:LeftKey:1777501.7276507
+CompromiseTraining:PowerUp Reached: 1777501.7279045
+CompromiseTraining:RightKey:1777502.0548104
+CompromiseTraining:DownKey:1777502.2313686
+CompromiseTraining:Exit Chosen: ['B']
+CompromiseTraining:Actions:[2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 3, 3, 3, 3, 2, 2, 0, 3]
+CompromiseTraining:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_7.csv
+CompromiseBaseline:Condition Begins: 1777504.6409469
+CompromiseBaseline:LeftKey:1777505.6784811
+CompromiseBaseline:LeftKey:1777505.8071595
+CompromiseBaseline:LeftKey:1777505.9340496
+CompromiseBaseline:LeftKey:1777506.0614167
+CompromiseBaseline:LeftKey:1777506.2122164
+CompromiseBaseline:LeftKey:1777506.3166593
+CompromiseBaseline:LeftKey:1777506.521553
+CompromiseBaseline:LeftKey:1777506.6739499
+CompromiseBaseline:LeftKey:1777506.8265582
+CompromiseBaseline:PowerUp Reached: 1777506.8268122
+CompromiseBaseline:LeftKey:1777506.9800254
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+CompromiseBaseline:Level Completed.
+CompromiseTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Training\compromise_training_4.csv
+CompromiseTraining:Condition Begins: 1777506.9941013
+CompromiseTraining:RightKey:1777508.281999
+CompromiseTraining:RightKey:1777508.407223
+CompromiseTraining:RightKey:1777508.5593294
+CompromiseTraining:RightKey:1777508.7378558
+CompromiseTraining:UpKey:1777508.8915096
+CompromiseTraining:RightKey:1777509.0438542
+CompromiseTraining:RightKey:1777509.2239629
+CompromiseTraining:DownKey:1777509.4251412
+CompromiseTraining:DownKey:1777509.6292392
+CompromiseTraining:DownKey:1777509.8059593
+CompromiseTraining:DownKey:1777509.9563586
+CompromiseTraining:LeftKey:1777510.1352978
+CompromiseTraining:LeftKey:1777510.3102709
+CompromiseTraining:LeftKey:1777510.4855975
+CompromiseTraining:DownKey:1777510.6380533
+CompromiseTraining:DownKey:1777510.8143478
+CompromiseTraining:DownKey:1777510.9657514
+CompromiseTraining:DownKey:1777511.1672488
+CompromiseTraining:RightKey:1777511.2170523
+CompromiseTraining:RightKey:1777511.4169781
+CompromiseTraining:RightKey:1777511.569534
+CompromiseTraining:PowerUp Reached: 1777511.569801
+CompromiseTraining:UpKey:1777511.9753111
+CompromiseTraining:PowerUp Reached: 1777511.9755715
+CompromiseTraining:DownKey:1777512.1276268
+CompromiseTraining:DownKey:1777512.3048624
+CompromiseTraining:PowerUp Reached: 1777512.3051196
+CompromiseTraining:UpKey:1777512.4808347
+CompromiseTraining:RightKey:1777512.5822462
+CompromiseTraining:Exit Chosen: ['B']
+CompromiseTraining:Actions:[0, 0, 0, 0, 1, 0, 0, 3, 3, 3, 3, 2, 2, 2, 3, 3, 3, 3, 0, 0, 0, 1, 3, 3, 1, 0]
+CompromiseTraining:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_2.csv
+CompromiseBaseline:Condition Begins: 1777512.5952745
+CompromiseBaseline:LeftKey:1777513.8371791
+CompromiseBaseline:LeftKey:1777513.9638081
+CompromiseBaseline:LeftKey:1777514.1147924
+CompromiseBaseline:LeftKey:1777514.242556
+CompromiseBaseline:LeftKey:1777514.3696993
+CompromiseBaseline:LeftKey:1777514.5224566
+CompromiseBaseline:LeftKey:1777514.7007112
+CompromiseBaseline:PowerUp Reached: 1777514.7010614
+CompromiseBaseline:LeftKey:1777514.952944
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[2, 2, 2, 2, 2, 2, 2, 2]
+CompromiseBaseline:Level Completed.
+CompromiseTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Training\compromise_training_2.csv
+CompromiseTraining:Condition Begins: 1777514.9651476
+CompromiseTraining:DownKey:1777516.0578771
+CompromiseTraining:DownKey:1777516.2361063
+CompromiseTraining:DownKey:1777516.3614584
+CompromiseTraining:LeftKey:1777516.538957
+CompromiseTraining:LeftKey:1777516.6898504
+CompromiseTraining:LeftKey:1777516.8682767
+CompromiseTraining:LeftKey:1777517.021517
+CompromiseTraining:UpKey:1777517.1728995
+CompromiseTraining:UpKey:1777517.3252966
+CompromiseTraining:LeftKey:1777517.4755119
+CompromiseTraining:LeftKey:1777517.6537751
+CompromiseTraining:LeftKey:1777517.8056076
+CompromiseTraining:LeftKey:1777517.9591604
+CompromiseTraining:LeftKey:1777518.1094915
+CompromiseTraining:LeftKey:1777518.3356121
+CompromiseTraining:DownKey:1777518.5377245
+CompromiseTraining:DownKey:1777518.713189
+CompromiseTraining:DownKey:1777518.8899308
+CompromiseTraining:PowerUp Reached: 1777518.8901825
+CompromiseTraining:LeftKey:1777519.0432869
+CompromiseTraining:PowerUp Reached: 1777519.0435806
+CompromiseTraining:RightKey:1777519.2961378
+CompromiseTraining:RightKey:1777519.4971683
+CompromiseTraining:PowerUp Reached: 1777519.497423
+CompromiseTraining:LeftKey:1777519.7021201
+CompromiseTraining:DownKey:1777519.8792133
+CompromiseTraining:Exit Chosen: ['B']
+CompromiseTraining:Actions:[3, 3, 3, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 2, 0, 0, 2, 3]
+CompromiseTraining:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_4.csv
+CompromiseBaseline:Condition Begins: 1777519.8912494
+CompromiseBaseline:UpKey:1777520.927504
+CompromiseBaseline:UpKey:1777521.0810003
+CompromiseBaseline:UpKey:1777521.2071407
+CompromiseBaseline:UpKey:1777521.4847186
+CompromiseBaseline:UpKey:1777521.660771
+CompromiseBaseline:PowerUp Reached: 1777521.6610234
+CompromiseBaseline:UpKey:1777521.8368658
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[1, 1, 1, 1, 1, 1]
+CompromiseBaseline:Level Completed.
+CompromiseTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Training\compromise_training_1.csv
+CompromiseTraining:Condition Begins: 1777521.8492745
+CompromiseTraining:LeftKey:1777522.90873
+CompromiseTraining:LeftKey:1777523.0383307
+CompromiseTraining:LeftKey:1777523.1906048
+CompromiseTraining:LeftKey:1777523.3673966
+CompromiseTraining:LeftKey:1777523.5177578
+CompromiseTraining:UpKey:1777523.7202264
+CompromiseTraining:UpKey:1777523.8697196
+CompromiseTraining:UpKey:1777524.0214733
+CompromiseTraining:UpKey:1777524.197159
+CompromiseTraining:UpKey:1777524.4511897
+CompromiseTraining:RightKey:1777524.6781776
+CompromiseTraining:RightKey:1777524.8556145
+CompromiseTraining:RightKey:1777525.0083785
+CompromiseTraining:RightKey:1777525.1882726
+CompromiseTraining:RightKey:1777525.3399674
+CompromiseTraining:RightKey:1777525.4915703
+CompromiseTraining:DownKey:1777525.6436501
+CompromiseTraining:RightKey:1777525.8213519
+CompromiseTraining:RightKey:1777525.9729054
+CompromiseTraining:RightKey:1777526.1745408
+CompromiseTraining:PowerUp Reached: 1777526.1748028
+CompromiseTraining:UpKey:1777526.4029151
+CompromiseTraining:PowerUp Reached: 1777526.4031714
+CompromiseTraining:DownKey:1777526.6044451
+CompromiseTraining:DownKey:1777526.7564308
+CompromiseTraining:PowerUp Reached: 1777526.7566891
+CompromiseTraining:UpKey:1777526.9354038
+CompromiseTraining:RightKey:1777527.0364942
+CompromiseTraining:Exit Chosen: ['B']
+CompromiseTraining:Actions:[2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 3, 3, 1, 0]
+CompromiseTraining:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_5.csv
+CompromiseBaseline:Condition Begins: 1777527.0489016
+CompromiseBaseline:RightKey:1777527.8365055
+CompromiseBaseline:RightKey:1777528.0122405
+CompromiseBaseline:RightKey:1777528.1391261
+CompromiseBaseline:RightKey:1777528.2919579
+CompromiseBaseline:RightKey:1777528.4444977
+CompromiseBaseline:PowerUp Reached: 1777528.4447527
+CompromiseBaseline:RightKey:1777528.5705718
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[0, 0, 0, 0, 0, 0]
+CompromiseBaseline:Level Completed.
+CompromiseTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Training\compromise_training_5.csv
+CompromiseTraining:Condition Begins: 1777528.5825934
+CompromiseTraining:UpKey:1777529.6169399
+CompromiseTraining:LeftKey:1777529.7697428
+CompromiseTraining:LeftKey:1777529.9460067
+CompromiseTraining:LeftKey:1777530.097069
+CompromiseTraining:LeftKey:1777530.2482175
+CompromiseTraining:LeftKey:1777530.4009186
+CompromiseTraining:UpKey:1777530.527644
+CompromiseTraining:UpKey:1777530.7078387
+CompromiseTraining:UpKey:1777530.8593722
+CompromiseTraining:UpKey:1777531.0373221
+CompromiseTraining:UpKey:1777531.190751
+CompromiseTraining:UpKey:1777531.3437015
+CompromiseTraining:UpKey:1777531.4711319
+CompromiseTraining:UpKey:1777531.6743708
+CompromiseTraining:LeftKey:1777531.9548393
+CompromiseTraining:LeftKey:1777532.1319469
+CompromiseTraining:PowerUp Reached: 1777532.1322261
+CompromiseTraining:UpKey:1777532.2845615
+CompromiseTraining:PowerUp Reached: 1777532.2848224
+CompromiseTraining:UpKey:1777532.436834
+CompromiseTraining:DownKey:1777532.5875752
+CompromiseTraining:DownKey:1777532.7653504
+CompromiseTraining:PowerUp Reached: 1777532.7656194
+CompromiseTraining:UpKey:1777532.9665025
+CompromiseTraining:LeftKey:1777533.1193716
+CompromiseTraining:Exit Chosen: ['B']
+CompromiseTraining:Actions:[1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 3, 3, 1, 2]
+CompromiseTraining:Level Completed.
+CompromiseBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_1.csv
+CompromiseBaseline:Condition Begins: 1777533.1310684
+CompromiseBaseline:UpKey:1777534.0132843
+CompromiseBaseline:UpKey:1777534.1396243
+CompromiseBaseline:UpKey:1777534.2910667
+CompromiseBaseline:LeftKey:1777534.4682478
+CompromiseBaseline:LeftKey:1777534.6213684
+CompromiseBaseline:LeftKey:1777534.7495067
+CompromiseBaseline:LeftKey:1777534.9264563
+CompromiseBaseline:LeftKey:1777535.0799385
+CompromiseBaseline:PowerUp Reached: 1777535.0801989
+CompromiseBaseline:LeftKey:1777535.2310827
+CompromiseBaseline:Exit Chosen: ['A']
+CompromiseBaseline:Actions:[1, 1, 1, 2, 2, 2, 2, 2, 2]
+CompromiseBaseline:Level Completed.
+INTERBIAS:Condition Initiated
+INTERBIAS:Correctly guessed 23 Jets
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_2.csv
+AnchorBaseline:Condition Begins: 1777559.7084562
+AnchorBaseline:DownKey:1777562.1892524
+AnchorBaseline:DownKey:1777562.5908105
+AnchorBaseline:DownKey:1777562.7696401
+AnchorBaseline:DownKey:1777562.9993734
+AnchorBaseline:RightKey:1777563.2516341
+AnchorBaseline:RightKey:1777563.4029499
+AnchorBaseline:RightKey:1777563.5806701
+AnchorBaseline:RightKey:1777563.7305759
+AnchorBaseline:RightKey:1777564.2340158
+AnchorBaseline:DownKey:1777564.4883487
+AnchorBaseline:SpaceKey:1777564.614517
+AnchorBaseline:Tank Destroyed: 1777564.6149042
+AnchorBaseline:DownKey:1777564.7896915
+AnchorBaseline:DownKey:1777564.9672459
+AnchorBaseline:DownKey:1777565.1202767
+AnchorBaseline:DownKey:1777565.3251439
+AnchorBaseline:UpKey:1777565.5539243
+AnchorBaseline:UpKey:1777565.7307928
+AnchorBaseline:UpKey:1777565.8823444
+AnchorBaseline:UpKey:1777566.3159296
+AnchorBaseline:RightKey:1777566.443793
+AnchorBaseline:RightKey:1777566.6216867
+AnchorBaseline:RightKey:1777566.7229854
+AnchorBaseline:RightKey:1777566.9250158
+AnchorBaseline:RightKey:1777567.0769685
+AnchorBaseline:RightKey:1777567.2053904
+AnchorBaseline:RightKey:1777567.3825551
+AnchorBaseline:RightKey:1777567.5338856
+AnchorBaseline:RightKey:1777567.6852393
+AnchorBaseline:RightKey:1777567.8619623
+AnchorBaseline:RightKey:1777568.1927305
+AnchorBaseline:RightKey:1777568.3953056
+AnchorBaseline:UpKey:1777568.7769491
+AnchorBaseline:SpaceKey:1777569.0049709
+AnchorBaseline:Tank Destroyed: 1777569.0053044
+AnchorBaseline:DownKey:1777569.1314914
+AnchorBaseline:DownKey:1777569.3099203
+AnchorBaseline:DownKey:1777569.4606075
+AnchorBaseline:DownKey:1777569.6106782
+AnchorBaseline:DownKey:1777569.7868979
+AnchorBaseline:LeftKey:1777570.0633384
+AnchorBaseline:LeftKey:1777570.2886681
+AnchorBaseline:SpaceKey:1777570.4655567
+AnchorBaseline:Tank Destroyed: 1777570.4657598
+AnchorBaseline:UpKey:1777570.5923672
+AnchorBaseline:UpKey:1777570.8965119
+AnchorBaseline:RightKey:1777571.1249436
+AnchorBaseline:RightKey:1777571.2767323
+AnchorBaseline:RightKey:1777571.4283771
+AnchorBaseline:RightKey:1777571.6048425
+AnchorBaseline:SpaceKey:1777571.9067751
+AnchorBaseline:Tank Destroyed: 1777571.9071216
+AnchorBaseline:RightKey:1777572.1087766
+AnchorBaseline:SpaceKey:1777572.2589213
+AnchorBaseline:Tank Destroyed: 1777572.2591262
+AnchorBaseline:UpKey:1777572.5090997
+AnchorBaseline:UpKey:1777572.686929
+AnchorBaseline:UpKey:1777572.8636281
+AnchorBaseline:RightKey:1777573.0686239
+AnchorBaseline:RightKey:1777573.2198755
+AnchorBaseline:RightKey:1777573.372692
+AnchorBaseline:RightKey:1777573.5240617
+AnchorBaseline:RightKey:1777573.6774216
+AnchorBaseline:RightKey:1777573.8286435
+AnchorBaseline:RightKey:1777573.9786493
+AnchorBaseline:RightKey:1777574.1589768
+AnchorBaseline:DownKey:1777574.3870507
+AnchorBaseline:DownKey:1777574.5643843
+AnchorBaseline:DownKey:1777574.7416565
+AnchorBaseline:RightKey:1777574.9707689
+AnchorBaseline:UpKey:1777575.3555606
+AnchorBaseline:UpKey:1777575.5321806
+AnchorBaseline:UpKey:1777575.7340179
+AnchorBaseline:RightKey:1777575.8846429
+AnchorBaseline:RightKey:1777576.0623867
+AnchorBaseline:RightKey:1777576.2402537
+AnchorBaseline:RightKey:1777576.4188033
+AnchorBaseline:RightKey:1777576.5717258
+AnchorBaseline:RightKey:1777576.7758924
+AnchorBaseline:RightKey:1777576.9525042
+AnchorBaseline:DownKey:1777577.204157
+AnchorBaseline:DownKey:1777577.3809879
+AnchorBaseline:DownKey:1777577.5320355
+AnchorBaseline:DownKey:1777577.7600851
+AnchorBaseline:UpKey:1777577.9388921
+AnchorBaseline:UpKey:1777578.1171211
+AnchorBaseline:UpKey:1777578.293958
+AnchorBaseline:RightKey:1777578.4471863
+AnchorBaseline:RightKey:1777578.6242104
+AnchorBaseline:RightKey:1777578.8796071
+AnchorBaseline:Actions:[3, 3, 3, 3, 0, 0, 0, 0, 0, 3, 4, 3, 3, 3, 3, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4, 3, 3, 3, 3, 3, 2, 2, 4, 1, 1, 0, 0, 0, 0, 4, 0, 4, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 1, 1, 1, 0, 0, 0]
+AnchorBaseline:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_10.csv
+AnchorBaseline:Condition Begins: 1777578.9075148
+AnchorBaseline:DownKey:1777580.3917799
+AnchorBaseline:DownKey:1777580.544503
+AnchorBaseline:DownKey:1777580.6962831
+AnchorBaseline:DownKey:1777580.8472688
+AnchorBaseline:DownKey:1777580.9986619
+AnchorBaseline:DownKey:1777581.1759317
+AnchorBaseline:DownKey:1777581.3781983
+AnchorBaseline:RightKey:1777581.5803261
+AnchorBaseline:RightKey:1777581.7552765
+AnchorBaseline:RightKey:1777581.9099058
+AnchorBaseline:RightKey:1777582.0630592
+AnchorBaseline:RightKey:1777582.2172132
+AnchorBaseline:RightKey:1777582.3696213
+AnchorBaseline:RightKey:1777582.5224563
+AnchorBaseline:RightKey:1777582.675256
+AnchorBaseline:UpKey:1777583.0559148
+AnchorBaseline:UpKey:1777583.2343141
+AnchorBaseline:UpKey:1777583.4118045
+AnchorBaseline:UpKey:1777583.5892966
+AnchorBaseline:SpaceKey:1777583.8161783
+AnchorBaseline:Tank Destroyed: 1777583.8163782
+AnchorBaseline:RightKey:1777583.9432717
+AnchorBaseline:RightKey:1777584.1437381
+AnchorBaseline:SpaceKey:1777584.3460258
+AnchorBaseline:Tank Destroyed: 1777584.3462249
+AnchorBaseline:DownKey:1777584.471595
+AnchorBaseline:DownKey:1777584.6493069
+AnchorBaseline:DownKey:1777584.8245882
+AnchorBaseline:RightKey:1777585.0506806
+AnchorBaseline:DownKey:1777585.3300666
+AnchorBaseline:RightKey:1777585.5830359
+AnchorBaseline:SpaceKey:1777585.7097974
+AnchorBaseline:Tank Destroyed: 1777585.7099982
+AnchorBaseline:RightKey:1777585.8618423
+AnchorBaseline:RightKey:1777586.0406286
+AnchorBaseline:RightKey:1777586.218111
+AnchorBaseline:UpKey:1777586.3958164
+AnchorBaseline:UpKey:1777586.5730732
+AnchorBaseline:RightKey:1777586.6999552
+AnchorBaseline:UpKey:1777586.7504326
+AnchorBaseline:RightKey:1777587.1039703
+AnchorBaseline:RightKey:1777587.2547409
+AnchorBaseline:SpaceKey:1777587.4064052
+AnchorBaseline:Tank Destroyed: 1777587.406748
+AnchorBaseline:UpKey:1777587.532635
+AnchorBaseline:UpKey:1777587.7095979
+AnchorBaseline:RightKey:1777587.8126408
+AnchorBaseline:RightKey:1777588.0412666
+AnchorBaseline:RightKey:1777588.3432425
+AnchorBaseline:RightKey:1777588.495893
+AnchorBaseline:RightKey:1777588.6467739
+AnchorBaseline:RightKey:1777588.7753607
+AnchorBaseline:RightKey:1777588.9262817
+AnchorBaseline:DownKey:1777589.053061
+AnchorBaseline:DownKey:1777589.2287161
+AnchorBaseline:LeftKey:1777589.4335464
+AnchorBaseline:LeftKey:1777589.6391163
+AnchorBaseline:DownKey:1777589.6640745
+AnchorBaseline:DownKey:1777589.8420374
+AnchorBaseline:DownKey:1777589.9936031
+AnchorBaseline:RightKey:1777590.0940592
+AnchorBaseline:DownKey:1777590.2714217
+AnchorBaseline:DownKey:1777590.5259765
+AnchorBaseline:RightKey:1777590.8301734
+AnchorBaseline:RightKey:1777591.0084128
+AnchorBaseline:RightKey:1777591.1612798
+AnchorBaseline:RightKey:1777591.3114655
+AnchorBaseline:RightKey:1777591.4888927
+AnchorBaseline:UpKey:1777591.668653
+AnchorBaseline:UpKey:1777591.848258
+AnchorBaseline:UpKey:1777591.9985515
+AnchorBaseline:UpKey:1777592.1767879
+AnchorBaseline:RightKey:1777592.3537518
+AnchorBaseline:RightKey:1777592.529265
+AnchorBaseline:RightKey:1777592.704283
+AnchorBaseline:RightKey:1777592.9063874
+AnchorBaseline:DownKey:1777593.109238
+AnchorBaseline:SpaceKey:1777593.362268
+AnchorBaseline:Tank Destroyed: 1777593.362701
+AnchorBaseline:UpKey:1777593.4878233
+AnchorBaseline:UpKey:1777593.6668465
+AnchorBaseline:RightKey:1777593.7438473
+AnchorBaseline:RightKey:1777593.9487522
+AnchorBaseline:RightKey:1777594.1258696
+AnchorBaseline:RightKey:1777594.2764038
+AnchorBaseline:RightKey:1777594.451676
+AnchorBaseline:DownKey:1777594.5789507
+AnchorBaseline:DownKey:1777594.8040277
+AnchorBaseline:DownKey:1777594.9546023
+AnchorBaseline:DownKey:1777595.1568276
+AnchorBaseline:LeftKey:1777595.3332323
+AnchorBaseline:LeftKey:1777595.509655
+AnchorBaseline:DownKey:1777595.6882732
+AnchorBaseline:UpKey:1777596.0453628
+AnchorBaseline:RightKey:1777596.2458766
+AnchorBaseline:RightKey:1777596.4476764
+AnchorBaseline:UpKey:1777596.6517813
+AnchorBaseline:UpKey:1777596.8534999
+AnchorBaseline:RightKey:1777597.0055992
+AnchorBaseline:Actions:[3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 4, 0, 0, 4, 3, 3, 3, 0, 3, 0, 4, 0, 0, 0, 1, 1, 0, 1, 0, 0, 4, 1, 1, 0, 0, 0, 0, 0, 0, 0, 3, 3, 2, 2, 3, 3, 3, 0, 3, 3, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 3, 4, 1, 1, 0, 0, 0, 0, 0, 3, 3, 3, 3, 2, 2, 3, 1, 0, 0, 1, 1, 0]
+AnchorBaseline:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_6.csv
+AnchorBaseline:Condition Begins: 1777597.03212
+AnchorBaseline:DownKey:1777598.0919238
+AnchorBaseline:DownKey:1777598.2170272
+AnchorBaseline:DownKey:1777598.3966124
+AnchorBaseline:DownKey:1777598.5483555
+AnchorBaseline:DownKey:1777598.6998793
+AnchorBaseline:RightKey:1777598.8516495
+AnchorBaseline:RightKey:1777599.0047422
+AnchorBaseline:DownKey:1777599.2094539
+AnchorBaseline:RightKey:1777599.3647178
+AnchorBaseline:DownKey:1777599.5167253
+AnchorBaseline:RightKey:1777599.8229828
+AnchorBaseline:RightKey:1777600.1019507
+AnchorBaseline:RightKey:1777600.3032775
+AnchorBaseline:RightKey:1777600.5043986
+AnchorBaseline:UpKey:1777600.7083138
+AnchorBaseline:SpaceKey:1777600.9632012
+AnchorBaseline:Tank Destroyed: 1777600.9635933
+AnchorBaseline:RightKey:1777601.0654062
+AnchorBaseline:RightKey:1777601.2686669
+AnchorBaseline:RightKey:1777601.6212228
+AnchorBaseline:SpaceKey:1777601.7724573
+AnchorBaseline:Tank Destroyed: 1777601.7727977
+AnchorBaseline:UpKey:1777601.8740014
+AnchorBaseline:UpKey:1777602.0244055
+AnchorBaseline:UpKey:1777602.1995513
+AnchorBaseline:SpaceKey:1777602.3763345
+AnchorBaseline:Tank Destroyed: 1777602.3765434
+AnchorBaseline:RightKey:1777602.527153
+AnchorBaseline:RightKey:1777602.6529156
+AnchorBaseline:DownKey:1777602.803936
+AnchorBaseline:DownKey:1777603.0063965
+AnchorBaseline:DownKey:1777603.1574992
+AnchorBaseline:DownKey:1777603.3338503
+AnchorBaseline:DownKey:1777603.4852033
+AnchorBaseline:DownKey:1777603.6372226
+AnchorBaseline:RightKey:1777603.8123631
+AnchorBaseline:RightKey:1777604.0135727
+AnchorBaseline:RightKey:1777604.1914432
+AnchorBaseline:UpKey:1777604.3440729
+AnchorBaseline:UpKey:1777604.545107
+AnchorBaseline:UpKey:1777604.7236772
+AnchorBaseline:UpKey:1777604.8749864
+AnchorBaseline:UpKey:1777605.0254272
+AnchorBaseline:UpKey:1777605.3026272
+AnchorBaseline:UpKey:1777605.5036066
+AnchorBaseline:RightKey:1777605.6310674
+AnchorBaseline:DownKey:1777605.733066
+AnchorBaseline:DownKey:1777605.9111621
+AnchorBaseline:RightKey:1777606.0899529
+AnchorBaseline:RightKey:1777606.3674926
+AnchorBaseline:RightKey:1777606.5189611
+AnchorBaseline:RightKey:1777606.7216047
+AnchorBaseline:DownKey:1777607.0003329
+AnchorBaseline:DownKey:1777607.1801145
+AnchorBaseline:DownKey:1777607.3339175
+AnchorBaseline:DownKey:1777607.512631
+AnchorBaseline:DownKey:1777607.6898971
+AnchorBaseline:DownKey:1777607.8670938
+AnchorBaseline:RightKey:1777608.0189351
+AnchorBaseline:RightKey:1777608.2234678
+AnchorBaseline:SpaceKey:1777608.376996
+AnchorBaseline:Tank Destroyed: 1777608.3771966
+AnchorBaseline:UpKey:1777608.477614
+AnchorBaseline:UpKey:1777608.6289095
+AnchorBaseline:UpKey:1777608.7816541
+AnchorBaseline:UpKey:1777608.960027
+AnchorBaseline:UpKey:1777609.1353658
+AnchorBaseline:UpKey:1777609.4899659
+AnchorBaseline:RightKey:1777609.5908239
+AnchorBaseline:RightKey:1777609.7947085
+AnchorBaseline:UpKey:1777610.0467552
+AnchorBaseline:RightKey:1777610.0470406
+AnchorBaseline:RightKey:1777610.2502537
+AnchorBaseline:UpKey:1777610.300267
+AnchorBaseline:RightKey:1777610.602309
+AnchorBaseline:SpaceKey:1777610.858308
+AnchorBaseline:Tank Destroyed: 1777610.8585138
+AnchorBaseline:DownKey:1777610.9343481
+AnchorBaseline:DownKey:1777611.1131025
+AnchorBaseline:DownKey:1777611.265509
+AnchorBaseline:RightKey:1777611.2909554
+AnchorBaseline:DownKey:1777611.5193372
+AnchorBaseline:RightKey:1777611.6957223
+AnchorBaseline:DownKey:1777611.8263475
+AnchorBaseline:DownKey:1777612.0050098
+AnchorBaseline:LeftKey:1777612.0819594
+AnchorBaseline:DownKey:1777612.2847997
+AnchorBaseline:LeftKey:1777612.2852589
+AnchorBaseline:RightKey:1777612.5640772
+AnchorBaseline:UpKey:1777612.6661051
+AnchorBaseline:DownKey:1777612.6914923
+AnchorBaseline:RightKey:1777613.2263217
+AnchorBaseline:RightKey:1777613.3514191
+AnchorBaseline:RightKey:1777613.4757455
+AnchorBaseline:RightKey:1777613.6267375
+AnchorBaseline:RightKey:1777613.7800093
+AnchorBaseline:RightKey:1777613.8824262
+AnchorBaseline:UpKey:1777614.0090701
+AnchorBaseline:UpKey:1777614.1853061
+AnchorBaseline:UpKey:1777614.3349223
+AnchorBaseline:UpKey:1777614.5124465
+AnchorBaseline:UpKey:1777614.6882261
+AnchorBaseline:UpKey:1777614.8656441
+AnchorBaseline:UpKey:1777615.041331
+AnchorBaseline:RightKey:1777615.0919486
+AnchorBaseline:RightKey:1777615.267999
+AnchorBaseline:RightKey:1777615.4207715
+AnchorBaseline:DownKey:1777615.5218687
+AnchorBaseline:DownKey:1777615.7246099
+AnchorBaseline:RightKey:1777615.8260027
+AnchorBaseline:DownKey:1777616.1281924
+AnchorBaseline:RightKey:1777616.4058045
+AnchorBaseline:Actions:[3, 3, 3, 3, 3, 0, 0, 3, 0, 3, 0, 0, 0, 0, 1, 4, 0, 0, 0, 4, 1, 1, 1, 4, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 3, 3, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 4, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 4, 3, 3, 3, 0, 3, 0, 3, 3, 2, 3, 2, 0, 1, 3, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 3, 3, 0, 3, 0]
+AnchorBaseline:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_top_5.csv
+AnchorBaseline:Condition Begins: 1777616.4312818
+AnchorBaseline:UpKey:1777617.4424041
+AnchorBaseline:UpKey:1777617.6182037
+AnchorBaseline:UpKey:1777617.767514
+AnchorBaseline:RightKey:1777617.9452695
+AnchorBaseline:RightKey:1777618.1230295
+AnchorBaseline:SpaceKey:1777618.2752071
+AnchorBaseline:Tank Destroyed: 1777618.2755426
+AnchorBaseline:UpKey:1777618.3755098
+AnchorBaseline:UpKey:1777618.5273123
+AnchorBaseline:RightKey:1777618.6802126
+AnchorBaseline:UpKey:1777618.7807953
+AnchorBaseline:UpKey:1777619.009769
+AnchorBaseline:RightKey:1777619.2119756
+AnchorBaseline:UpKey:1777619.3636293
+AnchorBaseline:UpKey:1777619.5667199
+AnchorBaseline:SpaceKey:1777619.8195744
+AnchorBaseline:Tank Destroyed: 1777619.8197765
+AnchorBaseline:RightKey:1777619.8707342
+AnchorBaseline:RightKey:1777620.0232016
+AnchorBaseline:RightKey:1777620.1993767
+AnchorBaseline:RightKey:1777620.3246338
+AnchorBaseline:DownKey:1777620.3765102
+AnchorBaseline:DownKey:1777620.5522742
+AnchorBaseline:DownKey:1777620.7286492
+AnchorBaseline:DownKey:1777620.8814558
+AnchorBaseline:DownKey:1777621.0605035
+AnchorBaseline:DownKey:1777621.211024
+AnchorBaseline:RightKey:1777621.4657832
+AnchorBaseline:RightKey:1777621.6715224
+AnchorBaseline:SpaceKey:1777621.9497603
+AnchorBaseline:Tank Destroyed: 1777621.9499572
+AnchorBaseline:RightKey:1777622.0263785
+AnchorBaseline:RightKey:1777622.1776063
+AnchorBaseline:UpKey:1777622.3553421
+AnchorBaseline:UpKey:1777622.5076723
+AnchorBaseline:UpKey:1777622.6873358
+AnchorBaseline:RightKey:1777622.8396822
+AnchorBaseline:RightKey:1777623.016333
+AnchorBaseline:SpaceKey:1777623.2180832
+AnchorBaseline:Tank Destroyed: 1777623.2182863
+AnchorBaseline:UpKey:1777623.3689701
+AnchorBaseline:UpKey:1777623.5491889
+AnchorBaseline:LeftKey:1777623.7008606
+AnchorBaseline:UpKey:1777623.8784106
+AnchorBaseline:RightKey:1777624.0055839
+AnchorBaseline:UpKey:1777624.3111385
+AnchorBaseline:RightKey:1777624.43776
+AnchorBaseline:SpaceKey:1777624.7153663
+AnchorBaseline:Tank Destroyed: 1777624.715562
+AnchorBaseline:RightKey:1777624.8412796
+AnchorBaseline:RightKey:1777625.0165962
+AnchorBaseline:DownKey:1777625.0926457
+AnchorBaseline:RightKey:1777625.271205
+AnchorBaseline:DownKey:1777625.2963474
+AnchorBaseline:DownKey:1777625.5257341
+AnchorBaseline:DownKey:1777625.6762309
+AnchorBaseline:DownKey:1777625.7518656
+AnchorBaseline:DownKey:1777625.8786481
+AnchorBaseline:RightKey:1777626.005822
+AnchorBaseline:RightKey:1777626.3117058
+AnchorBaseline:DownKey:1777626.3633326
+AnchorBaseline:DownKey:1777626.4899978
+AnchorBaseline:DownKey:1777626.6671718
+AnchorBaseline:RightKey:1777626.7446054
+AnchorBaseline:RightKey:1777626.9976899
+AnchorBaseline:UpKey:1777627.0490726
+AnchorBaseline:RightKey:1777627.2287988
+AnchorBaseline:UpKey:1777627.253575
+AnchorBaseline:RightKey:1777627.4313308
+AnchorBaseline:UpKey:1777627.4565127
+AnchorBaseline:UpKey:1777627.6095877
+AnchorBaseline:LeftKey:1777627.8137066
+AnchorBaseline:UpKey:1777627.8906005
+AnchorBaseline:RightKey:1777628.0684113
+AnchorBaseline:UpKey:1777628.1175231
+AnchorBaseline:UpKey:1777628.2926518
+AnchorBaseline:RightKey:1777628.574229
+AnchorBaseline:DownKey:1777628.7511128
+AnchorBaseline:RightKey:1777628.9542047
+AnchorBaseline:DownKey:1777629.1059687
+AnchorBaseline:RightKey:1777629.2571608
+AnchorBaseline:DownKey:1777629.3575321
+AnchorBaseline:DownKey:1777629.5097122
+AnchorBaseline:RightKey:1777629.5099725
+AnchorBaseline:RightKey:1777629.7126364
+AnchorBaseline:UpKey:1777629.9657313
+AnchorBaseline:RightKey:1777630.1437229
+AnchorBaseline:UpKey:1777630.3468869
+AnchorBaseline:RightKey:1777630.5744038
+AnchorBaseline:UpKey:1777630.6002871
+AnchorBaseline:UpKey:1777630.851822
+AnchorBaseline:RightKey:1777630.9031908
+AnchorBaseline:RightKey:1777631.1067879
+AnchorBaseline:DownKey:1777631.1824283
+AnchorBaseline:UpKey:1777631.1826852
+AnchorBaseline:UpKey:1777631.3593988
+AnchorBaseline:RightKey:1777631.6115797
+AnchorBaseline:UpKey:1777631.6615477
+AnchorBaseline:RightKey:1777631.864417
+AnchorBaseline:UpKey:1777631.8887914
+AnchorBaseline:DownKey:1777632.0900042
+AnchorBaseline:RightKey:1777632.1156164
+AnchorBaseline:RightKey:1777632.3183216
+AnchorBaseline:DownKey:1777632.3681234
+AnchorBaseline:RightKey:1777632.5957155
+AnchorBaseline:DownKey:1777632.596026
+AnchorBaseline:RightKey:1777632.8244135
+AnchorBaseline:DownKey:1777632.8488135
+AnchorBaseline:LeftKey:1777633.102019
+AnchorBaseline:DownKey:1777633.2800019
+AnchorBaseline:LeftKey:1777633.3053495
+AnchorBaseline:LeftKey:1777633.5574686
+AnchorBaseline:DownKey:1777633.6346481
+AnchorBaseline:RightKey:1777633.7873879
+AnchorBaseline:DownKey:1777634.0154574
+AnchorBaseline:RightKey:1777634.2409595
+AnchorBaseline:DownKey:1777634.2666704
+AnchorBaseline:RightKey:1777634.4721849
+AnchorBaseline:UpKey:1777634.4974211
+AnchorBaseline:UpKey:1777634.6996806
+AnchorBaseline:RightKey:1777634.9025595
+AnchorBaseline:UpKey:1777634.9533078
+AnchorBaseline:RightKey:1777635.2838409
+AnchorBaseline:UpKey:1777635.2841044
+AnchorBaseline:Actions:[1, 1, 1, 0, 0, 4, 1, 1, 0, 1, 1, 0, 1, 1, 4, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 4, 0, 0, 1, 1, 1, 0, 0, 4, 1, 1, 2, 1, 0, 1, 0, 4, 0, 0, 3, 0, 3, 3, 3, 3, 3, 0, 0, 3, 3, 3, 0, 0, 1, 0, 1, 0, 1, 1, 2, 1, 0, 1, 1, 0, 3, 0, 3, 0, 3, 3, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 3, 1, 1, 0, 1, 0, 1, 3, 0, 0, 3, 0, 3, 0, 3, 2, 3, 2, 2, 3, 0, 3, 0, 3, 0, 1, 1, 0, 1, 0, 1]
+AnchorBaseline:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_9.csv
+AnchorBaseline:Condition Begins: 1777635.3082971
+AnchorBaseline:UpKey:1777636.2897489
+AnchorBaseline:UpKey:1777636.7686968
+AnchorBaseline:UpKey:1777636.9465254
+AnchorBaseline:RightKey:1777637.0488827
+AnchorBaseline:UpKey:1777637.2250484
+AnchorBaseline:RightKey:1777637.2494941
+AnchorBaseline:RightKey:1777637.4501559
+AnchorBaseline:UpKey:1777637.4746264
+AnchorBaseline:RightKey:1777637.6788098
+AnchorBaseline:DownKey:1777637.9110026
+AnchorBaseline:DownKey:1777638.0892441
+AnchorBaseline:RightKey:1777638.317659
+AnchorBaseline:SpaceKey:1777638.6228237
+AnchorBaseline:Tank Destroyed: 1777638.6230439
+AnchorBaseline:UpKey:1777638.774001
+AnchorBaseline:UpKey:1777638.8990078
+AnchorBaseline:UpKey:1777639.0520781
+AnchorBaseline:RightKey:1777639.1037912
+AnchorBaseline:RightKey:1777639.2549782
+AnchorBaseline:UpKey:1777639.4324988
+AnchorBaseline:RightKey:1777639.4579699
+AnchorBaseline:RightKey:1777639.6613431
+AnchorBaseline:RightKey:1777639.9126081
+AnchorBaseline:UpKey:1777639.912881
+AnchorBaseline:UpKey:1777640.0886129
+AnchorBaseline:RightKey:1777640.2403713
+AnchorBaseline:DownKey:1777640.3915017
+AnchorBaseline:DownKey:1777640.5970516
+AnchorBaseline:RightKey:1777640.5973181
+AnchorBaseline:RightKey:1777640.7487868
+AnchorBaseline:RightKey:1777640.9513944
+AnchorBaseline:DownKey:1777640.9516534
+AnchorBaseline:RightKey:1777641.1549683
+AnchorBaseline:RightKey:1777641.3833305
+AnchorBaseline:DownKey:1777641.4582139
+AnchorBaseline:RightKey:1777641.7373334
+AnchorBaseline:UpKey:1777641.7619941
+AnchorBaseline:UpKey:1777641.9129623
+AnchorBaseline:SpaceKey:1777642.2438425
+AnchorBaseline:Tank Destroyed: 1777642.2440455
+AnchorBaseline:DownKey:1777642.4720225
+AnchorBaseline:RightKey:1777642.6510737
+AnchorBaseline:DownKey:1777642.651345
+AnchorBaseline:DownKey:1777642.8020192
+AnchorBaseline:RightKey:1777642.9539819
+AnchorBaseline:DownKey:1777643.0551638
+AnchorBaseline:UpKey:1777643.2566057
+AnchorBaseline:RightKey:1777643.4831925
+AnchorBaseline:UpKey:1777643.5595246
+AnchorBaseline:RightKey:1777643.737482
+AnchorBaseline:UpKey:1777643.7634661
+AnchorBaseline:RightKey:1777643.9435196
+AnchorBaseline:UpKey:1777643.9943474
+AnchorBaseline:RightKey:1777644.2211087
+AnchorBaseline:UpKey:1777644.246793
+AnchorBaseline:RightKey:1777644.4254735
+AnchorBaseline:UpKey:1777644.4257384
+AnchorBaseline:RightKey:1777644.6513204
+AnchorBaseline:DownKey:1777644.7008025
+AnchorBaseline:DownKey:1777644.9037021
+AnchorBaseline:RightKey:1777644.9294038
+AnchorBaseline:RightKey:1777645.1313538
+AnchorBaseline:DownKey:1777645.1559003
+AnchorBaseline:RightKey:1777645.3582559
+AnchorBaseline:DownKey:1777645.4327714
+AnchorBaseline:RightKey:1777645.534497
+AnchorBaseline:DownKey:1777645.5599311
+AnchorBaseline:RightKey:1777645.7371722
+AnchorBaseline:DownKey:1777645.7623019
+AnchorBaseline:DownKey:1777645.9902699
+AnchorBaseline:RightKey:1777646.0402573
+AnchorBaseline:LeftKey:1777646.2421904
+AnchorBaseline:LeftKey:1777646.4930822
+AnchorBaseline:DownKey:1777646.4933786
+AnchorBaseline:LeftKey:1777646.773733
+AnchorBaseline:DownKey:1777646.9012502
+AnchorBaseline:SpaceKey:1777647.0789522
+AnchorBaseline:Tank Destroyed: 1777647.0791609
+AnchorBaseline:UpKey:1777647.2293676
+AnchorBaseline:RightKey:1777647.4049159
+AnchorBaseline:UpKey:1777647.4804352
+AnchorBaseline:RightKey:1777647.6564548
+AnchorBaseline:UpKey:1777647.6807417
+AnchorBaseline:RightKey:1777647.8596278
+AnchorBaseline:UpKey:1777647.9357754
+AnchorBaseline:DownKey:1777648.2900768
+AnchorBaseline:RightKey:1777648.4677325
+AnchorBaseline:SpaceKey:1777648.7708664
+AnchorBaseline:Tank Destroyed: 1777648.7710643
+AnchorBaseline:RightKey:1777648.8980903
+AnchorBaseline:UpKey:1777648.9238679
+AnchorBaseline:RightKey:1777649.1274318
+AnchorBaseline:UpKey:1777649.2024092
+AnchorBaseline:RightKey:1777649.3518748
+AnchorBaseline:UpKey:1777649.3521489
+AnchorBaseline:RightKey:1777649.5516308
+AnchorBaseline:UpKey:1777649.577369
+AnchorBaseline:RightKey:1777649.7782289
+AnchorBaseline:UpKey:1777649.7785368
+AnchorBaseline:RightKey:1777650.0324531
+AnchorBaseline:UpKey:1777650.0327196
+AnchorBaseline:RightKey:1777650.2584585
+AnchorBaseline:RightKey:1777650.5122691
+AnchorBaseline:DownKey:1777650.5620814
+AnchorBaseline:RightKey:1777650.7648112
+AnchorBaseline:DownKey:1777650.7901193
+AnchorBaseline:RightKey:1777650.9927081
+AnchorBaseline:DownKey:1777651.0453116
+AnchorBaseline:DownKey:1777651.2985405
+AnchorBaseline:SpaceKey:1777651.5746088
+AnchorBaseline:Tank Destroyed: 1777651.5749414
+AnchorBaseline:RightKey:1777651.6765731
+AnchorBaseline:RightKey:1777651.8538922
+AnchorBaseline:RightKey:1777652.1823876
+AnchorBaseline:Actions:[1, 1, 1, 0, 1, 0, 0, 1, 0, 3, 3, 0, 4, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 3, 3, 0, 0, 0, 3, 0, 0, 3, 0, 1, 1, 4, 3, 0, 3, 3, 0, 3, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 3, 3, 0, 0, 3, 0, 3, 0, 3, 0, 3, 3, 0, 2, 2, 3, 2, 3, 4, 1, 0, 1, 0, 1, 0, 1, 3, 0, 4, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 3, 0, 3, 0, 3, 3, 4, 0, 0, 0]
+AnchorBaseline:Level Completed.
+RuralTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Rural_20_2.csv
+RuralTraining:Condition Begins: 1777657.9116605
+RuralTraining:DownKey:1777659.6603459
+RuralTraining:RightKey:1777659.9142064
+RuralTraining:RightKey:1777660.0923499
+RuralTraining:RightKey:1777660.2693635
+RuralTraining:SpaceKey:1777660.3974896
+RuralTraining:Tank Destroyed: 1777660.3977002
+RuralTraining:RightKey:1777660.499771
+RuralTraining:RightKey:1777660.6534585
+RuralTraining:RightKey:1777660.8025998
+RuralTraining:RightKey:1777660.956275
+RuralTraining:RightKey:1777661.1077507
+RuralTraining:RightKey:1777661.2603732
+RuralTraining:RightKey:1777661.4369414
+RuralTraining:SpaceKey:1777661.5621163
+RuralTraining:Tank Destroyed: 1777661.5623298
+RuralTraining:DownKey:1777661.6895786
+RuralTraining:RightKey:1777661.8390613
+RuralTraining:RightKey:1777662.016583
+RuralTraining:RightKey:1777662.198221
+RuralTraining:RightKey:1777662.3733316
+RuralTraining:RightKey:1777662.7547791
+RuralTraining:DownKey:1777662.9564458
+RuralTraining:SpaceKey:1777663.2343414
+RuralTraining:Tank Destroyed: 1777663.2346962
+RuralTraining:UpKey:1777663.3350238
+RuralTraining:UpKey:1777663.4618468
+RuralTraining:UpKey:1777663.6134754
+RuralTraining:UpKey:1777663.7649119
+RuralTraining:UpKey:1777663.9676434
+RuralTraining:SpaceKey:1777664.2013977
+RuralTraining:Tank Destroyed: 1777664.2017012
+RuralTraining:LeftKey:1777664.2781169
+RuralTraining:SpaceKey:1777664.5852045
+RuralTraining:Tank Destroyed: 1777664.5854092
+RuralTraining:RightKey:1777664.6884513
+RuralTraining:RightKey:1777664.891484
+RuralTraining:UpKey:1777665.122425
+RuralTraining:SpaceKey:1777665.2781136
+RuralTraining:Tank Destroyed: 1777665.2783156
+RuralTraining:RightKey:1777665.4542352
+RuralTraining:RightKey:1777665.6320209
+RuralTraining:SpaceKey:1777665.8318503
+RuralTraining:Tank Destroyed: 1777665.8320641
+RuralTraining:RightKey:1777665.9071059
+RuralTraining:RightKey:1777666.0822515
+RuralTraining:RightKey:1777666.2336813
+RuralTraining:RightKey:1777666.3850279
+RuralTraining:RightKey:1777666.5379106
+RuralTraining:RightKey:1777666.6655332
+RuralTraining:RightKey:1777666.791791
+RuralTraining:RightKey:1777666.994163
+RuralTraining:SpaceKey:1777667.1488283
+RuralTraining:Tank Destroyed: 1777667.1490625
+RuralTraining:DownKey:1777667.2508307
+RuralTraining:DownKey:1777667.428023
+RuralTraining:SpaceKey:1777667.6293161
+RuralTraining:Tank Destroyed: 1777667.6295188
+RuralTraining:DownKey:1777668.3931744
+RuralTraining:SpaceKey:1777668.5695095
+RuralTraining:Tank Destroyed: 1777668.5697128
+RuralTraining:Tank Destroyed: 1777668.5710882
+RuralTraining:SpaceKey:1777668.7722029
+RuralTraining:DownKey:1777669.0489368
+RuralTraining:RightKey:1777669.2012401
+RuralTraining:RightKey:1777669.3768472
+RuralTraining:RightKey:1777669.6054553
+RuralTraining:SpaceKey:1777669.8847003
+RuralTraining:Tank Destroyed: 1777669.8849071
+RuralTraining:DownKey:1777670.0618185
+RuralTraining:SpaceKey:1777670.4408668
+RuralTraining:Tank Destroyed: 1777670.4410671
+RuralTraining:DownKey:1777670.6958575
+RuralTraining:SpaceKey:1777670.8485724
+RuralTraining:Tank Destroyed: 1777670.8487742
+RuralTraining:RightKey:1777671.0006823
+RuralTraining:SpaceKey:1777671.3311097
+RuralTraining:Tank Destroyed: 1777671.3313135
+RuralTraining:UpKey:1777671.4579438
+RuralTraining:UpKey:1777671.6362207
+RuralTraining:RightKey:1777671.6607949
+RuralTraining:RightKey:1777671.8378135
+RuralTraining:RightKey:1777672.0157915
+RuralTraining:UpKey:1777672.3734807
+RuralTraining:SpaceKey:1777672.5507431
+RuralTraining:Tank Destroyed: 1777672.5509513
+RuralTraining:UpKey:1777679.3177573
+RuralTraining:RightKey:1777679.6244467
+RuralTraining:UpKey:1777679.9798367
+RuralTraining:UpKey:1777680.2070673
+RuralTraining:SpaceKey:1777680.4607902
+RuralTraining:Tank Destroyed: 1777680.4609948
+RuralTraining:RightKey:1777680.688167
+RuralTraining:RightKey:1777680.8897272
+RuralTraining:RightKey:1777681.0930513
+RuralTraining:DownKey:1777681.2936599
+RuralTraining:SpaceKey:1777681.4466874
+RuralTraining:Tank Destroyed: 1777681.4468962
+RuralTraining:DownKey:1777681.6501188
+RuralTraining:DownKey:1777681.8291257
+RuralTraining:DownKey:1777682.0057896
+RuralTraining:DownKey:1777682.1855139
+RuralTraining:DownKey:1777682.5660329
+RuralTraining:SpaceKey:1777682.7666846
+RuralTraining:Tank Destroyed: 1777682.7670305
+RuralTraining:UpKey:1777682.917944
+RuralTraining:UpKey:1777683.1202465
+RuralTraining:UpKey:1777683.2976001
+RuralTraining:UpKey:1777683.500949
+RuralTraining:RightKey:1777683.7799474
+RuralTraining:RightKey:1777684.0077083
+RuralTraining:Actions:[3, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4, 3, 0, 0, 0, 0, 0, 3, 4, 1, 1, 1, 1, 1, 4, 2, 4, 0, 0, 1, 4, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 4, 3, 3, 4, 3, 4, 4, 3, 0, 0, 0, 4, 3, 4, 3, 4, 0, 4, 1, 1, 0, 0, 0, 1, 4, 1, 0, 1, 1, 4, 0, 0, 0, 3, 4, 3, 3, 3, 3, 3, 4, 1, 1, 1, 1, 0, 0]
+RuralTraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_4.csv
+AnchoringMask:Condition Begins: 1777690.7839329
+AnchoringMask:RightKey:1777692.384388
+AnchoringMask:RightKey:1777692.5358584
+AnchoringMask:RightKey:1777692.6649575
+AnchoringMask:RightKey:1777692.7909572
+AnchoringMask:RightKey:1777692.9436563
+AnchoringMask:RightKey:1777693.0715483
+AnchoringMask:RightKey:1777693.1969141
+AnchoringMask:RightKey:1777693.2980419
+AnchoringMask:RightKey:1777693.4491835
+AnchoringMask:RightKey:1777693.5510379
+AnchoringMask:RightKey:1777693.6777797
+AnchoringMask:RightKey:1777693.8061824
+AnchoringMask:RightKey:1777694.0103237
+AnchoringMask:RightKey:1777694.2625305
+AnchoringMask:RightKey:1777694.4151021
+AnchoringMask:RightKey:1777694.5930182
+AnchoringMask:RightKey:1777694.7186983
+AnchoringMask:PowerUp Reached: 1777694.7189528
+AnchoringMask:RightKey:1777694.8462882
+AnchoringMask:PowerUp Reached: 1777694.8465458
+AnchoringMask:RightKey:1777694.9716911
+AnchoringMask:PowerUp Reached: 1777694.9719475
+AnchoringMask:RightKey:1777695.0734445
+AnchoringMask:RightKey:1777695.2017866
+AnchoringMask:RightKey:1777695.3293362
+AnchoringMask:RightKey:1777695.4557169
+AnchoringMask:RightKey:1777695.5568067
+AnchoringMask:RightKey:1777695.6582064
+AnchoringMask:RightKey:1777695.8369541
+AnchoringMask:RightKey:1777695.9393091
+AnchoringMask:RightKey:1777696.0153255
+AnchoringMask:RightKey:1777696.115884
+AnchoringMask:RightKey:1777696.2953711
+AnchoringMask:RightKey:1777696.549206
+AnchoringMask:RightKey:1777696.6238724
+AnchoringMask:RightKey:1777696.9037319
+AnchoringMask:RightKey:1777697.0540086
+AnchoringMask:RightKey:1777697.2573483
+AnchoringMask:RightKey:1777697.4075073
+AnchoringMask:RightKey:1777697.5609297
+AnchoringMask:RightKey:1777697.7630512
+AnchoringMask:RightKey:1777698.0159101
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+AnchoringMask:Level Completed.
+Urbantraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Urban_5_4.csv
+Urbantraining:Condition Begins: 1777700.9588135
+Urbantraining:RightKey:1777702.4791839
+Urbantraining:RightKey:1777702.6554722
+Urbantraining:RightKey:1777702.8080644
+Urbantraining:RightKey:1777702.9602117
+Urbantraining:RightKey:1777703.1121594
+Urbantraining:RightKey:1777703.2644607
+Urbantraining:RightKey:1777703.418039
+Urbantraining:RightKey:1777703.5711677
+Urbantraining:RightKey:1777704.2064424
+Urbantraining:RightKey:1777704.6664749
+Urbantraining:RightKey:1777704.8703856
+Urbantraining:DownKey:1777705.1216098
+Urbantraining:DownKey:1777705.3010511
+Urbantraining:DownKey:1777705.4521246
+Urbantraining:SpaceKey:1777705.6789635
+Urbantraining:Tank Destroyed: 1777705.6791642
+Urbantraining:UpKey:1777705.7572517
+Urbantraining:UpKey:1777705.9103401
+Urbantraining:UpKey:1777706.0611889
+Urbantraining:UpKey:1777706.2379247
+Urbantraining:RightKey:1777706.3908221
+Urbantraining:RightKey:1777706.5424658
+Urbantraining:RightKey:1777706.6948611
+Urbantraining:RightKey:1777706.8707284
+Urbantraining:RightKey:1777707.0230905
+Urbantraining:RightKey:1777707.2272913
+Urbantraining:SpaceKey:1777707.4051369
+Urbantraining:Tank Destroyed: 1777707.4053353
+Urbantraining:SpaceKey:1777707.5315867
+Urbantraining:Tank Destroyed: 1777707.5317849
+Urbantraining:RightKey:1777707.660195
+Urbantraining:RightKey:1777707.8361875
+Urbantraining:RightKey:1777707.9867587
+Urbantraining:RightKey:1777708.1394675
+Urbantraining:RightKey:1777708.2933026
+Urbantraining:RightKey:1777708.4717968
+Urbantraining:DownKey:1777708.6261009
+Urbantraining:DownKey:1777708.8031506
+Urbantraining:RightKey:1777708.878383
+Urbantraining:RightKey:1777709.2064295
+Urbantraining:DownKey:1777709.4344042
+Urbantraining:DownKey:1777709.7124014
+Urbantraining:DownKey:1777709.9390371
+Urbantraining:RightKey:1777710.11648
+Urbantraining:RightKey:1777710.3202091
+Urbantraining:SpaceKey:1777710.4475774
+Urbantraining:Tank Destroyed: 1777710.447769
+Urbantraining:RightKey:1777710.5750288
+Urbantraining:RightKey:1777710.7273962
+Urbantraining:RightKey:1777710.8784849
+Urbantraining:UpKey:1777711.0299393
+Urbantraining:UpKey:1777711.2083725
+Urbantraining:UpKey:1777711.3607877
+Urbantraining:RightKey:1777711.6401032
+Urbantraining:SpaceKey:1777711.7901895
+Urbantraining:Tank Destroyed: 1777711.7903848
+Urbantraining:RightKey:1777711.9434163
+Urbantraining:RightKey:1777712.1434936
+Urbantraining:RightKey:1777712.3487814
+Urbantraining:RightKey:1777712.4995313
+Urbantraining:RightKey:1777712.6776953
+Urbantraining:RightKey:1777712.8823044
+Urbantraining:DownKey:1777712.9067004
+Urbantraining:DownKey:1777713.2127389
+Urbantraining:SpaceKey:1777713.4906222
+Urbantraining:Tank Destroyed: 1777713.4908395
+Urbantraining:UpKey:1777713.6435495
+Urbantraining:UpKey:1777713.7987468
+Urbantraining:UpKey:1777713.9514898
+Urbantraining:UpKey:1777714.1300657
+Urbantraining:RightKey:1777714.3328237
+Urbantraining:RightKey:1777714.5358232
+Urbantraining:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 4, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3, 3, 0, 0, 4, 0, 0, 0, 1, 1, 1, 0, 4, 0, 0, 0, 0, 0, 0, 3, 3, 4, 1, 1, 1, 1, 0, 0]
+Urbantraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_6.csv
+AnchoringMask:Condition Begins: 1777714.5503667
+AnchoringMask:RightKey:1777715.43344
+AnchoringMask:RightKey:1777715.5857805
+AnchoringMask:RightKey:1777715.7378303
+AnchoringMask:RightKey:1777715.8663691
+AnchoringMask:RightKey:1777716.0190414
+AnchoringMask:RightKey:1777716.1712933
+AnchoringMask:RightKey:1777716.3230308
+AnchoringMask:RightKey:1777716.5997613
+AnchoringMask:RightKey:1777716.777324
+AnchoringMask:RightKey:1777716.9541057
+AnchoringMask:RightKey:1777717.1064192
+AnchoringMask:RightKey:1777717.2344333
+AnchoringMask:UpKey:1777717.5880947
+AnchoringMask:UpKey:1777717.7653885
+AnchoringMask:RightKey:1777717.9411058
+AnchoringMask:RightKey:1777718.0926695
+AnchoringMask:PowerUp Reached: 1777718.092922
+AnchoringMask:RightKey:1777718.2714585
+AnchoringMask:RightKey:1777718.4232159
+AnchoringMask:PowerUp Reached: 1777718.4234721
+AnchoringMask:RightKey:1777718.7040092
+AnchoringMask:RightKey:1777718.9085092
+AnchoringMask:PowerUp Reached: 1777718.9087737
+AnchoringMask:RightKey:1777719.0857434
+AnchoringMask:RightKey:1777719.6934824
+AnchoringMask:RightKey:1777719.8730475
+AnchoringMask:RightKey:1777720.0240634
+AnchoringMask:DownKey:1777720.2020326
+AnchoringMask:RightKey:1777720.3791188
+AnchoringMask:RightKey:1777720.5552048
+AnchoringMask:RightKey:1777720.7071234
+AnchoringMask:RightKey:1777720.8357823
+AnchoringMask:RightKey:1777720.9899737
+AnchoringMask:RightKey:1777721.0911279
+AnchoringMask:RightKey:1777721.2165134
+AnchoringMask:RightKey:1777721.6501682
+AnchoringMask:RightKey:1777721.8288685
+AnchoringMask:RightKey:1777721.9809992
+AnchoringMask:RightKey:1777722.1332719
+AnchoringMask:RightKey:1777722.3093645
+AnchoringMask:DownKey:1777722.4613107
+AnchoringMask:RightKey:1777722.6122118
+AnchoringMask:RightKey:1777722.7875028
+AnchoringMask:RightKey:1777722.9638006
+AnchoringMask:RightKey:1777723.1177587
+AnchoringMask:RightKey:1777723.3960753
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0]
+AnchoringMask:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_8.csv
+AnchorBaseline:Condition Begins: 1777723.4232455
+AnchorBaseline:DownKey:1777726.8321103
+AnchorBaseline:DownKey:1777727.0068422
+AnchorBaseline:DownKey:1777727.3607604
+AnchorBaseline:DownKey:1777727.5132565
+AnchorBaseline:RightKey:1777727.6891388
+AnchorBaseline:RightKey:1777727.8404806
+AnchorBaseline:RightKey:1777728.0190747
+AnchorBaseline:RightKey:1777728.1941704
+AnchorBaseline:UpKey:1777728.4205842
+AnchorBaseline:SpaceKey:1777728.5729713
+AnchorBaseline:Tank Destroyed: 1777728.5734144
+AnchorBaseline:DownKey:1777728.8028484
+AnchorBaseline:DownKey:1777729.0049548
+AnchorBaseline:DownKey:1777729.1311442
+AnchorBaseline:DownKey:1777729.3068011
+AnchorBaseline:DownKey:1777729.4608336
+AnchorBaseline:DownKey:1777729.6627101
+AnchorBaseline:RightKey:1777729.7904881
+AnchorBaseline:RightKey:1777729.9694881
+AnchorBaseline:RightKey:1777730.1225098
+AnchorBaseline:UpKey:1777730.3271625
+AnchorBaseline:UpKey:1777730.5037164
+AnchorBaseline:RightKey:1777730.7079182
+AnchorBaseline:UpKey:1777730.7081997
+AnchorBaseline:RightKey:1777731.0383865
+AnchorBaseline:SpaceKey:1777731.2665801
+AnchorBaseline:Tank Destroyed: 1777731.2669084
+AnchorBaseline:UpKey:1777731.4452091
+AnchorBaseline:RightKey:1777731.5964001
+AnchorBaseline:RightKey:1777731.999276
+AnchorBaseline:RightKey:1777732.1516866
+AnchorBaseline:UpKey:1777732.2791022
+AnchorBaseline:UpKey:1777732.5813767
+AnchorBaseline:RightKey:1777732.7603075
+AnchorBaseline:DownKey:1777732.8361473
+AnchorBaseline:RightKey:1777733.0391816
+AnchorBaseline:DownKey:1777733.0641243
+AnchorBaseline:RightKey:1777733.2404572
+AnchorBaseline:RightKey:1777733.3667039
+AnchorBaseline:RightKey:1777733.5443549
+AnchorBaseline:UpKey:1777733.7947348
+AnchorBaseline:UpKey:1777733.9709678
+AnchorBaseline:RightKey:1777734.0965541
+AnchorBaseline:DownKey:1777734.1746142
+AnchorBaseline:DownKey:1777734.3540651
+AnchorBaseline:DownKey:1777734.5296548
+AnchorBaseline:RightKey:1777734.5809025
+AnchorBaseline:DownKey:1777734.8329585
+AnchorBaseline:DownKey:1777735.0155214
+AnchorBaseline:RightKey:1777735.1925404
+AnchorBaseline:RightKey:1777735.3933348
+AnchorBaseline:RightKey:1777735.5690338
+AnchorBaseline:RightKey:1777735.747595
+AnchorBaseline:RightKey:1777735.9259111
+AnchorBaseline:DownKey:1777736.1034301
+AnchorBaseline:DownKey:1777736.3328333
+AnchorBaseline:SpaceKey:1777736.5864308
+AnchorBaseline:Tank Destroyed: 1777736.5866289
+AnchorBaseline:UpKey:1777736.7114666
+AnchorBaseline:UpKey:1777736.8881585
+AnchorBaseline:UpKey:1777737.0652708
+AnchorBaseline:UpKey:1777737.217944
+AnchorBaseline:UpKey:1777737.3463505
+AnchorBaseline:UpKey:1777737.5221085
+AnchorBaseline:UpKey:1777737.723526
+AnchorBaseline:UpKey:1777737.8751076
+AnchorBaseline:UpKey:1777738.1049779
+AnchorBaseline:RightKey:1777738.2833944
+AnchorBaseline:RightKey:1777738.484747
+AnchorBaseline:RightKey:1777738.6381849
+AnchorBaseline:DownKey:1777738.8145695
+AnchorBaseline:DownKey:1777739.0160816
+AnchorBaseline:RightKey:1777739.1174509
+AnchorBaseline:DownKey:1777739.2447736
+AnchorBaseline:DownKey:1777739.4497939
+AnchorBaseline:RightKey:1777739.4500561
+AnchorBaseline:RightKey:1777739.7025672
+AnchorBaseline:DownKey:1777739.7028242
+AnchorBaseline:RightKey:1777740.1081809
+AnchorBaseline:DownKey:1777740.2581201
+AnchorBaseline:RightKey:1777740.5113456
+AnchorBaseline:RightKey:1777740.7152817
+AnchorBaseline:RightKey:1777740.8927525
+AnchorBaseline:SpaceKey:1777741.1457757
+AnchorBaseline:Tank Destroyed: 1777741.1459801
+AnchorBaseline:UpKey:1777741.2483024
+AnchorBaseline:UpKey:1777741.3992179
+AnchorBaseline:UpKey:1777741.5519097
+AnchorBaseline:UpKey:1777741.7293028
+AnchorBaseline:UpKey:1777741.9297677
+AnchorBaseline:RightKey:1777741.9300236
+AnchorBaseline:RightKey:1777742.2837614
+AnchorBaseline:RightKey:1777742.4874995
+AnchorBaseline:SpaceKey:1777742.7408247
+AnchorBaseline:Tank Destroyed: 1777742.7410271
+AnchorBaseline:DownKey:1777742.86974
+AnchorBaseline:RightKey:1777742.9971771
+AnchorBaseline:DownKey:1777743.1230291
+AnchorBaseline:DownKey:1777743.3265093
+AnchorBaseline:DownKey:1777743.5300934
+AnchorBaseline:DownKey:1777743.7341373
+AnchorBaseline:UpKey:1777743.9595571
+AnchorBaseline:UpKey:1777744.1360995
+AnchorBaseline:RightKey:1777744.263416
+AnchorBaseline:RightKey:1777744.4411168
+AnchorBaseline:Actions:[3, 3, 3, 3, 0, 0, 0, 0, 1, 4, 3, 3, 3, 3, 3, 3, 0, 0, 0, 1, 1, 0, 1, 0, 4, 1, 0, 0, 0, 1, 1, 0, 3, 0, 3, 0, 0, 0, 1, 1, 0, 3, 3, 3, 0, 3, 3, 0, 0, 0, 0, 0, 3, 3, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 3, 3, 0, 3, 3, 0, 0, 3, 0, 3, 0, 0, 0, 4, 1, 1, 1, 1, 1, 0, 0, 0, 4, 3, 0, 3, 3, 3, 3, 1, 1, 0, 0]
+AnchorBaseline:Level Completed.
+RuralTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Rural_20_5.csv
+RuralTraining:Condition Begins: 1777744.4675785
+RuralTraining:RightKey:1777745.5726258
+RuralTraining:RightKey:1777745.7500784
+RuralTraining:RightKey:1777745.9297285
+RuralTraining:SpaceKey:1777746.0065519
+RuralTraining:Tank Destroyed: 1777746.0069438
+RuralTraining:RightKey:1777746.1351005
+RuralTraining:RightKey:1777746.3156062
+RuralTraining:RightKey:1777746.4690847
+RuralTraining:RightKey:1777746.6210506
+RuralTraining:RightKey:1777746.8481129
+RuralTraining:DownKey:1777746.899762
+RuralTraining:SpaceKey:1777747.2301961
+RuralTraining:Tank Destroyed: 1777747.2303973
+RuralTraining:SpaceKey:1777747.3572133
+RuralTraining:Tank Destroyed: 1777747.3574282
+RuralTraining:DownKey:1777747.6346016
+RuralTraining:SpaceKey:1777747.7622266
+RuralTraining:Tank Destroyed: 1777747.7624282
+RuralTraining:RightKey:1777747.9644806
+RuralTraining:RightKey:1777748.1163618
+RuralTraining:RightKey:1777748.3167947
+RuralTraining:SpaceKey:1777748.3936477
+RuralTraining:Tank Destroyed: 1777748.3938489
+RuralTraining:UpKey:1777748.5458211
+RuralTraining:UpKey:1777748.7254865
+RuralTraining:RightKey:1777748.8777953
+RuralTraining:RightKey:1777749.0804862
+RuralTraining:RightKey:1777749.2560681
+RuralTraining:SpaceKey:1777749.4090704
+RuralTraining:Tank Destroyed: 1777749.4092729
+RuralTraining:DownKey:1777749.5865988
+RuralTraining:RightKey:1777749.741421
+RuralTraining:SpaceKey:1777749.8932072
+RuralTraining:Tank Destroyed: 1777749.8934073
+RuralTraining:DownKey:1777750.0449824
+RuralTraining:RightKey:1777750.2194918
+RuralTraining:DownKey:1777750.5488581
+RuralTraining:SpaceKey:1777750.6993622
+RuralTraining:Tank Destroyed: 1777750.6995603
+RuralTraining:UpKey:1777750.8510563
+RuralTraining:UpKey:1777751.0287934
+RuralTraining:UpKey:1777751.1817275
+RuralTraining:UpKey:1777751.3609901
+RuralTraining:UpKey:1777751.5635241
+RuralTraining:RightKey:1777751.6920291
+RuralTraining:RightKey:1777751.8922933
+RuralTraining:RightKey:1777752.0428153
+RuralTraining:RightKey:1777752.1958068
+RuralTraining:UpKey:1777752.3978798
+RuralTraining:UpKey:1777752.6011445
+RuralTraining:RightKey:1777752.7790745
+RuralTraining:SpaceKey:1777752.9330981
+RuralTraining:Tank Destroyed: 1777752.933333
+RuralTraining:Tank Destroyed: 1777752.9347005
+RuralTraining:SpaceKey:1777753.0849288
+RuralTraining:RightKey:1777753.415335
+RuralTraining:RightKey:1777753.5917201
+RuralTraining:UpKey:1777753.7689759
+RuralTraining:RightKey:1777753.9213439
+RuralTraining:RightKey:1777754.1224064
+RuralTraining:RightKey:1777754.3249089
+RuralTraining:SpaceKey:1777754.4528521
+RuralTraining:Tank Destroyed: 1777754.4530491
+RuralTraining:RightKey:1777754.5540906
+RuralTraining:RightKey:1777754.704623
+RuralTraining:RightKey:1777754.8828845
+RuralTraining:DownKey:1777755.009398
+RuralTraining:DownKey:1777755.2117712
+RuralTraining:SpaceKey:1777755.3658114
+RuralTraining:Tank Destroyed: 1777755.3662179
+RuralTraining:LeftKey:1777755.5718848
+RuralTraining:LeftKey:1777755.7503869
+RuralTraining:LeftKey:1777755.9287613
+RuralTraining:UpKey:1777756.0801779
+RuralTraining:DownKey:1777756.080491
+RuralTraining:DownKey:1777756.2565014
+RuralTraining:DownKey:1777756.4351488
+RuralTraining:DownKey:1777756.5870459
+RuralTraining:SpaceKey:1777756.890838
+RuralTraining:Tank Destroyed: 1777756.8910365
+RuralTraining:SpaceKey:1777757.1934324
+RuralTraining:Tank Destroyed: 1777757.193631
+RuralTraining:LeftKey:1777757.4991875
+RuralTraining:DownKey:1777757.7035639
+RuralTraining:SpaceKey:1777757.9580254
+RuralTraining:Tank Destroyed: 1777757.9582241
+RuralTraining:DownKey:1777758.1868689
+RuralTraining:DownKey:1777758.3650899
+RuralTraining:LeftKey:1777758.5656787
+RuralTraining:LeftKey:1777758.7191571
+RuralTraining:SpaceKey:1777758.8725549
+RuralTraining:Tank Destroyed: 1777758.872914
+RuralTraining:RightKey:1777759.0010587
+RuralTraining:RightKey:1777759.1758013
+RuralTraining:RightKey:1777759.3274938
+RuralTraining:SpaceKey:1777759.7338775
+RuralTraining:Tank Destroyed: 1777759.7340869
+RuralTraining:UpKey:1777760.191437
+RuralTraining:UpKey:1777760.367157
+RuralTraining:UpKey:1777760.5434526
+RuralTraining:RightKey:1777760.5693855
+RuralTraining:RightKey:1777760.7444111
+RuralTraining:RightKey:1777760.8978761
+RuralTraining:RightKey:1777761.0508397
+RuralTraining:RightKey:1777761.2567063
+RuralTraining:RightKey:1777761.4112428
+RuralTraining:RightKey:1777761.6145296
+RuralTraining:RightKey:1777761.8188053
+RuralTraining:UpKey:1777761.921156
+RuralTraining:UpKey:1777762.1229967
+RuralTraining:RightKey:1777762.4018435
+RuralTraining:SpaceKey:1777762.8087175
+RuralTraining:Tank Destroyed: 1777762.8089268
+RuralTraining:SpaceKey:1777762.9622311
+RuralTraining:Tank Destroyed: 1777762.9624353
+RuralTraining:UpKey:1777763.2404241
+RuralTraining:UpKey:1777763.419701
+RuralTraining:RightKey:1777763.6476911
+RuralTraining:SpaceKey:1777763.8251179
+RuralTraining:Tank Destroyed: 1777763.8253239
+RuralTraining:LeftKey:1777763.9773122
+RuralTraining:LeftKey:1777764.179549
+RuralTraining:LeftKey:1777764.435824
+RuralTraining:UpKey:1777764.663226
+RuralTraining:SpaceKey:1777764.8413029
+RuralTraining:Tank Destroyed: 1777764.841503
+RuralTraining:RightKey:1777764.9430345
+RuralTraining:RightKey:1777765.12505
+RuralTraining:RightKey:1777765.2776047
+RuralTraining:RightKey:1777765.4299314
+RuralTraining:RightKey:1777765.5814143
+RuralTraining:DownKey:1777765.6575424
+RuralTraining:DownKey:1777765.8357098
+RuralTraining:DownKey:1777765.9901228
+RuralTraining:DownKey:1777766.3171018
+RuralTraining:RightKey:1777766.5189431
+RuralTraining:Actions:[0, 0, 0, 4, 0, 0, 0, 0, 0, 3, 4, 4, 3, 4, 0, 0, 0, 4, 1, 1, 0, 0, 0, 4, 3, 0, 4, 3, 0, 3, 4, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 4, 4, 0, 0, 1, 0, 0, 0, 4, 0, 0, 0, 3, 3, 4, 2, 2, 2, 1, 3, 3, 3, 3, 4, 4, 2, 3, 4, 3, 3, 2, 2, 4, 0, 0, 0, 4, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 4, 4, 1, 1, 0, 4, 2, 2, 2, 1, 4, 0, 0, 0, 0, 0, 3, 3, 3, 3, 0]
+RuralTraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_2.csv
+AnchoringMask:Condition Begins: 1777766.5332095
+AnchoringMask:RightKey:1777767.4443495
+AnchoringMask:RightKey:1777767.5954266
+AnchoringMask:RightKey:1777767.7228095
+AnchoringMask:RightKey:1777767.9772071
+AnchoringMask:RightKey:1777768.1041469
+AnchoringMask:RightKey:1777768.2303464
+AnchoringMask:RightKey:1777768.3315676
+AnchoringMask:RightKey:1777768.4583307
+AnchoringMask:RightKey:1777768.6840668
+AnchoringMask:RightKey:1777768.8849704
+AnchoringMask:RightKey:1777769.0885354
+AnchoringMask:UpKey:1777769.2650759
+AnchoringMask:UpKey:1777769.447584
+AnchoringMask:UpKey:1777769.7257462
+AnchoringMask:UpKey:1777769.9284648
+AnchoringMask:RightKey:1777770.0832751
+AnchoringMask:RightKey:1777770.2607976
+AnchoringMask:RightKey:1777770.3872445
+AnchoringMask:RightKey:1777770.5398476
+AnchoringMask:RightKey:1777770.6924654
+AnchoringMask:PowerUp Reached: 1777770.6927166
+AnchoringMask:RightKey:1777770.8449939
+AnchoringMask:RightKey:1777770.9968324
+AnchoringMask:RightKey:1777771.3251156
+AnchoringMask:PowerUp Reached: 1777771.3253787
+AnchoringMask:RightKey:1777771.5019359
+AnchoringMask:RightKey:1777771.655651
+AnchoringMask:RightKey:1777771.8834512
+AnchoringMask:PowerUp Reached: 1777771.8837022
+AnchoringMask:RightKey:1777772.0595935
+AnchoringMask:RightKey:1777772.2383584
+AnchoringMask:RightKey:1777772.4424346
+AnchoringMask:RightKey:1777772.6435566
+AnchoringMask:DownKey:1777772.7687105
+AnchoringMask:RightKey:1777772.9703302
+AnchoringMask:RightKey:1777773.1494777
+AnchoringMask:RightKey:1777773.3026803
+AnchoringMask:RightKey:1777773.5575183
+AnchoringMask:RightKey:1777773.8101451
+AnchoringMask:RightKey:1777774.0127647
+AnchoringMask:RightKey:1777774.191745
+AnchoringMask:RightKey:1777774.3722022
+AnchoringMask:DownKey:1777774.6502684
+AnchoringMask:DownKey:1777774.8787427
+AnchoringMask:DownKey:1777775.0310585
+AnchoringMask:RightKey:1777775.2351037
+AnchoringMask:RightKey:1777775.4141131
+AnchoringMask:RightKey:1777775.5930459
+AnchoringMask:RightKey:1777775.7455845
+AnchoringMask:RightKey:1777775.9241258
+AnchoringMask:RightKey:1777776.1294591
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0]
+AnchoringMask:Level Completed.
+Urbantraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Urban_5_2.csv
+Urbantraining:Condition Begins: 1777776.1454365
+Urbantraining:RightKey:1777777.0090618
+Urbantraining:RightKey:1777777.1848455
+Urbantraining:RightKey:1777777.3372672
+Urbantraining:DownKey:1777777.5137864
+Urbantraining:RightKey:1777777.6668754
+Urbantraining:RightKey:1777777.8465031
+Urbantraining:RightKey:1777778.0218082
+Urbantraining:RightKey:1777778.2002722
+Urbantraining:SpaceKey:1777778.3020329
+Urbantraining:Tank Destroyed: 1777778.3022262
+Urbantraining:RightKey:1777778.431142
+Urbantraining:RightKey:1777778.5836319
+Urbantraining:RightKey:1777778.7347688
+Urbantraining:RightKey:1777778.9133633
+Urbantraining:RightKey:1777779.041293
+Urbantraining:RightKey:1777779.271077
+Urbantraining:RightKey:1777779.39782
+Urbantraining:RightKey:1777779.5248414
+Urbantraining:RightKey:1777779.6507682
+Urbantraining:RightKey:1777779.829498
+Urbantraining:SpaceKey:1777780.182177
+Urbantraining:Tank Destroyed: 1777780.1823688
+Urbantraining:RightKey:1777780.3573349
+Urbantraining:RightKey:1777780.510312
+Urbantraining:RightKey:1777780.636767
+Urbantraining:RightKey:1777780.8145838
+Urbantraining:RightKey:1777781.196382
+Urbantraining:RightKey:1777781.347817
+Urbantraining:RightKey:1777781.4996587
+Urbantraining:RightKey:1777781.6520968
+Urbantraining:UpKey:1777781.9034682
+Urbantraining:UpKey:1777782.0818703
+Urbantraining:SpaceKey:1777782.3093428
+Urbantraining:Tank Destroyed: 1777782.3095404
+Urbantraining:UpKey:1777782.41156
+Urbantraining:UpKey:1777782.5918072
+Urbantraining:UpKey:1777782.7431688
+Urbantraining:SpaceKey:1777783.0708705
+Urbantraining:Tank Destroyed: 1777783.0711005
+Urbantraining:RightKey:1777783.1727559
+Urbantraining:RightKey:1777783.3508409
+Urbantraining:RightKey:1777783.5043988
+Urbantraining:RightKey:1777783.6835356
+Urbantraining:RightKey:1777783.8619626
+Urbantraining:RightKey:1777784.0664633
+Urbantraining:RightKey:1777784.2459441
+Urbantraining:RightKey:1777784.4236446
+Urbantraining:RightKey:1777784.5997072
+Urbantraining:DownKey:1777784.8022794
+Urbantraining:DownKey:1777784.9790934
+Urbantraining:SpaceKey:1777785.1319769
+Urbantraining:Tank Destroyed: 1777785.1321678
+Urbantraining:RightKey:1777785.234119
+Urbantraining:RightKey:1777785.4102184
+Urbantraining:RightKey:1777785.5621755
+Urbantraining:RightKey:1777785.7643236
+Urbantraining:UpKey:1777786.0922082
+Urbantraining:UpKey:1777786.3987369
+Urbantraining:SpaceKey:1777786.5751586
+Urbantraining:Tank Destroyed: 1777786.5753571
+Urbantraining:DownKey:1777786.7021461
+Urbantraining:DownKey:1777787.0307926
+Urbantraining:DownKey:1777787.2075628
+Urbantraining:RightKey:1777787.3837744
+Urbantraining:Actions:[0, 0, 0, 3, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 1, 1, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 4, 0, 0, 0, 0, 1, 1, 4, 3, 3, 3, 0]
+Urbantraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_1.csv
+AnchoringMask:Condition Begins: 1777787.3985865
+AnchoringMask:RightKey:1777788.1824234
+AnchoringMask:RightKey:1777788.3326434
+AnchoringMask:RightKey:1777788.4839062
+AnchoringMask:RightKey:1777788.7879884
+AnchoringMask:RightKey:1777788.966429
+AnchoringMask:RightKey:1777789.0662738
+AnchoringMask:RightKey:1777789.1931777
+AnchoringMask:RightKey:1777789.3194467
+AnchoringMask:RightKey:1777789.472971
+AnchoringMask:RightKey:1777789.5738535
+AnchoringMask:RightKey:1777789.6995038
+AnchoringMask:RightKey:1777789.8026749
+AnchoringMask:UpKey:1777790.058116
+AnchoringMask:RightKey:1777790.2351432
+AnchoringMask:RightKey:1777790.4370816
+AnchoringMask:UpKey:1777790.6390013
+AnchoringMask:PowerUp Reached: 1777790.639257
+AnchoringMask:RightKey:1777790.7911501
+AnchoringMask:RightKey:1777791.0179602
+AnchoringMask:RightKey:1777791.1943268
+AnchoringMask:DownKey:1777791.3220628
+AnchoringMask:DownKey:1777791.5245614
+AnchoringMask:PowerUp Reached: 1777791.5248127
+AnchoringMask:RightKey:1777791.7791267
+AnchoringMask:RightKey:1777791.9822915
+AnchoringMask:RightKey:1777792.1844018
+AnchoringMask:UpKey:1777792.3880152
+AnchoringMask:UpKey:1777792.6157974
+AnchoringMask:PowerUp Reached: 1777792.6160644
+AnchoringMask:RightKey:1777792.8937835
+AnchoringMask:DownKey:1777793.173791
+AnchoringMask:RightKey:1777793.3278058
+AnchoringMask:RightKey:1777793.4798265
+AnchoringMask:RightKey:1777793.6072049
+AnchoringMask:RightKey:1777793.7577685
+AnchoringMask:RightKey:1777793.8587605
+AnchoringMask:RightKey:1777793.9865596
+AnchoringMask:RightKey:1777794.1138962
+AnchoringMask:RightKey:1777794.2151809
+AnchoringMask:RightKey:1777794.3674589
+AnchoringMask:RightKey:1777794.471643
+AnchoringMask:RightKey:1777794.573853
+AnchoringMask:RightKey:1777794.9054775
+AnchoringMask:RightKey:1777795.0841257
+AnchoringMask:RightKey:1777795.2617493
+AnchoringMask:RightKey:1777795.4397832
+AnchoringMask:RightKey:1777795.516012
+AnchoringMask:RightKey:1777795.6944596
+AnchoringMask:RightKey:1777795.9238626
+AnchoringMask:DownKey:1777796.2814257
+AnchoringMask:RightKey:1777796.4834441
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 3, 3, 0, 0, 0, 1, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+AnchoringMask:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_4.csv
+AnchorBaseline:Condition Begins: 1777796.5106497
+AnchorBaseline:DownKey:1777799.4209871
+AnchorBaseline:DownKey:1777799.5729274
+AnchorBaseline:DownKey:1777799.7254988
+AnchorBaseline:DownKey:1777799.9012512
+AnchorBaseline:DownKey:1777800.0775132
+AnchorBaseline:DownKey:1777800.3567964
+AnchorBaseline:RightKey:1777800.6128155
+AnchorBaseline:RightKey:1777800.7405691
+AnchorBaseline:RightKey:1777800.8678449
+AnchorBaseline:RightKey:1777801.018905
+AnchorBaseline:RightKey:1777801.1467998
+AnchorBaseline:RightKey:1777801.2738109
+AnchorBaseline:RightKey:1777801.4501833
+AnchorBaseline:RightKey:1777801.6009835
+AnchorBaseline:RightKey:1777801.7800518
+AnchorBaseline:RightKey:1777801.9334602
+AnchorBaseline:RightKey:1777802.1343762
+AnchorBaseline:UpKey:1777802.3870562
+AnchorBaseline:UpKey:1777802.5633993
+AnchorBaseline:SpaceKey:1777802.8909417
+AnchorBaseline:Tank Destroyed: 1777802.891139
+AnchorBaseline:DownKey:1777802.9910108
+AnchorBaseline:DownKey:1777803.1682739
+AnchorBaseline:RightKey:1777803.4218973
+AnchorBaseline:SpaceKey:1777803.549996
+AnchorBaseline:Tank Destroyed: 1777803.5503269
+AnchorBaseline:RightKey:1777803.7774594
+AnchorBaseline:UpKey:1777804.0528246
+AnchorBaseline:RightKey:1777804.2572985
+AnchorBaseline:RightKey:1777804.4337713
+AnchorBaseline:DownKey:1777804.7400532
+AnchorBaseline:RightKey:1777804.9171282
+AnchorBaseline:RightKey:1777805.0679936
+AnchorBaseline:RightKey:1777805.2202588
+AnchorBaseline:RightKey:1777805.3729201
+AnchorBaseline:RightKey:1777805.5005457
+AnchorBaseline:UpKey:1777805.7276451
+AnchorBaseline:UpKey:1777805.9065265
+AnchorBaseline:UpKey:1777806.0581892
+AnchorBaseline:SpaceKey:1777806.3388617
+AnchorBaseline:Tank Destroyed: 1777806.3390699
+AnchorBaseline:DownKey:1777806.4394811
+AnchorBaseline:DownKey:1777806.6164263
+AnchorBaseline:DownKey:1777806.8203509
+AnchorBaseline:RightKey:1777806.9976791
+AnchorBaseline:RightKey:1777807.1738671
+AnchorBaseline:RightKey:1777807.326049
+AnchorBaseline:RightKey:1777807.4778731
+AnchorBaseline:RightKey:1777807.7853144
+AnchorBaseline:RightKey:1777807.9633064
+AnchorBaseline:RightKey:1777808.1390819
+AnchorBaseline:SpaceKey:1777808.3155262
+AnchorBaseline:Tank Destroyed: 1777808.315719
+AnchorBaseline:UpKey:1777808.4419826
+AnchorBaseline:RightKey:1777808.6449857
+AnchorBaseline:SpaceKey:1777809.0024402
+AnchorBaseline:Tank Destroyed: 1777809.0027421
+AnchorBaseline:RightKey:1777809.0266918
+AnchorBaseline:RightKey:1777809.3076389
+AnchorBaseline:RightKey:1777809.5119358
+AnchorBaseline:DownKey:1777809.5902467
+AnchorBaseline:DownKey:1777809.7911355
+AnchorBaseline:RightKey:1777809.9187454
+AnchorBaseline:RightKey:1777810.1230377
+AnchorBaseline:RightKey:1777810.2738333
+AnchorBaseline:RightKey:1777810.4519395
+AnchorBaseline:UpKey:1777810.6047626
+AnchorBaseline:RightKey:1777810.8081908
+AnchorBaseline:RightKey:1777811.0131069
+AnchorBaseline:RightKey:1777811.1639123
+AnchorBaseline:UpKey:1777811.3922088
+AnchorBaseline:RightKey:1777811.5448806
+AnchorBaseline:Actions:[3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 3, 3, 0, 4, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 1, 1, 1, 4, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 4, 1, 0, 4, 0, 0, 0, 3, 3, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0]
+AnchorBaseline:Level Completed.
+RuralTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Rural_20_3.csv
+RuralTraining:Condition Begins: 1777811.5671282
+RuralTraining:RightKey:1777812.6233234
+RuralTraining:RightKey:1777812.8029189
+RuralTraining:RightKey:1777812.9301364
+RuralTraining:UpKey:1777813.1080044
+RuralTraining:UpKey:1777813.2612619
+RuralTraining:UpKey:1777813.4399872
+RuralTraining:SpaceKey:1777813.72041
+RuralTraining:Tank Destroyed: 1777813.7209013
+RuralTraining:DownKey:1777813.9226591
+RuralTraining:DownKey:1777814.0995028
+RuralTraining:DownKey:1777814.2523392
+RuralTraining:DownKey:1777814.3782866
+RuralTraining:DownKey:1777814.5301818
+RuralTraining:DownKey:1777814.6812297
+RuralTraining:SpaceKey:1777814.9106156
+RuralTraining:Tank Destroyed: 1777814.9108211
+RuralTraining:RightKey:1777815.0108081
+RuralTraining:RightKey:1777815.1632849
+RuralTraining:RightKey:1777815.3404838
+RuralTraining:RightKey:1777815.4931392
+RuralTraining:RightKey:1777815.6450904
+RuralTraining:RightKey:1777815.823547
+RuralTraining:RightKey:1777816.0031974
+RuralTraining:SpaceKey:1777816.1292556
+RuralTraining:Tank Destroyed: 1777816.1295862
+RuralTraining:UpKey:1777816.2315969
+RuralTraining:UpKey:1777816.3842563
+RuralTraining:UpKey:1777816.5601219
+RuralTraining:UpKey:1777816.7104964
+RuralTraining:UpKey:1777816.8908734
+RuralTraining:UpKey:1777817.0426516
+RuralTraining:RightKey:1777817.2965456
+RuralTraining:SpaceKey:1777817.4212186
+RuralTraining:Tank Destroyed: 1777817.4214203
+RuralTraining:RightKey:1777817.5725944
+RuralTraining:RightKey:1777817.7258248
+RuralTraining:RightKey:1777817.9043254
+RuralTraining:RightKey:1777818.0570564
+RuralTraining:RightKey:1777818.2357182
+RuralTraining:RightKey:1777818.4135985
+RuralTraining:RightKey:1777818.5679766
+RuralTraining:UpKey:1777818.7689628
+RuralTraining:UpKey:1777818.9728323
+RuralTraining:SpaceKey:1777819.1505059
+RuralTraining:Tank Destroyed: 1777819.1506967
+RuralTraining:DownKey:1777819.2288583
+RuralTraining:DownKey:1777819.4081955
+RuralTraining:DownKey:1777819.5599785
+RuralTraining:DownKey:1777819.763127
+RuralTraining:RightKey:1777820.0411055
+RuralTraining:RightKey:1777820.2179748
+RuralTraining:SpaceKey:1777820.472953
+RuralTraining:Tank Destroyed: 1777820.47315
+RuralTraining:SpaceKey:1777820.6243123
+RuralTraining:Tank Destroyed: 1777820.6245101
+RuralTraining:RightKey:1777820.8012157
+RuralTraining:RightKey:1777820.9822898
+RuralTraining:RightKey:1777821.1596269
+RuralTraining:RightKey:1777821.3641287
+RuralTraining:DownKey:1777821.5936159
+RuralTraining:DownKey:1777821.7730303
+RuralTraining:DownKey:1777821.9769507
+RuralTraining:SpaceKey:1777822.1788115
+RuralTraining:Tank Destroyed: 1777822.1790075
+RuralTraining:SpaceKey:1777822.3065112
+RuralTraining:Tank Destroyed: 1777822.3067093
+RuralTraining:LeftKey:1777822.71595
+RuralTraining:SpaceKey:1777822.9677996
+RuralTraining:Tank Destroyed: 1777822.9679992
+RuralTraining:RightKey:1777823.1202081
+RuralTraining:RightKey:1777823.2999034
+RuralTraining:UpKey:1777823.6293646
+RuralTraining:SpaceKey:1777823.8075095
+RuralTraining:Tank Destroyed: 1777823.807829
+RuralTraining:UpKey:1777823.933424
+RuralTraining:UpKey:1777824.1122162
+RuralTraining:SpaceKey:1777824.2141806
+RuralTraining:Tank Destroyed: 1777824.2143728
+RuralTraining:UpKey:1777824.3655422
+RuralTraining:UpKey:1777824.543587
+RuralTraining:UpKey:1777824.720584
+RuralTraining:SpaceKey:1777824.8993828
+RuralTraining:Tank Destroyed: 1777824.899576
+RuralTraining:UpKey:1777825.1260354
+RuralTraining:RightKey:1777825.301012
+RuralTraining:RightKey:1777825.4784636
+RuralTraining:RightKey:1777825.6045051
+RuralTraining:RightKey:1777825.7834352
+RuralTraining:RightKey:1777825.935902
+RuralTraining:SpaceKey:1777826.0369086
+RuralTraining:Tank Destroyed: 1777826.037104
+RuralTraining:RightKey:1777826.1871757
+RuralTraining:RightKey:1777826.3658161
+RuralTraining:RightKey:1777826.5175623
+RuralTraining:RightKey:1777826.6675111
+RuralTraining:SpaceKey:1777826.8207132
+RuralTraining:Tank Destroyed: 1777826.8209162
+RuralTraining:DownKey:1777826.895872
+RuralTraining:DownKey:1777827.0736634
+RuralTraining:DownKey:1777827.2253554
+RuralTraining:SpaceKey:1777827.3522187
+RuralTraining:Tank Destroyed: 1777827.3524376
+RuralTraining:DownKey:1777827.4803472
+RuralTraining:DownKey:1777827.6572955
+RuralTraining:DownKey:1777827.8327267
+RuralTraining:LeftKey:1777828.0861436
+RuralTraining:LeftKey:1777828.2622437
+RuralTraining:DownKey:1777828.439673
+RuralTraining:SpaceKey:1777828.617356
+RuralTraining:Tank Destroyed: 1777828.6175517
+RuralTraining:RightKey:1777828.8186101
+RuralTraining:SpaceKey:1777829.1255736
+RuralTraining:Tank Destroyed: 1777829.1257681
+RuralTraining:DownKey:1777829.2793098
+RuralTraining:SpaceKey:1777829.4794019
+RuralTraining:Tank Destroyed: 1777829.4796087
+RuralTraining:UpKey:1777829.6571212
+RuralTraining:UpKey:1777829.8373996
+RuralTraining:UpKey:1777829.9886501
+RuralTraining:UpKey:1777830.1422213
+RuralTraining:RightKey:1777830.3451472
+RuralTraining:RightKey:1777830.4954853
+RuralTraining:RightKey:1777830.6477265
+RuralTraining:RightKey:1777830.8017271
+RuralTraining:RightKey:1777830.9554277
+RuralTraining:RightKey:1777831.2340232
+RuralTraining:Actions:[0, 0, 0, 1, 1, 1, 4, 3, 3, 3, 3, 3, 3, 4, 0, 0, 0, 0, 0, 0, 0, 4, 1, 1, 1, 1, 1, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 3, 3, 3, 3, 0, 0, 4, 4, 0, 0, 0, 0, 3, 3, 3, 4, 4, 2, 4, 0, 0, 1, 4, 1, 1, 4, 1, 1, 1, 4, 1, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 4, 3, 3, 3, 4, 3, 3, 3, 2, 2, 3, 4, 0, 4, 3, 4, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+RuralTraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_8.csv
+AnchoringMask:Condition Begins: 1777831.2506845
+AnchoringMask:RightKey:1777831.9121063
+AnchoringMask:RightKey:1777832.0644692
+AnchoringMask:RightKey:1777832.190601
+AnchoringMask:RightKey:1777832.3441142
+AnchoringMask:RightKey:1777832.4705009
+AnchoringMask:RightKey:1777832.5970299
+AnchoringMask:RightKey:1777832.7733468
+AnchoringMask:RightKey:1777832.9491287
+AnchoringMask:RightKey:1777833.1265175
+AnchoringMask:RightKey:1777833.4089632
+AnchoringMask:RightKey:1777833.6114668
+AnchoringMask:RightKey:1777833.7888661
+AnchoringMask:RightKey:1777833.9915426
+AnchoringMask:RightKey:1777834.1945073
+AnchoringMask:RightKey:1777834.3452829
+AnchoringMask:RightKey:1777834.5472107
+AnchoringMask:PowerUp Reached: 1777834.547464
+AnchoringMask:RightKey:1777834.7263909
+AnchoringMask:RightKey:1777834.9036384
+AnchoringMask:RightKey:1777835.0815229
+AnchoringMask:RightKey:1777835.261226
+AnchoringMask:RightKey:1777835.4638988
+AnchoringMask:DownKey:1777835.6662579
+AnchoringMask:PowerUp Reached: 1777835.6665107
+AnchoringMask:UpKey:1777835.9177612
+AnchoringMask:RightKey:1777836.0929504
+AnchoringMask:RightKey:1777836.2961176
+AnchoringMask:RightKey:1777836.4771844
+AnchoringMask:RightKey:1777836.6815187
+AnchoringMask:RightKey:1777836.8092202
+AnchoringMask:PowerUp Reached: 1777836.8094676
+AnchoringMask:RightKey:1777836.9364483
+AnchoringMask:RightKey:1777837.0651341
+AnchoringMask:RightKey:1777837.3172738
+AnchoringMask:RightKey:1777837.4942767
+AnchoringMask:RightKey:1777837.6200009
+AnchoringMask:RightKey:1777837.7469591
+AnchoringMask:RightKey:1777837.8477031
+AnchoringMask:RightKey:1777838.251777
+AnchoringMask:RightKey:1777838.4288081
+AnchoringMask:RightKey:1777838.6101831
+AnchoringMask:RightKey:1777838.8122457
+AnchoringMask:RightKey:1777838.9896734
+AnchoringMask:RightKey:1777839.2201636
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+AnchoringMask:Level Completed.
+Urbantraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Urban_5_5.csv
+Urbantraining:Condition Begins: 1777839.2364958
+Urbantraining:RightKey:1777840.2470156
+Urbantraining:RightKey:1777840.3979998
+Urbantraining:RightKey:1777840.5494883
+Urbantraining:RightKey:1777840.7038618
+Urbantraining:RightKey:1777840.8839103
+Urbantraining:RightKey:1777841.0864732
+Urbantraining:DownKey:1777841.3398689
+Urbantraining:SpaceKey:1777841.493163
+Urbantraining:Tank Destroyed: 1777841.4933622
+Urbantraining:UpKey:1777841.6215624
+Urbantraining:UpKey:1777841.7734877
+Urbantraining:UpKey:1777841.9505391
+Urbantraining:RightKey:1777842.1302689
+Urbantraining:RightKey:1777842.3092192
+Urbantraining:RightKey:1777842.46272
+Urbantraining:UpKey:1777842.6410448
+Urbantraining:UpKey:1777842.8183308
+Urbantraining:SpaceKey:1777843.1239644
+Urbantraining:Tank Destroyed: 1777843.124167
+Urbantraining:DownKey:1777843.1994501
+Urbantraining:DownKey:1777843.3778583
+Urbantraining:DownKey:1777843.5301991
+Urbantraining:RightKey:1777843.8827574
+Urbantraining:DownKey:1777843.9588604
+Urbantraining:RightKey:1777844.3391872
+Urbantraining:RightKey:1777844.5161341
+Urbantraining:SpaceKey:1777844.6677055
+Urbantraining:Tank Destroyed: 1777844.6679904
+Urbantraining:RightKey:1777844.7933742
+Urbantraining:RightKey:1777844.9198445
+Urbantraining:RightKey:1777845.07211
+Urbantraining:RightKey:1777845.2253873
+Urbantraining:RightKey:1777845.3519154
+Urbantraining:RightKey:1777845.4789059
+Urbantraining:RightKey:1777845.8111832
+Urbantraining:SpaceKey:1777845.9881059
+Urbantraining:Tank Destroyed: 1777845.9883083
+Urbantraining:RightKey:1777846.090594
+Urbantraining:RightKey:1777846.2425891
+Urbantraining:RightKey:1777846.4206038
+Urbantraining:RightKey:1777846.6250003
+Urbantraining:DownKey:1777846.8263459
+Urbantraining:DownKey:1777846.9795244
+Urbantraining:DownKey:1777847.1577321
+Urbantraining:SpaceKey:1777847.285265
+Urbantraining:Tank Destroyed: 1777847.2855265
+Urbantraining:UpKey:1777847.3872122
+Urbantraining:UpKey:1777847.5398058
+Urbantraining:UpKey:1777847.719544
+Urbantraining:UpKey:1777847.9224906
+Urbantraining:RightKey:1777848.2543973
+Urbantraining:RightKey:1777848.4058457
+Urbantraining:RightKey:1777848.5848153
+Urbantraining:SpaceKey:1777848.6852332
+Urbantraining:Tank Destroyed: 1777848.6854322
+Urbantraining:RightKey:1777848.8116675
+Urbantraining:RightKey:1777848.9660026
+Urbantraining:RightKey:1777849.1169597
+Urbantraining:RightKey:1777849.2682054
+Urbantraining:RightKey:1777849.4180619
+Urbantraining:RightKey:1777849.5436081
+Urbantraining:RightKey:1777849.6457381
+Urbantraining:RightKey:1777849.82265
+Urbantraining:RightKey:1777849.9476621
+Urbantraining:RightKey:1777850.0770022
+Urbantraining:RightKey:1777850.2298139
+Urbantraining:RightKey:1777850.4335071
+Urbantraining:RightKey:1777850.8682387
+Urbantraining:Actions:[0, 0, 0, 0, 0, 0, 3, 4, 1, 1, 1, 0, 0, 0, 1, 1, 4, 3, 3, 3, 0, 3, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 3, 3, 3, 4, 1, 1, 1, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Urbantraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_10.csv
+AnchoringMask:Condition Begins: 1777850.8826452
+AnchoringMask:RightKey:1777851.5145744
+AnchoringMask:RightKey:1777851.6912912
+AnchoringMask:RightKey:1777851.8413588
+AnchoringMask:RightKey:1777851.9675162
+AnchoringMask:RightKey:1777852.1218994
+AnchoringMask:RightKey:1777852.2496102
+AnchoringMask:RightKey:1777852.3779225
+AnchoringMask:RightKey:1777852.4805003
+AnchoringMask:RightKey:1777852.8103787
+AnchoringMask:RightKey:1777852.9632995
+AnchoringMask:RightKey:1777853.1140357
+AnchoringMask:RightKey:1777853.2418869
+AnchoringMask:RightKey:1777853.3676081
+AnchoringMask:RightKey:1777853.5191436
+AnchoringMask:RightKey:1777853.6455035
+AnchoringMask:RightKey:1777853.7481163
+AnchoringMask:RightKey:1777853.8742671
+AnchoringMask:RightKey:1777854.0027195
+AnchoringMask:RightKey:1777854.1296556
+AnchoringMask:RightKey:1777854.2565079
+AnchoringMask:RightKey:1777854.3599523
+AnchoringMask:RightKey:1777854.4619038
+AnchoringMask:RightKey:1777854.5628689
+AnchoringMask:RightKey:1777854.6919931
+AnchoringMask:RightKey:1777854.7675706
+AnchoringMask:RightKey:1777855.0221103
+AnchoringMask:PowerUp Reached: 1777855.0223581
+AnchoringMask:UpKey:1777855.7822873
+AnchoringMask:PowerUp Reached: 1777855.7827154
+AnchoringMask:DownKey:1777856.0112218
+AnchoringMask:DownKey:1777856.3673861
+AnchoringMask:PowerUp Reached: 1777856.367826
+AnchoringMask:RightKey:1777856.6701946
+AnchoringMask:RightKey:1777856.8230707
+AnchoringMask:RightKey:1777856.9480527
+AnchoringMask:RightKey:1777857.1003778
+AnchoringMask:RightKey:1777857.1759491
+AnchoringMask:RightKey:1777857.3284515
+AnchoringMask:RightKey:1777857.455669
+AnchoringMask:RightKey:1777857.5567251
+AnchoringMask:RightKey:1777857.6595799
+AnchoringMask:RightKey:1777857.8392801
+AnchoringMask:RightKey:1777857.9143842
+AnchoringMask:RightKey:1777858.2919427
+AnchoringMask:RightKey:1777858.4442696
+AnchoringMask:UpKey:1777858.6486025
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+AnchoringMask:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_7.csv
+AnchorBaseline:Condition Begins: 1777858.6804167
+AnchorBaseline:DownKey:1777860.5167093
+AnchorBaseline:DownKey:1777860.6666096
+AnchorBaseline:DownKey:1777860.8709192
+AnchorBaseline:DownKey:1777861.0228511
+AnchorBaseline:DownKey:1777861.2007255
+AnchorBaseline:DownKey:1777861.3789063
+AnchorBaseline:DownKey:1777861.6061864
+AnchorBaseline:RightKey:1777861.8102815
+AnchorBaseline:RightKey:1777861.9626604
+AnchorBaseline:RightKey:1777862.1159574
+AnchorBaseline:RightKey:1777862.2690906
+AnchorBaseline:RightKey:1777862.3972454
+AnchorBaseline:RightKey:1777862.5490322
+AnchorBaseline:RightKey:1777862.9046607
+AnchorBaseline:UpKey:1777862.9544818
+AnchorBaseline:RightKey:1777863.1566464
+AnchorBaseline:RightKey:1777863.3605972
+AnchorBaseline:RightKey:1777863.5135875
+AnchorBaseline:RightKey:1777863.6420436
+AnchorBaseline:RightKey:1777863.8209843
+AnchorBaseline:RightKey:1777863.972715
+AnchorBaseline:RightKey:1777864.1226195
+AnchorBaseline:RightKey:1777864.2759256
+AnchorBaseline:RightKey:1777864.4302244
+AnchorBaseline:RightKey:1777864.5582632
+AnchorBaseline:RightKey:1777864.7628585
+AnchorBaseline:RightKey:1777864.8900181
+AnchorBaseline:RightKey:1777865.0417333
+AnchorBaseline:RightKey:1777865.2959016
+AnchorBaseline:DownKey:1777865.5235478
+AnchorBaseline:DownKey:1777865.7001473
+AnchorBaseline:DownKey:1777865.8778718
+AnchorBaseline:DownKey:1777866.0319237
+AnchorBaseline:SpaceKey:1777866.1855533
+AnchorBaseline:Tank Destroyed: 1777866.1858348
+AnchorBaseline:UpKey:1777866.2619469
+AnchorBaseline:UpKey:1777866.4141409
+AnchorBaseline:UpKey:1777866.5656023
+AnchorBaseline:UpKey:1777866.7196649
+AnchorBaseline:UpKey:1777866.8729395
+AnchorBaseline:UpKey:1777867.0008937
+AnchorBaseline:UpKey:1777867.1541354
+AnchorBaseline:UpKey:1777867.3053754
+AnchorBaseline:UpKey:1777867.4583042
+AnchorBaseline:RightKey:1777867.6624797
+AnchorBaseline:SpaceKey:1777867.8133369
+AnchorBaseline:Tank Destroyed: 1777867.8135361
+AnchorBaseline:DownKey:1777867.9405571
+AnchorBaseline:DownKey:1777868.1187675
+AnchorBaseline:DownKey:1777868.2717625
+AnchorBaseline:DownKey:1777868.4251567
+AnchorBaseline:DownKey:1777868.6007552
+AnchorBaseline:DownKey:1777868.7542385
+AnchorBaseline:RightKey:1777869.0575683
+AnchorBaseline:RightKey:1777869.2081777
+AnchorBaseline:RightKey:1777869.385042
+AnchorBaseline:RightKey:1777869.5611843
+AnchorBaseline:RightKey:1777869.7379548
+AnchorBaseline:SpaceKey:1777869.9938914
+AnchorBaseline:Tank Destroyed: 1777869.9940879
+AnchorBaseline:UpKey:1777870.0948672
+AnchorBaseline:RightKey:1777870.2475142
+AnchorBaseline:RightKey:1777870.4238707
+AnchorBaseline:DownKey:1777870.8281202
+AnchorBaseline:RightKey:1777871.0052245
+AnchorBaseline:RightKey:1777871.1818436
+AnchorBaseline:DownKey:1777871.4865715
+AnchorBaseline:SpaceKey:1777871.7681234
+AnchorBaseline:Tank Destroyed: 1777871.7683352
+AnchorBaseline:RightKey:1777871.994271
+AnchorBaseline:RightKey:1777872.1695185
+AnchorBaseline:RightKey:1777872.3722218
+AnchorBaseline:RightKey:1777872.5746327
+AnchorBaseline:SpaceKey:1777873.0057124
+AnchorBaseline:Tank Destroyed: 1777873.0059539
+AnchorBaseline:UpKey:1777873.2352324
+AnchorBaseline:UpKey:1777873.3861633
+AnchorBaseline:UpKey:1777873.5392486
+AnchorBaseline:UpKey:1777873.7141057
+AnchorBaseline:LeftKey:1777873.7638748
+AnchorBaseline:LeftKey:1777874.014861
+AnchorBaseline:UpKey:1777874.0922044
+AnchorBaseline:RightKey:1777874.3481689
+AnchorBaseline:DownKey:1777874.4250259
+AnchorBaseline:RightKey:1777874.7018036
+AnchorBaseline:RightKey:1777874.93288
+AnchorBaseline:RightKey:1777875.0851341
+AnchorBaseline:RightKey:1777875.2631066
+AnchorBaseline:DownKey:1777875.5161003
+AnchorBaseline:RightKey:1777875.6680282
+AnchorBaseline:Actions:[3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 4, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 4, 1, 0, 0, 3, 0, 0, 3, 4, 0, 0, 0, 0, 4, 1, 1, 1, 1, 2, 2, 1, 0, 3, 0, 0, 0, 0, 3, 0]
+AnchorBaseline:Level Completed.
+RuralTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Rural_20_4.csv
+RuralTraining:Condition Begins: 1777875.6910658
+RuralTraining:RightKey:1777876.7953853
+RuralTraining:RightKey:1777876.9466521
+RuralTraining:RightKey:1777877.0981895
+RuralTraining:SpaceKey:1777877.1995571
+RuralTraining:Tank Destroyed: 1777877.1997756
+RuralTraining:UpKey:1777877.3272396
+RuralTraining:UpKey:1777877.4797757
+RuralTraining:RightKey:1777877.6822287
+RuralTraining:RightKey:1777877.8599107
+RuralTraining:RightKey:1777878.0634138
+RuralTraining:UpKey:1777878.3407196
+RuralTraining:UpKey:1777878.5433132
+RuralTraining:SpaceKey:1777878.7448261
+RuralTraining:Tank Destroyed: 1777878.7450224
+RuralTraining:UpKey:1777878.9978679
+RuralTraining:LeftKey:1777879.1227602
+RuralTraining:SpaceKey:1777879.3236911
+RuralTraining:Tank Destroyed: 1777879.3240164
+RuralTraining:DownKey:1777879.5009495
+RuralTraining:DownKey:1777879.6535582
+RuralTraining:DownKey:1777879.8314304
+RuralTraining:DownKey:1777880.0349298
+RuralTraining:RightKey:1777880.2858609
+RuralTraining:RightKey:1777880.4393359
+RuralTraining:RightKey:1777880.6167558
+RuralTraining:SpaceKey:1777880.819265
+RuralTraining:Tank Destroyed: 1777880.8194621
+RuralTraining:Tank Destroyed: 1777880.8208468
+RuralTraining:SpaceKey:1777880.9689377
+RuralTraining:DownKey:1777881.3198409
+RuralTraining:DownKey:1777881.4945803
+RuralTraining:LeftKey:1777881.6735307
+RuralTraining:SpaceKey:1777881.7764043
+RuralTraining:Tank Destroyed: 1777881.7766051
+RuralTraining:RightKey:1777881.9303829
+RuralTraining:RightKey:1777882.0830056
+RuralTraining:RightKey:1777882.2378643
+RuralTraining:UpKey:1777882.465823
+RuralTraining:UpKey:1777882.7181946
+RuralTraining:SpaceKey:1777882.9711966
+RuralTraining:Tank Destroyed: 1777882.9713942
+RuralTraining:RightKey:1777883.0733173
+RuralTraining:RightKey:1777883.2490027
+RuralTraining:RightKey:1777883.399796
+RuralTraining:SpaceKey:1777883.751914
+RuralTraining:Tank Destroyed: 1777883.7521149
+RuralTraining:UpKey:1777883.8518499
+RuralTraining:UpKey:1777884.0030272
+RuralTraining:UpKey:1777884.2036113
+RuralTraining:RightKey:1777884.4828396
+RuralTraining:SpaceKey:1777884.6348766
+RuralTraining:Tank Destroyed: 1777884.6350797
+RuralTraining:RightKey:1777884.8908778
+RuralTraining:RightKey:1777885.0694794
+RuralTraining:RightKey:1777885.2476159
+RuralTraining:DownKey:1777885.4756793
+RuralTraining:DownKey:1777885.6517101
+RuralTraining:SpaceKey:1777885.8576169
+RuralTraining:Tank Destroyed: 1777885.8578119
+RuralTraining:DownKey:1777886.0130817
+RuralTraining:SpaceKey:1777886.3699127
+RuralTraining:Tank Destroyed: 1777886.3701125
+RuralTraining:SpaceKey:1777886.8512058
+RuralTraining:Tank Destroyed: 1777886.8514094
+RuralTraining:DownKey:1777887.104014
+RuralTraining:DownKey:1777887.2795292
+RuralTraining:DownKey:1777887.6104883
+RuralTraining:SpaceKey:1777887.7623582
+RuralTraining:Tank Destroyed: 1777887.7626462
+RuralTraining:RightKey:1777887.8879756
+RuralTraining:RightKey:1777888.0377964
+RuralTraining:UpKey:1777888.2416659
+RuralTraining:RightKey:1777888.4458875
+RuralTraining:RightKey:1777888.6466769
+RuralTraining:RightKey:1777888.7976104
+RuralTraining:RightKey:1777888.9500033
+RuralTraining:DownKey:1777889.1549467
+RuralTraining:DownKey:1777889.4610478
+RuralTraining:SpaceKey:1777889.5872391
+RuralTraining:Tank Destroyed: 1777889.5874344
+RuralTraining:UpKey:1777889.7402525
+RuralTraining:UpKey:1777889.8918116
+RuralTraining:UpKey:1777890.0431869
+RuralTraining:RightKey:1777890.3255695
+RuralTraining:SpaceKey:1777890.5299391
+RuralTraining:Tank Destroyed: 1777890.5301458
+RuralTraining:Tank Destroyed: 1777890.5315374
+RuralTraining:SpaceKey:1777890.7067738
+RuralTraining:RightKey:1777890.958077
+RuralTraining:RightKey:1777891.1578005
+RuralTraining:RightKey:1777891.2838029
+RuralTraining:RightKey:1777891.4378095
+RuralTraining:RightKey:1777891.5697948
+RuralTraining:RightKey:1777891.7215324
+RuralTraining:RightKey:1777891.8475732
+RuralTraining:RightKey:1777892.0742577
+RuralTraining:SpaceKey:1777892.2007623
+RuralTraining:Tank Destroyed: 1777892.200964
+RuralTraining:RightKey:1777892.3275974
+RuralTraining:RightKey:1777892.5050235
+RuralTraining:RightKey:1777892.6599663
+RuralTraining:RightKey:1777892.813557
+RuralTraining:SpaceKey:1777892.9660386
+RuralTraining:Tank Destroyed: 1777892.9662813
+RuralTraining:SpaceKey:1777893.5222828
+RuralTraining:Tank Destroyed: 1777893.5224835
+RuralTraining:DownKey:1777893.6998078
+RuralTraining:DownKey:1777893.8527431
+RuralTraining:DownKey:1777894.0053652
+RuralTraining:DownKey:1777894.1823841
+RuralTraining:LeftKey:1777894.3609869
+RuralTraining:LeftKey:1777894.5382434
+RuralTraining:SpaceKey:1777894.6889256
+RuralTraining:Tank Destroyed: 1777894.6891262
+RuralTraining:RightKey:1777894.7888364
+RuralTraining:RightKey:1777894.9670947
+RuralTraining:UpKey:1777895.1717871
+RuralTraining:UpKey:1777895.2994217
+RuralTraining:UpKey:1777895.453324
+RuralTraining:UpKey:1777895.6042628
+RuralTraining:UpKey:1777895.7294412
+RuralTraining:UpKey:1777895.8811613
+RuralTraining:UpKey:1777896.0079954
+RuralTraining:UpKey:1777896.1595327
+RuralTraining:UpKey:1777896.4131432
+RuralTraining:SpaceKey:1777896.6407696
+RuralTraining:Tank Destroyed: 1777896.6409701
+RuralTraining:RightKey:1777896.7936263
+RuralTraining:RightKey:1777896.9694654
+RuralTraining:DownKey:1777897.1490032
+RuralTraining:DownKey:1777897.3273672
+RuralTraining:DownKey:1777897.5064559
+RuralTraining:DownKey:1777897.7102994
+RuralTraining:RightKey:1777897.9361638
+RuralTraining:Actions:[0, 0, 0, 4, 1, 1, 0, 0, 0, 1, 1, 4, 1, 2, 4, 3, 3, 3, 3, 0, 0, 0, 4, 4, 3, 3, 2, 4, 0, 0, 0, 1, 1, 4, 0, 0, 0, 4, 1, 1, 1, 0, 4, 0, 0, 0, 3, 3, 4, 3, 4, 4, 3, 3, 3, 4, 0, 0, 1, 0, 0, 0, 0, 3, 3, 4, 1, 1, 1, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 4, 4, 3, 3, 3, 3, 2, 2, 4, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 0, 0, 3, 3, 3, 3, 0]
+RuralTraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_3.csv
+AnchoringMask:Condition Begins: 1777897.9499244
+AnchoringMask:RightKey:1777898.7104994
+AnchoringMask:RightKey:1777898.8401658
+AnchoringMask:RightKey:1777898.9667468
+AnchoringMask:RightKey:1777899.1203653
+AnchoringMask:RightKey:1777899.220486
+AnchoringMask:RightKey:1777899.3706463
+AnchoringMask:RightKey:1777899.4971435
+AnchoringMask:RightKey:1777899.6248907
+AnchoringMask:RightKey:1777899.7526638
+AnchoringMask:RightKey:1777899.8539546
+AnchoringMask:RightKey:1777900.1339878
+AnchoringMask:RightKey:1777900.3102093
+AnchoringMask:RightKey:1777900.5613452
+AnchoringMask:UpKey:1777900.8645168
+AnchoringMask:UpKey:1777901.1178937
+AnchoringMask:RightKey:1777901.2941383
+AnchoringMask:PowerUp Reached: 1777901.2943857
+AnchoringMask:RightKey:1777901.496767
+AnchoringMask:RightKey:1777901.6732778
+AnchoringMask:RightKey:1777901.8243997
+AnchoringMask:RightKey:1777901.9743384
+AnchoringMask:RightKey:1777902.152563
+AnchoringMask:PowerUp Reached: 1777902.1528159
+AnchoringMask:RightKey:1777902.3036153
+AnchoringMask:RightKey:1777902.4551919
+AnchoringMask:RightKey:1777902.5811735
+AnchoringMask:RightKey:1777902.732171
+AnchoringMask:RightKey:1777902.9108661
+AnchoringMask:PowerUp Reached: 1777902.9111166
+AnchoringMask:RightKey:1777903.0629517
+AnchoringMask:RightKey:1777903.2146836
+AnchoringMask:RightKey:1777903.3671889
+AnchoringMask:RightKey:1777903.5178951
+AnchoringMask:RightKey:1777903.7699823
+AnchoringMask:RightKey:1777903.9727665
+AnchoringMask:RightKey:1777904.1504957
+AnchoringMask:RightKey:1777904.3796832
+AnchoringMask:RightKey:1777904.5569346
+AnchoringMask:RightKey:1777904.7588633
+AnchoringMask:RightKey:1777904.9616032
+AnchoringMask:RightKey:1777905.1148994
+AnchoringMask:RightKey:1777905.2680132
+AnchoringMask:RightKey:1777905.4212704
+AnchoringMask:DownKey:1777905.7251209
+AnchoringMask:DownKey:1777906.0054954
+AnchoringMask:RightKey:1777906.1836262
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0]
+AnchoringMask:Level Completed.
+Urbantraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Urban_5_1.csv
+Urbantraining:Condition Begins: 1777906.1997277
+Urbantraining:RightKey:1777906.9288965
+Urbantraining:RightKey:1777907.1052257
+Urbantraining:DownKey:1777907.3328484
+Urbantraining:DownKey:1777907.5113111
+Urbantraining:RightKey:1777907.688558
+Urbantraining:DownKey:1777907.9452261
+Urbantraining:SpaceKey:1777908.0986696
+Urbantraining:Tank Destroyed: 1777908.0989678
+Urbantraining:RightKey:1777908.2013134
+Urbantraining:RightKey:1777908.3786933
+Urbantraining:RightKey:1777908.5321947
+Urbantraining:DownKey:1777908.7105826
+Urbantraining:RightKey:1777908.8896748
+Urbantraining:RightKey:1777909.0667014
+Urbantraining:RightKey:1777909.2439658
+Urbantraining:RightKey:1777909.4480308
+Urbantraining:SpaceKey:1777909.5493496
+Urbantraining:Tank Destroyed: 1777909.5497696
+Urbantraining:RightKey:1777909.6764328
+Urbantraining:RightKey:1777909.8538926
+Urbantraining:RightKey:1777909.9807204
+Urbantraining:RightKey:1777910.1333604
+Urbantraining:RightKey:1777910.2601333
+Urbantraining:RightKey:1777910.38637
+Urbantraining:RightKey:1777910.4886268
+Urbantraining:RightKey:1777910.6170407
+Urbantraining:RightKey:1777910.819601
+Urbantraining:RightKey:1777910.9962391
+Urbantraining:RightKey:1777911.1989526
+Urbantraining:RightKey:1777911.3516629
+Urbantraining:RightKey:1777911.5285806
+Urbantraining:RightKey:1777911.6560719
+Urbantraining:RightKey:1777911.7836825
+Urbantraining:RightKey:1777911.9632792
+Urbantraining:RightKey:1777912.1150609
+Urbantraining:RightKey:1777912.3419697
+Urbantraining:SpaceKey:1777912.6736105
+Urbantraining:Tank Destroyed: 1777912.6738152
+Urbantraining:LeftKey:1777912.8510716
+Urbantraining:LeftKey:1777913.002564
+Urbantraining:LeftKey:1777913.1795646
+Urbantraining:UpKey:1777913.3075459
+Urbantraining:UpKey:1777913.4871109
+Urbantraining:UpKey:1777913.6401063
+Urbantraining:UpKey:1777913.816765
+Urbantraining:SpaceKey:1777913.8927647
+Urbantraining:Tank Destroyed: 1777913.8929619
+Urbantraining:UpKey:1777914.018744
+Urbantraining:UpKey:1777914.1987979
+Urbantraining:UpKey:1777914.3516688
+Urbantraining:UpKey:1777914.5291333
+Urbantraining:SpaceKey:1777914.783731
+Urbantraining:Tank Destroyed: 1777914.7839342
+Urbantraining:UpKey:1777915.060837
+Urbantraining:RightKey:1777915.2129418
+Urbantraining:RightKey:1777915.3905466
+Urbantraining:RightKey:1777915.5686824
+Urbantraining:RightKey:1777915.7211646
+Urbantraining:RightKey:1777915.8731278
+Urbantraining:RightKey:1777916.0237224
+Urbantraining:RightKey:1777916.1527544
+Urbantraining:RightKey:1777916.2798007
+Urbantraining:RightKey:1777916.4332329
+Urbantraining:RightKey:1777916.5853223
+Urbantraining:RightKey:1777916.7626021
+Urbantraining:RightKey:1777916.9675868
+Urbantraining:DownKey:1777917.170713
+Urbantraining:DownKey:1777917.3740084
+Urbantraining:DownKey:1777917.5252021
+Urbantraining:DownKey:1777917.7015848
+Urbantraining:DownKey:1777917.8791927
+Urbantraining:RightKey:1777918.1070752
+Urbantraining:SpaceKey:1777918.2335801
+Urbantraining:Tank Destroyed: 1777918.2338038
+Urbantraining:UpKey:1777918.6636122
+Urbantraining:RightKey:1777918.814499
+Urbantraining:Actions:[0, 0, 3, 3, 0, 3, 4, 0, 0, 0, 3, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 2, 2, 1, 1, 1, 1, 4, 1, 1, 1, 1, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 4, 1, 0]
+Urbantraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_5.csv
+AnchoringMask:Condition Begins: 1777918.8284781
+AnchoringMask:RightKey:1777919.4298556
+AnchoringMask:RightKey:1777919.5819689
+AnchoringMask:RightKey:1777919.7099065
+AnchoringMask:RightKey:1777919.8380431
+AnchoringMask:RightKey:1777919.9901624
+AnchoringMask:UpKey:1777920.1439132
+AnchoringMask:RightKey:1777920.2955982
+AnchoringMask:RightKey:1777920.4728891
+AnchoringMask:RightKey:1777920.5997427
+AnchoringMask:RightKey:1777920.7532121
+AnchoringMask:RightKey:1777920.8795659
+AnchoringMask:RightKey:1777921.0319232
+AnchoringMask:RightKey:1777921.1593136
+AnchoringMask:UpKey:1777921.3880159
+AnchoringMask:UpKey:1777921.4900391
+AnchoringMask:RightKey:1777921.6670738
+AnchoringMask:DownKey:1777922.097634
+AnchoringMask:RightKey:1777922.2020209
+AnchoringMask:RightKey:1777922.4026083
+AnchoringMask:RightKey:1777922.5540682
+AnchoringMask:RightKey:1777922.7316205
+AnchoringMask:DownKey:1777923.0858291
+AnchoringMask:RightKey:1777923.2372499
+AnchoringMask:RightKey:1777923.3887552
+AnchoringMask:RightKey:1777923.5398876
+AnchoringMask:PowerUp Reached: 1777923.5401451
+AnchoringMask:RightKey:1777923.691597
+AnchoringMask:RightKey:1777923.8182947
+AnchoringMask:RightKey:1777923.9690408
+AnchoringMask:PowerUp Reached: 1777923.969289
+AnchoringMask:RightKey:1777924.0696934
+AnchoringMask:RightKey:1777924.1955692
+AnchoringMask:RightKey:1777924.3237027
+AnchoringMask:PowerUp Reached: 1777924.3240264
+AnchoringMask:RightKey:1777924.5778641
+AnchoringMask:RightKey:1777924.8822841
+AnchoringMask:RightKey:1777925.2359592
+AnchoringMask:RightKey:1777925.4388915
+AnchoringMask:RightKey:1777925.6676716
+AnchoringMask:UpKey:1777925.9697095
+AnchoringMask:RightKey:1777926.1233757
+AnchoringMask:RightKey:1777926.2991458
+AnchoringMask:DownKey:1777926.5016247
+AnchoringMask:RightKey:1777926.6788455
+AnchoringMask:RightKey:1777926.8570694
+AnchoringMask:RightKey:1777926.983801
+AnchoringMask:RightKey:1777927.1367465
+AnchoringMask:RightKey:1777927.2630983
+AnchoringMask:RightKey:1777927.390716
+AnchoringMask:RightKey:1777927.5420403
+AnchoringMask:RightKey:1777927.6700994
+AnchoringMask:RightKey:1777927.8462089
+AnchoringMask:DownKey:1777928.1508885
+AnchoringMask:RightKey:1777928.3298112
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+AnchoringMask:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_bottom_3.csv
+AnchorBaseline:Condition Begins: 1777928.3591497
+AnchorBaseline:RightKey:1777929.0849609
+AnchorBaseline:UpKey:1777930.9072665
+AnchorBaseline:UpKey:1777931.0589941
+AnchorBaseline:UpKey:1777931.2107643
+AnchorBaseline:UpKey:1777931.3898939
+AnchorBaseline:RightKey:1777931.6196098
+AnchorBaseline:RightKey:1777931.7972648
+AnchorBaseline:RightKey:1777931.9501984
+AnchorBaseline:DownKey:1777932.1521928
+AnchorBaseline:DownKey:1777932.328563
+AnchorBaseline:DownKey:1777932.5335922
+AnchorBaseline:RightKey:1777932.7105806
+AnchorBaseline:SpaceKey:1777932.9895677
+AnchorBaseline:Tank Destroyed: 1777932.9897646
+AnchorBaseline:RightKey:1777933.0913708
+AnchorBaseline:RightKey:1777933.2670712
+AnchorBaseline:RightKey:1777933.4197897
+AnchorBaseline:RightKey:1777933.5729226
+AnchorBaseline:UpKey:1777933.7754103
+AnchorBaseline:SpaceKey:1777933.9010459
+AnchorBaseline:Tank Destroyed: 1777933.901238
+AnchorBaseline:UpKey:1777934.0273105
+AnchorBaseline:UpKey:1777934.1790313
+AnchorBaseline:UpKey:1777934.3569741
+AnchorBaseline:RightKey:1777934.5081671
+AnchorBaseline:RightKey:1777934.6849287
+AnchorBaseline:RightKey:1777934.837585
+AnchorBaseline:RightKey:1777934.988473
+AnchorBaseline:RightKey:1777935.116673
+AnchorBaseline:RightKey:1777935.4242524
+AnchorBaseline:RightKey:1777935.6262738
+AnchorBaseline:UpKey:1777935.8030835
+AnchorBaseline:UpKey:1777935.9781493
+AnchorBaseline:SpaceKey:1777936.2065771
+AnchorBaseline:Tank Destroyed: 1777936.2069013
+AnchorBaseline:DownKey:1777936.3065773
+AnchorBaseline:DownKey:1777936.4601404
+AnchorBaseline:RightKey:1777936.6383234
+AnchorBaseline:RightKey:1777936.8137164
+AnchorBaseline:RightKey:1777936.9649366
+AnchorBaseline:RightKey:1777937.1168738
+AnchorBaseline:RightKey:1777937.4238676
+AnchorBaseline:RightKey:1777937.602577
+AnchorBaseline:RightKey:1777937.7296941
+AnchorBaseline:RightKey:1777937.9062448
+AnchorBaseline:RightKey:1777938.0823748
+AnchorBaseline:RightKey:1777938.2332365
+AnchorBaseline:RightKey:1777938.4104647
+AnchorBaseline:RightKey:1777938.5649352
+AnchorBaseline:RightKey:1777938.7410484
+AnchorBaseline:RightKey:1777938.9195694
+AnchorBaseline:RightKey:1777939.0994128
+AnchorBaseline:RightKey:1777939.2003236
+AnchorBaseline:SpaceKey:1777939.3502736
+AnchorBaseline:Tank Destroyed: 1777939.3504687
+AnchorBaseline:RightKey:1777939.6538988
+AnchorBaseline:RightKey:1777939.8322553
+AnchorBaseline:RightKey:1777939.9831653
+AnchorBaseline:RightKey:1777940.3902763
+AnchorBaseline:UpKey:1777940.6670405
+AnchorBaseline:SpaceKey:1777940.8199318
+AnchorBaseline:Tank Destroyed: 1777940.8201238
+AnchorBaseline:UpKey:1777940.9712996
+AnchorBaseline:UpKey:1777941.1253022
+AnchorBaseline:DownKey:1777941.3544864
+AnchorBaseline:DownKey:1777941.5055403
+AnchorBaseline:DownKey:1777941.6830799
+AnchorBaseline:RightKey:1777941.7854549
+AnchorBaseline:RightKey:1777941.9621094
+AnchorBaseline:UpKey:1777942.2663947
+AnchorBaseline:RightKey:1777942.4423638
+AnchorBaseline:RightKey:1777942.6685267
+AnchorBaseline:Actions:[0, 1, 1, 1, 1, 0, 0, 0, 3, 3, 3, 0, 4, 0, 0, 0, 0, 1, 4, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 4, 1, 1, 3, 3, 3, 0, 0, 1, 0, 0]
+AnchorBaseline:Level Completed.
+RuralTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Rural_20_1.csv
+RuralTraining:Condition Begins: 1777942.6940803
+RuralTraining:RightKey:1777943.5432414
+RuralTraining:RightKey:1777943.6977322
+RuralTraining:RightKey:1777943.8769182
+RuralTraining:RightKey:1777944.0074962
+RuralTraining:RightKey:1777944.2088866
+RuralTraining:SpaceKey:1777944.3363129
+RuralTraining:Tank Destroyed: 1777944.3365122
+RuralTraining:RightKey:1777944.4371534
+RuralTraining:RightKey:1777944.6127413
+RuralTraining:SpaceKey:1777944.7902769
+RuralTraining:Tank Destroyed: 1777944.7904745
+RuralTraining:Tank Destroyed: 1777944.7919646
+RuralTraining:RightKey:1777944.9163099
+RuralTraining:SpaceKey:1777945.0409501
+RuralTraining:Tank Destroyed: 1777945.0411476
+RuralTraining:RightKey:1777945.294008
+RuralTraining:RightKey:1777945.4982061
+RuralTraining:RightKey:1777945.6756722
+RuralTraining:RightKey:1777945.8024143
+RuralTraining:RightKey:1777946.0022488
+RuralTraining:DownKey:1777946.3065027
+RuralTraining:DownKey:1777946.4842779
+RuralTraining:SpaceKey:1777946.6119831
+RuralTraining:Tank Destroyed: 1777946.6121811
+RuralTraining:Tank Destroyed: 1777946.6135727
+RuralTraining:UpKey:1777946.9926317
+RuralTraining:UpKey:1777947.1462059
+RuralTraining:UpKey:1777947.2965469
+RuralTraining:RightKey:1777947.47404
+RuralTraining:RightKey:1777947.6264647
+RuralTraining:RightKey:1777947.7783424
+RuralTraining:RightKey:1777947.9552414
+RuralTraining:UpKey:1777948.1073282
+RuralTraining:UpKey:1777948.2849039
+RuralTraining:SpaceKey:1777948.4134441
+RuralTraining:Tank Destroyed: 1777948.413857
+RuralTraining:Tank Destroyed: 1777948.415665
+RuralTraining:Tank Destroyed: 1777948.4169134
+RuralTraining:RightKey:1777948.8690752
+RuralTraining:RightKey:1777949.0235881
+RuralTraining:SpaceKey:1777949.3017257
+RuralTraining:Tank Destroyed: 1777949.3019206
+RuralTraining:UpKey:1777949.429308
+RuralTraining:RightKey:1777949.5813359
+RuralTraining:RightKey:1777949.7828386
+RuralTraining:SpaceKey:1777950.0102699
+RuralTraining:Tank Destroyed: 1777950.0104639
+RuralTraining:DownKey:1777950.1377289
+RuralTraining:DownKey:1777950.2920454
+RuralTraining:DownKey:1777950.4465038
+RuralTraining:SpaceKey:1777950.5734572
+RuralTraining:Tank Destroyed: 1777950.5736516
+RuralTraining:DownKey:1777950.7236528
+RuralTraining:DownKey:1777950.8772334
+RuralTraining:SpaceKey:1777951.1318047
+RuralTraining:Tank Destroyed: 1777951.1320896
+RuralTraining:DownKey:1777951.2337102
+RuralTraining:DownKey:1777951.4636348
+RuralTraining:LeftKey:1777951.6912594
+RuralTraining:SpaceKey:1777951.8932797
+RuralTraining:Tank Destroyed: 1777951.8934758
+RuralTraining:UpKey:1777952.0453151
+RuralTraining:RightKey:1777952.2707131
+RuralTraining:RightKey:1777952.4491886
+RuralTraining:UpKey:1777952.651812
+RuralTraining:UpKey:1777952.828458
+RuralTraining:UpKey:1777952.9810128
+RuralTraining:RightKey:1777953.1589565
+RuralTraining:RightKey:1777953.3381816
+RuralTraining:RightKey:1777953.4926755
+RuralTraining:RightKey:1777953.6455991
+RuralTraining:RightKey:1777954.0255332
+RuralTraining:RightKey:1777954.2030617
+RuralTraining:RightKey:1777954.3794073
+RuralTraining:RightKey:1777954.5794092
+RuralTraining:RightKey:1777954.8091317
+RuralTraining:UpKey:1777954.9363594
+RuralTraining:UpKey:1777955.1133569
+RuralTraining:UpKey:1777955.3173072
+RuralTraining:LeftKey:1777955.4939647
+RuralTraining:LeftKey:1777955.6707644
+RuralTraining:SpaceKey:1777955.8730974
+RuralTraining:Tank Destroyed: 1777955.8732943
+RuralTraining:UpKey:1777956.2063213
+RuralTraining:SpaceKey:1777956.483743
+RuralTraining:Tank Destroyed: 1777956.4839371
+RuralTraining:RightKey:1777956.8142862
+RuralTraining:RightKey:1777956.9919659
+RuralTraining:RightKey:1777957.1707583
+RuralTraining:RightKey:1777957.3483289
+RuralTraining:RightKey:1777957.5020643
+RuralTraining:DownKey:1777957.7036375
+RuralTraining:SpaceKey:1777957.8312833
+RuralTraining:Tank Destroyed: 1777957.8314867
+RuralTraining:SpaceKey:1777958.1605728
+RuralTraining:Tank Destroyed: 1777958.1607673
+RuralTraining:DownKey:1777958.3388457
+RuralTraining:DownKey:1777958.4906755
+RuralTraining:SpaceKey:1777958.6450863
+RuralTraining:Tank Destroyed: 1777958.6452769
+RuralTraining:DownKey:1777958.7979719
+RuralTraining:DownKey:1777958.9257851
+RuralTraining:DownKey:1777959.1025994
+RuralTraining:DownKey:1777959.2546009
+RuralTraining:SpaceKey:1777959.4076231
+RuralTraining:Tank Destroyed: 1777959.4078246
+RuralTraining:UpKey:1777959.4832214
+RuralTraining:UpKey:1777959.6596286
+RuralTraining:RightKey:1777960.0161309
+RuralTraining:RightKey:1777960.1676
+RuralTraining:RightKey:1777960.3444274
+RuralTraining:RightKey:1777960.5490434
+RuralTraining:UpKey:1777960.7772999
+RuralTraining:UpKey:1777960.9537091
+RuralTraining:SpaceKey:1777961.0546908
+RuralTraining:Tank Destroyed: 1777961.0548853
+RuralTraining:DownKey:1777961.2324898
+RuralTraining:RightKey:1777961.4611556
+RuralTraining:Actions:[0, 0, 0, 0, 0, 4, 0, 0, 4, 0, 4, 0, 0, 0, 0, 0, 3, 3, 4, 1, 1, 1, 0, 0, 0, 0, 1, 1, 4, 0, 0, 4, 1, 0, 0, 4, 3, 3, 3, 4, 3, 3, 4, 3, 3, 2, 4, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 4, 1, 4, 0, 0, 0, 0, 0, 3, 4, 4, 3, 3, 4, 3, 3, 3, 3, 4, 1, 1, 0, 0, 0, 0, 1, 1, 4, 3, 0]
+RuralTraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_9.csv
+AnchoringMask:Condition Begins: 1777961.4752996
+AnchoringMask:RightKey:1777962.1307668
+AnchoringMask:RightKey:1777962.2589095
+AnchoringMask:RightKey:1777962.4101679
+AnchoringMask:RightKey:1777962.5356339
+AnchoringMask:RightKey:1777962.7128023
+AnchoringMask:RightKey:1777962.8403873
+AnchoringMask:RightKey:1777962.9673864
+AnchoringMask:RightKey:1777963.116916
+AnchoringMask:RightKey:1777963.2687605
+AnchoringMask:RightKey:1777963.4220168
+AnchoringMask:RightKey:1777963.5742856
+AnchoringMask:RightKey:1777963.7251941
+AnchoringMask:RightKey:1777963.8778217
+AnchoringMask:RightKey:1777964.0553246
+AnchoringMask:UpKey:1777964.2819362
+AnchoringMask:RightKey:1777964.4610926
+AnchoringMask:PowerUp Reached: 1777964.4615105
+AnchoringMask:RightKey:1777964.6369705
+AnchoringMask:RightKey:1777964.8396774
+AnchoringMask:RightKey:1777964.9932902
+AnchoringMask:DownKey:1777965.1713752
+AnchoringMask:RightKey:1777965.3489372
+AnchoringMask:PowerUp Reached: 1777965.3491853
+AnchoringMask:RightKey:1777965.5270802
+AnchoringMask:RightKey:1777965.7043665
+AnchoringMask:RightKey:1777965.8809263
+AnchoringMask:UpKey:1777966.032088
+AnchoringMask:PowerUp Reached: 1777966.0323349
+AnchoringMask:RightKey:1777966.1853529
+AnchoringMask:RightKey:1777966.4096086
+AnchoringMask:RightKey:1777966.5890081
+AnchoringMask:RightKey:1777966.7659913
+AnchoringMask:RightKey:1777966.9173051
+AnchoringMask:RightKey:1777967.0690213
+AnchoringMask:RightKey:1777967.2460605
+AnchoringMask:RightKey:1777967.4246828
+AnchoringMask:RightKey:1777967.5768391
+AnchoringMask:RightKey:1777967.7303446
+AnchoringMask:RightKey:1777967.8829324
+AnchoringMask:RightKey:1777968.0346426
+AnchoringMask:RightKey:1777968.36505
+AnchoringMask:RightKey:1777968.568995
+AnchoringMask:RightKey:1777968.7729062
+AnchoringMask:RightKey:1777968.9766867
+AnchoringMask:DownKey:1777969.1796594
+AnchoringMask:RightKey:1777969.3576724
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+AnchoringMask:Level Completed.
+Urbantraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Training\Urban_5_3.csv
+Urbantraining:Condition Begins: 1777969.374121
+Urbantraining:RightKey:1777969.8790224
+Urbantraining:RightKey:1777970.0071728
+Urbantraining:RightKey:1777970.1075543
+Urbantraining:RightKey:1777970.2852276
+Urbantraining:RightKey:1777970.4137266
+Urbantraining:RightKey:1777970.5412417
+Urbantraining:RightKey:1777970.69346
+Urbantraining:RightKey:1777970.8202837
+Urbantraining:RightKey:1777970.9713396
+Urbantraining:RightKey:1777971.096826
+Urbantraining:RightKey:1777971.3253108
+Urbantraining:RightKey:1777971.5026457
+Urbantraining:RightKey:1777971.6564071
+Urbantraining:RightKey:1777971.9357626
+Urbantraining:RightKey:1777972.1150336
+Urbantraining:RightKey:1777972.3187992
+Urbantraining:RightKey:1777972.4946559
+Urbantraining:DownKey:1777972.722302
+Urbantraining:DownKey:1777972.9000945
+Urbantraining:DownKey:1777973.0515786
+Urbantraining:DownKey:1777973.3060311
+Urbantraining:LeftKey:1777973.5597909
+Urbantraining:SpaceKey:1777973.6886516
+Urbantraining:Tank Destroyed: 1777973.6888429
+Urbantraining:UpKey:1777973.7908955
+Urbantraining:RightKey:1777973.9672872
+Urbantraining:RightKey:1777974.2727377
+Urbantraining:UpKey:1777974.4489809
+Urbantraining:RightKey:1777974.6264297
+Urbantraining:SpaceKey:1777974.8026151
+Urbantraining:Tank Destroyed: 1777974.8028204
+Urbantraining:RightKey:1777974.9296463
+Urbantraining:SpaceKey:1777975.0817895
+Urbantraining:RightKey:1777975.2608851
+Urbantraining:SpaceKey:1777975.4871792
+Urbantraining:Tank Destroyed: 1777975.4873906
+Urbantraining:RightKey:1777975.6126757
+Urbantraining:RightKey:1777975.7894097
+Urbantraining:RightKey:1777975.940504
+Urbantraining:RightKey:1777976.0920725
+Urbantraining:RightKey:1777976.2441512
+Urbantraining:RightKey:1777976.3944709
+Urbantraining:RightKey:1777976.6490022
+Urbantraining:RightKey:1777976.8267287
+Urbantraining:RightKey:1777977.0288103
+Urbantraining:RightKey:1777977.2072623
+Urbantraining:RightKey:1777977.3836379
+Urbantraining:DownKey:1777977.8671831
+Urbantraining:SpaceKey:1777978.044257
+Urbantraining:Tank Destroyed: 1777978.0444584
+Urbantraining:UpKey:1777978.1471169
+Urbantraining:UpKey:1777978.3490152
+Urbantraining:UpKey:1777978.5011868
+Urbantraining:UpKey:1777978.6553014
+Urbantraining:LeftKey:1777979.2143758
+Urbantraining:SpaceKey:1777979.3399886
+Urbantraining:Tank Destroyed: 1777979.3401847
+Urbantraining:RightKey:1777979.4669386
+Urbantraining:RightKey:1777979.6189132
+Urbantraining:UpKey:1777979.7980055
+Urbantraining:UpKey:1777979.976959
+Urbantraining:UpKey:1777980.127848
+Urbantraining:SpaceKey:1777980.4806175
+Urbantraining:Tank Destroyed: 1777980.4808155
+Urbantraining:DownKey:1777980.7851925
+Urbantraining:DownKey:1777980.9371739
+Urbantraining:DownKey:1777981.1160648
+Urbantraining:DownKey:1777981.2953877
+Urbantraining:UpKey:1777981.574917
+Urbantraining:RightKey:1777981.7783752
+Urbantraining:RightKey:1777981.9809729
+Urbantraining:RightKey:1777982.1082752
+Urbantraining:RightKey:1777982.2599582
+Urbantraining:RightKey:1777982.4135727
+Urbantraining:RightKey:1777982.6917689
+Urbantraining:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 2, 4, 1, 0, 0, 1, 0, 4, 0, 4, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 1, 1, 1, 1, 2, 4, 0, 0, 1, 1, 1, 4, 3, 3, 3, 3, 1, 0, 0, 0, 0, 0, 0]
+Urbantraining:Level Completed.
+AnchoringMask:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Masking\Desert_7.csv
+AnchoringMask:Condition Begins: 1777982.7059712
+AnchoringMask:RightKey:1777983.8691613
+AnchoringMask:RightKey:1777984.0461796
+AnchoringMask:RightKey:1777984.172417
+AnchoringMask:RightKey:1777984.2986725
+AnchoringMask:RightKey:1777984.4528074
+AnchoringMask:RightKey:1777984.5815024
+AnchoringMask:RightKey:1777984.7329521
+AnchoringMask:RightKey:1777984.858241
+AnchoringMask:RightKey:1777985.0089146
+AnchoringMask:RightKey:1777985.1354824
+AnchoringMask:RightKey:1777985.2365912
+AnchoringMask:RightKey:1777985.3634175
+AnchoringMask:RightKey:1777985.4645503
+AnchoringMask:RightKey:1777985.5674659
+AnchoringMask:RightKey:1777985.7208461
+AnchoringMask:RightKey:1777986.1526051
+AnchoringMask:PowerUp Reached: 1777986.1528517
+AnchoringMask:RightKey:1777986.3570544
+AnchoringMask:RightKey:1777986.5099238
+AnchoringMask:RightKey:1777986.6107881
+AnchoringMask:RightKey:1777986.7400523
+AnchoringMask:RightKey:1777986.8406973
+AnchoringMask:RightKey:1777986.943193
+AnchoringMask:DownKey:1777987.2476993
+AnchoringMask:LeftKey:1777987.5019917
+AnchoringMask:PowerUp Reached: 1777987.5022394
+AnchoringMask:UpKey:1777988.4169759
+AnchoringMask:RightKey:1777988.670334
+AnchoringMask:RightKey:1777988.949312
+AnchoringMask:RightKey:1777989.0753428
+AnchoringMask:RightKey:1777989.2018509
+AnchoringMask:RightKey:1777989.3558863
+AnchoringMask:PowerUp Reached: 1777989.3561343
+AnchoringMask:RightKey:1777989.4568508
+AnchoringMask:RightKey:1777989.6841355
+AnchoringMask:RightKey:1777989.8103913
+AnchoringMask:RightKey:1777990.0139875
+AnchoringMask:RightKey:1777990.2178297
+AnchoringMask:RightKey:1777990.3174893
+AnchoringMask:RightKey:1777990.4445334
+AnchoringMask:RightKey:1777990.5714411
+AnchoringMask:RightKey:1777990.8493459
+AnchoringMask:RightKey:1777991.0011487
+AnchoringMask:RightKey:1777991.2036666
+AnchoringMask:RightKey:1777991.3802244
+AnchoringMask:RightKey:1777991.6082239
+AnchoringMask:Actions:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+AnchoringMask:Level Completed.
+AnchorBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Anchoring_Baseline\anchoring_baseline_urban_top_1.csv
+AnchorBaseline:Condition Begins: 1777991.6377903
+AnchorBaseline:DownKey:1777993.1257385
+AnchorBaseline:DownKey:1777993.2522313
+AnchorBaseline:DownKey:1777993.427815
+AnchorBaseline:DownKey:1777993.603418
+AnchorBaseline:DownKey:1777993.805112
+AnchorBaseline:DownKey:1777994.1090383
+AnchorBaseline:RightKey:1777994.4168228
+AnchorBaseline:RightKey:1777994.5937662
+AnchorBaseline:RightKey:1777994.7441875
+AnchorBaseline:RightKey:1777994.8963281
+AnchorBaseline:RightKey:1777995.0973175
+AnchorBaseline:RightKey:1777995.2988208
+AnchorBaseline:DownKey:1777995.4516533
+AnchorBaseline:DownKey:1777995.6557038
+AnchorBaseline:DownKey:1777995.8847243
+AnchorBaseline:DownKey:1777996.1143494
+AnchorBaseline:SpaceKey:1777996.669388
+AnchorBaseline:Tank Destroyed: 1777996.6695993
+AnchorBaseline:RightKey:1777996.8189359
+AnchorBaseline:RightKey:1777996.9964951
+AnchorBaseline:SpaceKey:1777997.1749443
+AnchorBaseline:Tank Destroyed: 1777997.1751778
+AnchorBaseline:RightKey:1777997.2774284
+AnchorBaseline:RightKey:1777997.4532431
+AnchorBaseline:UpKey:1777997.6289858
+AnchorBaseline:UpKey:1777997.808307
+AnchorBaseline:UpKey:1777997.9612891
+AnchorBaseline:UpKey:1777998.1120751
+AnchorBaseline:UpKey:1777998.2614771
+AnchorBaseline:RightKey:1777998.4423621
+AnchorBaseline:RightKey:1777998.5940146
+AnchorBaseline:RightKey:1777998.7720152
+AnchorBaseline:RightKey:1777998.9229422
+AnchorBaseline:DownKey:1777998.9737233
+AnchorBaseline:RightKey:1777999.1760647
+AnchorBaseline:RightKey:1777999.3804796
+AnchorBaseline:UpKey:1777999.3807399
+AnchorBaseline:RightKey:1777999.7072334
+AnchorBaseline:DownKey:1777999.7819056
+AnchorBaseline:DownKey:1777999.9827689
+AnchorBaseline:RightKey:1777999.9830266
+AnchorBaseline:UpKey:1778000.2088705
+AnchorBaseline:RightKey:1778000.4652565
+AnchorBaseline:RightKey:1778000.6435145
+AnchorBaseline:RightKey:1778000.7960414
+AnchorBaseline:RightKey:1778000.9996097
+AnchorBaseline:SpaceKey:1778001.1005438
+AnchorBaseline:Tank Destroyed: 1778001.1007422
+AnchorBaseline:SpaceKey:1778001.3303461
+AnchorBaseline:Tank Destroyed: 1778001.330553
+AnchorBaseline:RightKey:1778001.7095991
+AnchorBaseline:RightKey:1778001.8636765
+AnchorBaseline:RightKey:1778002.0136543
+AnchorBaseline:RightKey:1778002.4655189
+AnchorBaseline:UpKey:1778002.56764
+AnchorBaseline:UpKey:1778002.7686387
+AnchorBaseline:RightKey:1778002.9969661
+AnchorBaseline:DownKey:1778003.0733099
+AnchorBaseline:DownKey:1778003.2770128
+AnchorBaseline:RightKey:1778003.2774526
+AnchorBaseline:RightKey:1778003.5063704
+AnchorBaseline:DownKey:1778003.5066352
+AnchorBaseline:RightKey:1778003.8883991
+AnchorBaseline:RightKey:1778004.091771
+AnchorBaseline:UpKey:1778004.192409
+AnchorBaseline:RightKey:1778004.3945587
+AnchorBaseline:UpKey:1778004.3948189
+AnchorBaseline:RightKey:1778004.5980071
+AnchorBaseline:UpKey:1778004.8503277
+AnchorBaseline:RightKey:1778004.8756573
+AnchorBaseline:RightKey:1778005.0791975
+AnchorBaseline:UpKey:1778005.10524
+AnchorBaseline:UpKey:1778005.3090815
+AnchorBaseline:RightKey:1778005.3093422
+AnchorBaseline:SpaceKey:1778005.6872431
+AnchorBaseline:Tank Destroyed: 1778005.6874491
+AnchorBaseline:DownKey:1778005.764779
+AnchorBaseline:DownKey:1778005.8930743
+AnchorBaseline:DownKey:1778006.0216047
+AnchorBaseline:DownKey:1778006.1733145
+AnchorBaseline:DownKey:1778006.3496378
+AnchorBaseline:UpKey:1778006.5775978
+AnchorBaseline:RightKey:1778006.7809922
+AnchorBaseline:RightKey:1778006.9828003
+AnchorBaseline:UpKey:1778007.2881143
+AnchorBaseline:RightKey:1778007.4639296
+AnchorBaseline:Actions:[3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 4, 0, 0, 4, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 3, 0, 0, 1, 0, 3, 3, 0, 1, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 1, 1, 0, 3, 3, 0, 0, 3, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 4, 3, 3, 3, 3, 3, 1, 0, 0, 1, 0]
+AnchorBaseline:Level Completed.
+INTERBIAS:Condition Initiated
+INTERBIAS:Correctly guessed 19 Jets
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_20.csv
+AttractionBaseline:Condition Begins: 1778037.5308932
+AttractionBaseline:DownKey:1778039.3797674
+AttractionBaseline:DownKey:1778039.6074599
+AttractionBaseline:DownKey:1778039.783345
+AttractionBaseline:DownKey:1778039.9378519
+AttractionBaseline:DownKey:1778040.1130672
+AttractionBaseline:RightKey:1778040.290033
+AttractionBaseline:RightKey:1778040.515736
+AttractionBaseline:RightKey:1778040.6929973
+AttractionBaseline:RightKey:1778040.8955463
+AttractionBaseline:PowerUp Reached: 1778040.8959167
+AttractionBaseline:RightKey:1778041.0965009
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3, 0, 0, 0, 0, 0]
+AttractionBaseline:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_11.csv
+AttractionBaseline:Condition Begins: 1778041.1089999
+AttractionBaseline:DownKey:1778042.2470326
+AttractionBaseline:DownKey:1778042.4261895
+AttractionBaseline:DownKey:1778042.6294755
+AttractionBaseline:DownKey:1778042.8296615
+AttractionBaseline:PowerUp Reached: 1778042.8299141
+AttractionBaseline:DownKey:1778043.2117793
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3]
+AttractionBaseline:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_15.csv
+AttractionBaseline:Condition Begins: 1778043.2237767
+AttractionBaseline:DownKey:1778044.0327584
+AttractionBaseline:DownKey:1778044.2124302
+AttractionBaseline:DownKey:1778044.362718
+AttractionBaseline:DownKey:1778044.5412093
+AttractionBaseline:DownKey:1778044.7192731
+AttractionBaseline:LeftKey:1778044.9211707
+AttractionBaseline:LeftKey:1778045.0968559
+AttractionBaseline:LeftKey:1778045.2739346
+AttractionBaseline:LeftKey:1778045.4531818
+AttractionBaseline:PowerUp Reached: 1778045.4534247
+AttractionBaseline:LeftKey:1778045.7052926
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3, 2, 2, 2, 2, 2]
+AttractionBaseline:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_16.csv
+AttractionBaseline:Condition Begins: 1778045.7170404
+AttractionBaseline:DownKey:1778046.5288506
+AttractionBaseline:DownKey:1778046.706237
+AttractionBaseline:DownKey:1778046.9368694
+AttractionBaseline:DownKey:1778047.1156317
+AttractionBaseline:DownKey:1778047.3439156
+AttractionBaseline:LeftKey:1778047.6255602
+AttractionBaseline:LeftKey:1778047.8045969
+AttractionBaseline:LeftKey:1778047.9825491
+AttractionBaseline:PowerUp Reached: 1778047.9828082
+AttractionBaseline:LeftKey:1778048.2875235
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3, 2, 2, 2, 2]
+AttractionBaseline:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_18.csv
+AttractionBaseline:Condition Begins: 1778048.2994115
+AttractionBaseline:DownKey:1778049.3344901
+AttractionBaseline:DownKey:1778049.511464
+AttractionBaseline:RightKey:1778049.8160103
+AttractionBaseline:RightKey:1778049.9952893
+AttractionBaseline:RightKey:1778050.1756194
+AttractionBaseline:RightKey:1778050.3805934
+AttractionBaseline:PowerUp Reached: 1778050.3808491
+AttractionBaseline:RightKey:1778050.6575437
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 0, 0, 0, 0, 0]
+AttractionBaseline:Level Completed.
+AttractionTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Attraction_Training\attraction_training_3.csv
+AttractionTraining:Condition Begins: 1778053.774382
+AttractionTraining:LeftKey:1778055.9866496
+AttractionTraining:LeftKey:1778056.165275
+AttractionTraining:LeftKey:1778056.3416741
+AttractionTraining:LeftKey:1778056.4917017
+AttractionTraining:LeftKey:1778056.6701029
+AttractionTraining:LeftKey:1778056.8448834
+AttractionTraining:LeftKey:1778057.0213301
+AttractionTraining:LeftKey:1778057.2009425
+AttractionTraining:UpKey:1778057.353645
+AttractionTraining:UpKey:1778057.5049468
+AttractionTraining:UpKey:1778057.6579012
+AttractionTraining:UpKey:1778057.8102186
+AttractionTraining:RightKey:1778058.0111487
+AttractionTraining:RightKey:1778058.1636268
+AttractionTraining:RightKey:1778058.3153743
+AttractionTraining:RightKey:1778058.492533
+AttractionTraining:RightKey:1778058.6467205
+AttractionTraining:PowerUp Reached: 1778058.6469666
+AttractionTraining:UpKey:1778058.9245264
+AttractionTraining:PowerUp Reached: 1778058.9247895
+AttractionTraining:DownKey:1778059.1267676
+AttractionTraining:UpKey:1778059.1270208
+AttractionTraining:DownKey:1778059.2795199
+AttractionTraining:DownKey:1778059.6626835
+AttractionTraining:PowerUp Reached: 1778059.6629416
+AttractionTraining:UpKey:1778059.8635192
+AttractionTraining:RightKey:1778060.0656779
+AttractionTraining:Exit Chosen: ['D']
+AttractionTraining:Actions:[2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 3, 1, 3, 3, 1, 0]
+AttractionTraining:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_12.csv
+AttractionBaseline:Condition Begins: 1778063.514935
+AttractionBaseline:LeftKey:1778064.5997354
+AttractionBaseline:LeftKey:1778064.7264522
+AttractionBaseline:LeftKey:1778064.9035829
+AttractionBaseline:LeftKey:1778065.007247
+AttractionBaseline:LeftKey:1778065.1606857
+AttractionBaseline:LeftKey:1778065.3140452
+AttractionBaseline:LeftKey:1778065.4408946
+AttractionBaseline:LeftKey:1778065.5917246
+AttractionBaseline:PowerUp Reached: 1778065.5919847
+AttractionBaseline:LeftKey:1778065.7676391
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[2, 2, 2, 2, 2, 2, 2, 2, 2]
+AttractionBaseline:Level Completed.
+AttractionTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Attraction_Training\attraction_training_5.csv
+AttractionTraining:Condition Begins: 1778065.7800247
+AttractionTraining:LeftKey:1778066.4101458
+AttractionTraining:LeftKey:1778066.5371737
+AttractionTraining:LeftKey:1778066.6632237
+AttractionTraining:LeftKey:1778066.8140313
+AttractionTraining:LeftKey:1778066.9689015
+AttractionTraining:LeftKey:1778067.1464675
+AttractionTraining:LeftKey:1778067.3246721
+AttractionTraining:PowerUp Reached: 1778067.3249473
+AttractionTraining:LeftKey:1778067.5289635
+AttractionTraining:Exit Chosen: ['A']
+AttractionTraining:Actions:[2, 2, 2, 2, 2, 2, 2, 2]
+AttractionTraining:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_14.csv
+AttractionBaseline:Condition Begins: 1778067.5409077
+AttractionBaseline:DownKey:1778068.4535937
+AttractionBaseline:DownKey:1778068.6045707
+AttractionBaseline:DownKey:1778068.7549057
+AttractionBaseline:DownKey:1778068.9556615
+AttractionBaseline:LeftKey:1778069.1329549
+AttractionBaseline:DownKey:1778069.3105321
+AttractionBaseline:PowerUp Reached: 1778069.3107853
+AttractionBaseline:DownKey:1778069.488311
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 2, 3, 3]
+AttractionBaseline:Level Completed.
+AttractionTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Attraction_Training\attraction_training_1.csv
+AttractionTraining:Condition Begins: 1778069.5012028
+AttractionTraining:LeftKey:1778070.3805621
+AttractionTraining:LeftKey:1778071.3660745
+AttractionTraining:LeftKey:1778071.4929391
+AttractionTraining:LeftKey:1778071.6947814
+AttractionTraining:PowerUp Reached: 1778071.6950313
+AttractionTraining:LeftKey:1778071.9735267
+AttractionTraining:Exit Chosen: ['A']
+AttractionTraining:Actions:[2, 2, 2, 2, 2]
+AttractionTraining:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_17.csv
+AttractionBaseline:Condition Begins: 1778071.9861288
+AttractionBaseline:DownKey:1778073.3766375
+AttractionBaseline:DownKey:1778073.5281889
+AttractionBaseline:DownKey:1778073.6531083
+AttractionBaseline:DownKey:1778073.8037074
+AttractionBaseline:DownKey:1778073.9566208
+AttractionBaseline:DownKey:1778074.2590057
+AttractionBaseline:LeftKey:1778074.4846814
+AttractionBaseline:LeftKey:1778074.6363222
+AttractionBaseline:LeftKey:1778074.7875392
+AttractionBaseline:LeftKey:1778074.9387207
+AttractionBaseline:PowerUp Reached: 1778074.9389691
+AttractionBaseline:LeftKey:1778075.1396372
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2]
+AttractionBaseline:Level Completed.
+AttractionTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Attraction_Training\attraction_training_2.csv
+AttractionTraining:Condition Begins: 1778075.1528008
+AttractionTraining:DownKey:1778076.0642023
+AttractionTraining:DownKey:1778076.2170954
+AttractionTraining:DownKey:1778076.3673083
+AttractionTraining:DownKey:1778076.5190598
+AttractionTraining:DownKey:1778076.6695668
+AttractionTraining:DownKey:1778076.8498876
+AttractionTraining:LeftKey:1778077.0295351
+AttractionTraining:LeftKey:1778077.1815797
+AttractionTraining:LeftKey:1778077.3366136
+AttractionTraining:DownKey:1778077.487616
+AttractionTraining:DownKey:1778077.6918986
+AttractionTraining:DownKey:1778077.8435293
+AttractionTraining:PowerUp Reached: 1778077.8437769
+AttractionTraining:LeftKey:1778078.1491985
+AttractionTraining:PowerUp Reached: 1778078.1494513
+AttractionTraining:RightKey:1778078.3512518
+AttractionTraining:RightKey:1778078.5305517
+AttractionTraining:PowerUp Reached: 1778078.5308677
+AttractionTraining:LeftKey:1778078.7894139
+AttractionTraining:DownKey:1778078.9424706
+AttractionTraining:Exit Chosen: ['D']
+AttractionTraining:Actions:[3, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 3, 2, 0, 0, 2, 3]
+AttractionTraining:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_19.csv
+AttractionBaseline:Condition Begins: 1778078.9547108
+AttractionBaseline:DownKey:1778079.9405465
+AttractionBaseline:DownKey:1778080.0942142
+AttractionBaseline:DownKey:1778080.243611
+AttractionBaseline:DownKey:1778080.3975206
+AttractionBaseline:DownKey:1778080.5476541
+AttractionBaseline:PowerUp Reached: 1778080.5480231
+AttractionBaseline:DownKey:1778080.7489385
+AttractionBaseline:Exit Chosen: ['A']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3, 3]
+AttractionBaseline:Level Completed.
+AttractionTraining:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Attraction_Training\attraction_training_4.csv
+AttractionTraining:Condition Begins: 1778080.7624601
+AttractionTraining:LeftKey:1778081.9537752
+AttractionTraining:LeftKey:1778082.0556821
+AttractionTraining:LeftKey:1778082.2087885
+AttractionTraining:LeftKey:1778082.3351873
+AttractionTraining:LeftKey:1778082.4870704
+AttractionTraining:LeftKey:1778082.6619962
+AttractionTraining:LeftKey:1778082.8149069
+AttractionTraining:LeftKey:1778082.9688857
+AttractionTraining:LeftKey:1778083.1482023
+AttractionTraining:DownKey:1778083.2986525
+AttractionTraining:DownKey:1778083.4765591
+AttractionTraining:DownKey:1778083.6278026
+AttractionTraining:DownKey:1778083.808736
+AttractionTraining:RightKey:1778084.011504
+AttractionTraining:PowerUp Reached: 1778084.0117523
+AttractionTraining:RightKey:1778084.1628997
+AttractionTraining:PowerUp Reached: 1778084.1631491
+AttractionTraining:UpKey:1778084.4660879
+AttractionTraining:PowerUp Reached: 1778084.4663397
+AttractionTraining:DownKey:1778084.6434859
+AttractionTraining:RightKey:1778084.8460004
+AttractionTraining:Exit Chosen: ['D']
+AttractionTraining:Actions:[2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 0, 0, 1, 3, 0]
+AttractionTraining:Level Completed.
+AttractionBaseline:MapName: C:\Users\betha\PycharmProjects\pytti\SequentialHuman\src\human_games\maps/Compromise_Baseline\compromise_baseline_13.csv
+AttractionBaseline:Condition Begins: 1778084.8583569
+AttractionBaseline:DownKey:1778085.7658125
+AttractionBaseline:DownKey:1778085.9941548
+AttractionBaseline:DownKey:1778086.1708742
+AttractionBaseline:DownKey:1778086.3008539
+AttractionBaseline:DownKey:1778086.4534109
+AttractionBaseline:DownKey:1778086.6079049
+AttractionBaseline:LeftKey:1778086.8131781
+AttractionBaseline:LeftKey:1778086.9920457
+AttractionBaseline:LeftKey:1778087.1467056
+AttractionBaseline:DownKey:1778087.2739845
+AttractionBaseline:DownKey:1778087.4502258
+AttractionBaseline:LeftKey:1778087.6274019
+AttractionBaseline:LeftKey:1778087.8044011
+AttractionBaseline:LeftKey:1778087.9564205
+AttractionBaseline:LeftKey:1778088.1080558
+AttractionBaseline:LeftKey:1778088.2335244
+AttractionBaseline:LeftKey:1778088.3864706
+AttractionBaseline:LeftKey:1778088.5386384
+AttractionBaseline:LeftKey:1778088.715552
+AttractionBaseline:PowerUp Reached: 1778088.7157994
+AttractionBaseline:UpKey:1778088.8708858
+AttractionBaseline:PowerUp Reached: 1778088.8711336
+AttractionBaseline:DownKey:1778089.0986957
+AttractionBaseline:DownKey:1778089.251545
+AttractionBaseline:PowerUp Reached: 1778089.2518008
+AttractionBaseline:UpKey:1778089.4783441
+AttractionBaseline:LeftKey:1778089.604611
+AttractionBaseline:Exit Chosen: ['B']
+AttractionBaseline:Actions:[3, 3, 3, 3, 3, 3, 2, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 3, 3, 1, 2]
+AttractionBaseline:Level Completed.
+GEQ:1: 4
+GEQ:2: 4
+GEQ:3: 1
+GEQ:4: 4
+GEQ:5: 3
+GEQ:6: 4
+GEQ:7: 0
+GEQ:8: 0
+GEQ:9: 0
+GEQ:10: 4
+GEQ:11: 0
+GEQ:12: 2
+GEQ:13: 3
+GEQ:14: 4
+GEQ:15: 3
+GEQ:16: 0
+GEQ:17: 3
+GEQ:18: 0
+GEQ:19: 0
+GEQ:20: 3
+GEQ:21: 4
+GEQ:22: 0
+GEQ:23: 0
+GEQ:24: 0
+GEQ:25: 2
+GEQ:26: 0
+GEQ:27: 1
+GEQ:28: 3
+GEQ:29: 0
+GEQ:30: 1
+GEQ:31: 3
+GEQ:32: 0
+GEQ:33: 0
+root:GEQ Dialog complete.
