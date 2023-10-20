@@ -116,7 +116,7 @@ class AnchorBase:
         self.IS_BASELINE = is_baseline
 
         # Assign class attributes
-        self.data = np.genfromtxt(map_name, delimiter=",")
+        self.data = np.genfromtxt(map_name, delimiter=",", encoding="utf8")
         self.background_image = pg.image.load(background_image)
         self.logger = logging.getLogger(condition_name)
         self.first_condition = first

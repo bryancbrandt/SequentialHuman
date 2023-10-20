@@ -1,13 +1,11 @@
 import gymnasium as gym
-import networkx as nx
 import numpy as np
 import os
-
 from abc import ABC
 from gymnasium import spaces
-from scipy.spatial.distance import cityblock
-
 from src.rl_agents.state_digraph import StateDiGraph
+from scipy.spatial.distance import cityblock
+import networkx as nx
 
 LAND = 0
 HOUSE = 1
@@ -72,6 +70,7 @@ class FullAnchoringBaseline(gym.Env, ABC):
         self._reward_matrix = {}  # The reward matrix used for reward value lookup
         self._state_graph = StateDiGraph(map_csv, [LAND, ROAD, AMMO, TANK, START, EXIT])  # Digraph of the env
         self._target = None  # The current target of the enemy.  Either a tank, or the exit
+        self.episode_length = 0  # Initialize episode length
 
         # We split the map into two different arrays: the top half and the bottom half
         mid_row = 10
@@ -408,6 +407,7 @@ class FullAnchoringBaseline(gym.Env, ABC):
         self._target = None
         self._tanks_destroyed = []
         self._tank_list = []
+        self.episode_length = 0  # Initialize episode length
 
         observation = self._get_obs()
         info = self._get_info()
@@ -419,8 +419,11 @@ class FullAnchoringBaseline(gym.Env, ABC):
     def step(self, action) -> tuple:
 
         assert action in [0, 1, 2, 3, 4], "Error! Action must be 0, 1, 2, 3, 4"
-        reward = 0.0
+        reward = 0
         terminated = False
+        self.episode_length += 1
+        if self.episode_length > 20000:
+            terminated = True
 
         # If the action is a movement action
         if action in [0, 1, 2, 3]:
@@ -453,10 +456,12 @@ class FullAnchoringBaseline(gym.Env, ABC):
                             terminated = np.array_equal(self._agent_location, self._exit_loc_top[0])
                             if terminated:
                                 print("Exit Reached")
+                                reward = 1000
                         else:
                             terminated = np.array_equal(self._agent_location, self._exit_loc_bottom[0])
                             if terminated:
                                 print("Exit Reached")
+                                reward = 1000
 
             reward = self._get_reward()
 
@@ -472,39 +477,272 @@ class FullAnchoringBaseline(gym.Env, ABC):
         # Get the information to be returned by the step method for gym
         observation = self._get_obs()
         info = self._get_info()
-
+        print(observation, action)
         return observation, reward, terminated, False, info
 
 
-env = FullAnchoringBaseline("../human_games/maps/Anchoring_Baseline/anchoring_baseline_urban_bottom_1.csv")
-print(env.step(0))
-for _ in range(10):
-    print(env.step(1))
-for _ in range(9):
-    print(env.step(0))
-print(env.step(4))
-print(env.step(3))
-print(env.step(3))
-print(env.step(4))
-print(env.step(3))
-print(env.step(3))
-for _ in range(8):
-    print(env.step(0))
-for _ in range(4):
-    print(env.step(3))
-print(env.step(4))
+from anch_human_demonstr import participant1_condition1
+from locals import state_to_row_col
+from locals import coord_to_state
 
-for _ in range(3):
-    print(env.step(0))
-for _ in range(8):
-    print(env.step(1))
-for _ in range(4):
-    print(env.step(0))
-print(env.step(4))
 
-print(env.step(0))
-for _ in range(4):
-    print(env.step(3))
-print(env.step(4))
-for _ in range(14):
-    print(env.step(0))
+def location_to_string(location: list):
+    return f"{location[0]},{location[1]}"
+
+
+class ExpertAnchorBaseline(FullAnchoringBaseline):
+    """
+    This class translates the actions undertaken by the human demonstrators, and returns the observation information
+    """
+
+    # TODO: UPDATE THE GET OBS FUNCTION TO INCLUDE THE CURRENT TARGET DONKEY
+    def __init__(self, map_name: str, expert_data: dict, gamma: float = .99, rho: float = .5):
+        """
+
+        :param map_name:
+        :param target_list: A list, in order, of the targets that the human destroyed.  This is used to update the
+                            target variable in the observation space, and for calculating the reward values.
+        :param gamma:
+        :param rho: Hyperparameter to offset the reward value if the agent is replicating the human expert behavior
+        """
+        super().__init__(map_name)
+        self._target_list = list(expert_data.keys())
+        self._target_list_coord = [state_to_row_col[int(state_code)] for state_code in self._target_list]
+        self._expert_data = expert_data
+        self._gamma = gamma
+        self._rho = rho
+        # Determine if the expert's targets were top or bottom of the map.
+        if any(self._target_list_coord) in self._tank_loc_top:
+            # If they are on top, then zero out the tank values on the bottom
+            for tank in self._tank_loc_bottom:
+                self.map_csv[tank[0]][tank[1]] = 0
+        else:
+            # If they are on the bottom, zero out the tanks on the top
+            for tank in self._tank_loc_top:
+                self.map_csv[tank[0]][tank[1]] = 0
+
+    def _get_potential_value(self, state: int) -> float:
+        """
+        This function gets the potential value used to calculate the f value given a state passed as a parameter
+        :param state: An integer value representing the state number that the potential should be calculated
+        :return: A float value representing the potential value for the given state
+        """
+        # agent_state = state_to_row_col[state]
+        agent_state = f"{state[0]},{state[1]}"
+
+        temp = {}
+        # Get the list of expert states visited for the current target
+        # find the distance from the current state to each state
+        # and add them to the temp dictionary with state as key and distance as value
+        for expert_state in self._expert_data[self._target_list[0]].keys():
+            state = state_to_row_col[expert_state]
+            state = location_to_string(state)
+            temp[expert_state] = self._state_graph.distance_dict[agent_state][state]
+
+        maxDistance = {k: v for (k, v) in temp.items() if temp[k] == max(temp.values())}
+        minDistance = {k: v for (k, v) in temp.items() if temp[k] == min(temp.values())}
+        max_state = list(maxDistance.keys())[0]
+        max_distance = maxDistance[max_state]
+        min_state = list(minDistance.keys())[0]
+        min_distance = minDistance[min_state]
+        potential = 1 - ((1 / max_distance) * min_distance)
+        return float(potential)
+
+    def _get_obs(self) -> dict:
+        """
+        Returns the observation information of the environment.  Converts the cell location to a state number for
+        the agent, the tank locations, and the exit locations.  Returns these values as a dictionary.
+        :return:
+        """
+        # Get the agent's state and the exit state
+        agent_state = self._get_state(self._agent_location)
+        if self._agent_top is None:
+            exit_state = self._size  # Null value
+            tank_states = [self._size for _ in range(self._tank_count)]
+        elif self._agent_top:
+            exit_state = self._get_state(self._exit_loc_top[0])
+            tank_states = []
+            for tank in self._tank_list:
+                tank_states.append(self._get_state(tank))
+        elif not self._agent_top:
+            exit_state = self._get_state(self._exit_loc_bottom[0])
+            tank_states = []
+            for tank in self._tank_list:
+                tank_states.append(self._get_state(tank))
+        else:
+            exit_state = self._size  # Null value
+            tank_states = [self._size for _ in range(self._tank_count)]
+
+        target_state = self._target_list[0]
+
+        return {"agent": agent_state, "enemies": np.array(tank_states), "target": target_state, "exit": exit_state}
+
+    def step(self, action) -> tuple:
+
+        assert action in [0, 1, 2, 3, 4], "Error! Action must be 0, 1, 2, 3, 4"
+        reward = -1.0
+        terminated = False
+
+        self.episode_length += 1
+        if self.episode_length > 20000:
+            terminated = True
+
+        # If the action is a movement action
+        if action in [0, 1, 2, 3]:
+            direction = self._action_to_direction[action]
+            state_potential = self._get_potential_value(self._agent_location)
+            state_location = coord_to_state[location_to_string(self._agent_location)]
+            new_state = self._agent_location + direction
+
+            # Make sure we're still on the map
+            if (0 <= new_state[0] < self._num_rows) and (0 <= new_state[1] < self._num_cols):
+
+                # If the location being moved to is not in the untraversable list
+                if self.map_csv[new_state[0]][new_state[1]] not in self._untraversable:
+
+                    self._agent_location += direction
+                    state_prime_potential = self._get_potential_value(self._agent_location)
+
+                    # If this is the first step toward top or bottom, set the agent top variable
+                    if self._agent_top is None:
+                        if action == 1:
+                            self._agent_top = True
+                            self._tank_list.extend(self._tank_loc_top.tolist())
+                            self._get_closest_objective()
+                        elif action == 3:
+                            self._agent_top = False
+                            self._tank_list.extend(self._tank_loc_bottom.tolist())
+                            self._get_closest_objective()
+
+                    # Calculate the reward value.  If the agent is replicating the expert path, the reward is the
+                    # normalized step towards the goal * how many steps in they've replicated + .5
+                    # if the agent is not in the state the reward is 0 + F value
+
+                    agent_loc_str = get_state_string(self._agent_location[0], self._agent_location[1])
+                    agent_loc_state = coord_to_state[agent_loc_str]
+                    expert_states_to_target = list(self._expert_data[self._target_list[0]].keys())
+                    expert_states_to_target_len = len(expert_states_to_target) - 1
+                    # If the agent is in a state that the human expert was, then the reward value is the
+                    # location along the subpath divided by the number of steps taken offset by hyperparameter rho
+                    if state_location in expert_states_to_target:
+                        if action in self._expert_data[self._target_list[0]][state_location]:
+                            index = expert_states_to_target.index(state_location)
+                            reward = (index / expert_states_to_target_len) + self._rho
+                        else:
+                            # reward = self._rho
+                            pass
+                    else:
+                        # f = (self._gamma * state_prime_potential) - state_potential
+                        # reward += f
+                        pass
+
+                    row, col = self.map_csv.shape
+
+
+                    """
+                    target_idx = state_to_row_col[int(self._target_list[0])]
+                    target_idx = location_to_string(target_idx)
+                    try:
+                        reward = self._reward_matrix[target_idx][location_to_string(self._agent_location)]
+                    except KeyError:
+                        reward = 0
+                    
+
+                    # Calculate the F value.  If the state is a state from the expert data, and the actions match,
+                    # then it's just the reward value.  If the actions do not match the f value is 0.  If the states
+                    # to do not match, it's the f value calculation
+                    if use_f_value:
+                        f = (self._gamma * state_prime_potential) - state_potential
+                        print(f"F value: {f}")
+                        print(f"Old reward: {reward}")
+                        reward += f
+                        print(f"New Reward:{reward}")
+                    """
+
+                    # Don't allow an exit until all tanks have been destroyed
+                    if len(self._tanks_destroyed) == self._tank_count:
+
+                        # An episode is done iff the agent has reached the target
+                        if self._agent_top:
+                            terminated = np.array_equal(self._agent_location, self._exit_loc_top[0])
+                            if terminated:
+                                print("Exit Reached")
+                                reward = 1000
+                        else:
+                            terminated = np.array_equal(self._agent_location, self._exit_loc_bottom[0])
+                            if terminated:
+                                print("Exit Reached")
+                                reward = 1000
+
+        # If the action is a weapons fire
+        elif action == 4:
+
+            # Determine if there is a tank close by using a distance metric?
+            # TODO: FIX THIS SO THERE IS NO REWARD FOR DESTROYING TANKS OFF MAP
+            if self._check_radar():
+                print("Tank Destroyed")
+                reward = 1000
+                self._get_closest_objective()
+                self._target_list.pop(0)
+
+        # Get the information to be returned by the step method for gym
+        observation = self._get_obs()
+        info = self._get_info()
+        # print(observation, action, reward)
+        return observation, reward, terminated, False, info
+
+    def reset(self, seed=None, options=None) -> tuple:
+        """
+        Resets the game environment by initializing the player to their starting location,
+        and seeding the random number generated (if needed)
+        :param seed: the seed number for numpy random number generator
+        :param options: Options passed to the gym environment
+        :return:
+        """
+        # We need the following line to seed self.np_random
+        super().reset(seed=seed)
+
+        # Assign the agent's location
+        self.map_csv = np.genfromtxt(self._map_name, delimiter=",")
+        self._agent_location = np.argwhere(self.map_csv == START)[0]
+        self._agent_top = None
+        self._target = None
+        self._tanks_destroyed = []
+        self._tank_list = []
+        self.episode_length = 0  # Initialize episode length
+        self._target_list = list(self._expert_data.keys())
+        self._target_list_coord = [state_to_row_col[int(state_code)] for state_code in self._target_list]
+        self._expert_data = self._expert_data
+
+        observation = self._get_obs()
+        info = self._get_info()
+        # with open('/content/trajectories.txt', 'a') as writefile:
+        #     writefile.write(f"Reset; {observation}\n")
+
+        return observation, info
+
+
+map_file = "../human_games/maps/Anchoring_Baseline/anchoring_baseline_urban_top_7.csv"
+env = ExpertAnchorBaseline(map_file, participant1_condition1)
+
+
+actions = [1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 3, 3, 0, 1, 0, 1, 0, 3, 3, 0, 3, 0, 1, 1, 2, 1, 1, 1, 4, 3, 3, 3, 3, 3, 3,
+           3, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 4, 1, 1, 2, 1, 1, 0, 0, 1, 0, 0, 3, 3, 0, 3, 3, 3, 2, 3, 2, 2, 3, 2,
+           3, 3, 2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 3, 0, 1, 0, 1, 0, 0, 4, 1, 1, 4, 0, 3, 3, 3, 3,
+           3, 3, 3, 3, 4, 2, 2, 1, 2, 1, 0, 0, 0, 0, 3, 0, 0, 3, 0, 0, 1, 1, 0, 1, 2, 1, 2, 1, 2, 1, 0, 1, 2, 2, 2, 2,
+           1, 0, 1, 0, 1, 0, 0, 0, 0, 3, 0, 3, 1, 0, 0, 0, 0, 3, 2, 2, 3, 2, 3, 3, 0, 3, 3, 3, 2, 3, 2, 0, 0, 1, 0, 1,
+           0, 1, 1]
+
+
+# actions = [1, 1, 1, 1, 1, 3, 3, 3, 3, 2, 2, 0, 0]
+obs = env.reset()
+obs = obs[0]
+for action in actions:
+    print(obs, action, end=" ")
+    obs, reward, terminated, truncated, info = env.step(action)
+    print(reward)
+    # print(f"{action},{obs},{reward}")
+    if terminated or truncated:
+        print("AGENt REACHED GOAL")
+        obs, info = env.reset()
+        break
