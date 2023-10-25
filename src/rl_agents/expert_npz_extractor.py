@@ -1,17 +1,19 @@
-from updated_envs import FullAnchoringBaseline
-from updated_envs import ExpertAnchorBaseline
-from anch_human_demonstr import participant1_condition1
+from gym_envs import FullAnchoringBaseline
+from gym_envs import ExpertAnchorBaseline
+from anch_human_demonstr import par1_cond1
+from anch_human_demonstr import par1_cond2
+from anch_human_demonstr import par1_cond3
+from anch_human_demonstr import par1_cond1
 from stable_baselines3.common.env_checker import check_env
 import numpy as np
 
-map_file = "../human_games/maps/Anchoring_Baseline/anchoring_baseline_urban_top_7.csv"
+map_file = "../human_games/maps/Anchoring_Baseline/anchoring_baseline_urban_bottom_8.csv"
 
-# env = ExpertAnchorBaseline(map_file, participant1_condition1)
-env = FullAnchoringBaseline(map_file)
+env = ExpertAnchorBaseline(map_file, par1_cond3)
+#env = FullAnchoringBaseline(map_file)
 
 
-actions = [1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 3, 3, 0, 1, 0, 1, 0, 3, 3, 0, 3, 0, 1, 1, 2, 1, 1, 1, 4, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 4, 1, 1, 2, 1, 1, 0, 0, 1, 0, 0, 3, 3, 0, 3, 3, 3, 2, 3, 2, 2, 3, 2, 3, 3, 2, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 3, 0, 1, 0, 1, 0, 0, 4, 1, 1, 4, 0, 3, 3, 3, 3, 3, 3, 3, 3, 4, 2, 2, 1, 2, 1, 0, 0, 0, 0, 3, 0, 0, 3, 0, 0, 1, 1, 0, 1, 2, 1, 2, 1, 2, 1, 0, 1, 2, 2, 2, 2, 1, 0, 1, 0, 1, 0, 0, 0, 0, 3, 0, 3, 1, 0, 0, 0, 0, 3, 2, 2, 3, 2, 3, 3, 0, 3, 3, 3, 2, 3, 2, 0, 0, 1, 0, 1, 0, 1, 1]
-
+actions = par1_cond3["actions"]
 obs = env.reset()
 obs = obs[0]
 
@@ -46,7 +48,7 @@ numpy_dict = {
 for key, val in numpy_dict.items():
     print(key, val.shape)
 
-save_path = "expert.npz"
+save_path = "human_demonstr_data/human_dem_par1_cond3.npz"
 
 if save_path is not None:
     np.savez(save_path, **numpy_dict)
