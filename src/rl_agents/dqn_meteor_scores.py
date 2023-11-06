@@ -2356,7 +2356,23 @@ par1_cond4 = {
                  0.8273606030480566, 0.8273606030480566, 0.8273606030480566, 0.8273606030480566, 0.8273606030480566]
 }
 
-dqn_mean = np.mean(par1_cond3["dqn"])
-daggerminus_mean = np.mean(par1_cond3["dagger-e"])
-daggerplus_mean = np.mean(par1_cond3["dagger+e"])
-print(dqn_mean, daggerminus_mean, daggerplus_mean)
+import csv
+
+def write_dict_to_csv(data_dict, output_file):
+    # Create a CSV writer for the output file
+    with open(output_file, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+
+        # Write the header row with the keys as column names
+        header = list(data_dict.keys())
+        csv_writer.writerow(header)
+
+        # Determine the maximum length of the lists associated with the keys
+        max_length = max(len(data_dict[key]) for key in data_dict)
+
+        # Iterate through the lists and write values into the CSV
+        for i in range(max_length):
+            row = [data_dict[key][i] if i < len(data_dict[key]) else "" for key in header]
+            csv_writer.writerow(row)
+
+write_dict_to_csv(par1_cond4, "Par1_Cond4_Meteor.csv")
